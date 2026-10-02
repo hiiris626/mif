@@ -7,9 +7,9 @@ H&E → mIF：ViT / LoRA 多标志物实验
 首先阅读
 --------
 
-* ``reports/mentor_report_20261002/导师报告_全部实验与结果_20261002.pdf``：
-  53 页中文导师报告，含版本设计、数据、损失、训练曲线、全部指标和 24 张可视化。
-* ``reports/mentor_report_20261002/tables/导师汇报_完整指标.xlsx``：
+* ``reports/experiment_report_20261002/全部实验与结果_20261002.pdf``：
+  53 页中文实验报告，含版本设计、数据、损失、训练曲线、全部指标和 24 张可视化。
+* ``reports/experiment_report_20261002/tables/全部实验_完整指标.xlsx``：
   共同 CRC02 测试集及完整 38,218-patch 测试集的指标，严格分表。
 * ``experiment_records/``：冻结配置、权重统计、训练轨迹与测试结果。
 * ``release_manifest.json``：发布文件的大小与 SHA256。
@@ -61,7 +61,7 @@ PDF 生成另需 reportlab、pandas、openpyxl、matplotlib、Pillow 和 CJK/Lat
       --config configs/v11.json --run-dir runs/v11
 
 请勿直接运行历史队列脚本，否则会按历史顺序触发其他实验。
-旧 README 中的“待启动”等段落是历史快照；当前状态以本页、导师报告和冻结记录为准。
+旧 README 中的“待启动”等段落是历史快照；当前状态以本页、实验报告和冻结记录为准。
 
 验证
 ----
@@ -70,6 +70,6 @@ PDF 生成另需 reportlab、pandas、openpyxl、matplotlib、Pillow 和 CJK/Lat
 v11 新增的 4 项权重边界、权重篡改拒绝和 DDP 采样重建测试也通过。
 发布时所有 Python 文件通过语法检查，未发现明显私钥或 GitHub token。
 这些检查不是所有历史脚本的全环境集成验证；真实四卡运行证据见各实验记录。
-``reports/mentor_report_20261002/code_checks.log`` 保存本次测试输出。
+``reports/experiment_report_20261002/code_checks.log`` 保存本次测试输出。
 
 原始工作区未被移动或删除；本仓库是独立整理的发布快照。

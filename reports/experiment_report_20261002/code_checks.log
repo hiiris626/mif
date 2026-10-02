@@ -1,0 +1,27 @@
+....{"cache_bytes": 22928, "total": 4, "completed": 0, "workers": 2}
+{"completed": 4, "total": 4, "patches_per_second": 255.46328580986108, "elapsed_seconds": 0.015657827258110046, "remaining_seconds": 0.0}
+Verified complete native training cache; reusing it.
+...{"shard": 0, "processed": 4, "total": 12, "tiles_per_second": 543.409211634385}
+{"shard": 0, "processed": 12, "total": 12, "tiles_per_second": 499.40613000208367}
+{"n_source": 12, "n_retained": 12, "nuclear_qc_performed": false, "split_patch_counts": {"train": 4, "val": 4, "test": 4}}
+.{"shard": 0, "processed": 3, "total": 3, "tiles_per_second": 339.0889296108656}
+{"n_source": 3, "n_retained": 3, "nuclear_qc_performed": false, "split_patch_counts": {"train": 1, "val": 1, "test": 1}}
+.........................GPU 0: 44.50 GiB free, required with reserve 44.20 GiB
+GPU 1: 44.50 GiB free, required with reserve 44.20 GiB
+GPU 2: 44.50 GiB free, required with reserve 44.20 GiB
+GPU 3: 44.50 GiB free, required with reserve 44.20 GiB
+..
+----------------------------------------------------------------------
+Ran 35 tests in 2.125s
+
+OK
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK

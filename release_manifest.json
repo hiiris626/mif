@@ -175,6 +175,11 @@
     "sha256": "8bd1a5beb33aaa5eb2d9ecf904b38fb6243fe9bf93bb872f169aec62cea24f3c"
   },
   {
+    "path": "vit_training_project/review/build_experiment_report.py",
+    "bytes": 27494,
+    "sha256": "ce7eb800a6b43d808441a12da8171637756ceee966be8cf514d41d5ebb777988"
+  },
+  {
     "path": "vit_training_project/review/file_manifest.json",
     "bytes": 4203,
     "sha256": "2af7e3c54a9857854fbe1eaa7a63b782178195d65e2a3a997b4f47bbc3854693"
@@ -188,11 +193,6 @@
     "path": "vit_training_project/review/verification.json",
     "bytes": 4346,
     "sha256": "b4e18d61fa0d1fb4e54f2398e9af996f48d267de36f7746f8b94870a17cead50"
-  },
-  {
-    "path": "vit_training_project/review/build_mentor_report.py",
-    "bytes": 27500,
-    "sha256": "5ce06c26efbc24cb5c559e3a565688919a5cf13bc959d0243ac13c5b20c83ba0"
   },
   {
     "path": "vit_training_project/review/metric_audit_20260930/patch168299_comparison.json",
@@ -4055,147 +4055,147 @@
     "sha256": "e478140d7bdfd237cb6c53063ffabb5d7208297ae6a5fd0f4e49d17602b074e4"
   },
   {
-    "path": "reports/mentor_report_20261002/release_checks.json",
-    "bytes": 297,
-    "sha256": "e7b7c8a215bb87cff140e8743acd647767b4e001221fd736b01073de7b379cfa"
+    "path": "reports/experiment_report_20261002/release_checks.json",
+    "bytes": 254,
+    "sha256": "b4ab2de6e2696f93fa959a9bc99f7488e624022e6ca92c9e8efc053c63611e71"
   },
   {
-    "path": "reports/mentor_report_20261002/\u5bfc\u5e08\u62a5\u544a_\u5168\u90e8\u5b9e\u9a8c\u4e0e\u7ed3\u679c_20261002.pdf",
-    "bytes": 21884925,
-    "sha256": "df57da92edc72e49c3820dce6f7b72ca4a45056e7781d88fd78edad0505dd832"
+    "path": "reports/experiment_report_20261002/code_checks.log",
+    "bytes": 1297,
+    "sha256": "14b80585241633b74513fbcbf6b8cbb8f20c2f7117dd6f4e5766387ee827dfda"
   },
   {
-    "path": "reports/mentor_report_20261002/code_checks.log",
-    "bytes": 1099,
-    "sha256": "142f5b1df95e32390325546dbad4e3b7b20568f3b38b4fcefc5cd56c310675bd"
+    "path": "reports/experiment_report_20261002/\u5168\u90e8\u5b9e\u9a8c\u4e0e\u7ed3\u679c_20261002.pdf",
+    "bytes": 21884923,
+    "sha256": "861b0c03630e59c954989562d8c0852d3327a53a1c3760dd7272c8ac71eec113"
   },
   {
-    "path": "reports/mentor_report_20261002/source_manifest.json",
+    "path": "reports/experiment_report_20261002/source_manifest.json",
     "bytes": 7359,
     "sha256": "d1ae12913ad835dd7184092123426b3f6ffa8717bd23865255d185edda1ec7b4"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/CRC02_6638_recall.csv",
+    "path": "reports/experiment_report_20261002/tables/CRC02_6638_recall.csv",
     "bytes": 3181,
     "sha256": "beaaba57cba1639c75ca565ada5148ca461e6b70724b15249e4bafbdb02e0c1d"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/sampling_audit.csv",
+    "path": "reports/experiment_report_20261002/tables/sampling_audit.csv",
     "bytes": 1427,
     "sha256": "c5b3cd3f2f5a714d69f78dc9436e596f2c8c27d4d01b462b61d4ff941a06f689"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/\u5bfc\u5e08\u6c47\u62a5_\u5b8c\u6574\u6307\u6807.xlsx",
-    "bytes": 124396,
-    "sha256": "db24c28081b0c5d2e75aa90a1a92079b9f61b70568f1e51f52597dcb155e55fe"
-  },
-  {
-    "path": "reports/mentor_report_20261002/tables/training_summary.csv",
+    "path": "reports/experiment_report_20261002/tables/training_summary.csv",
     "bytes": 818,
     "sha256": "b0337b9290b3287be727e2615882a7b95437bb7b22afbe5cf134f3fa526452a2"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/full_38218_precision.csv",
+    "path": "reports/experiment_report_20261002/tables/full_38218_precision.csv",
     "bytes": 1653,
     "sha256": "a0ec93199c6dcbccb6a82d0458d992f1a3275cf274d899f503bf27b634e2553b"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/all_channel_metrics.csv",
+    "path": "reports/experiment_report_20261002/tables/all_channel_metrics.csv",
     "bytes": 141705,
     "sha256": "435907ecbb60acb7a0aa0c8b5c7a5f4b084f1ead67a491bb0dd58a470878f39f"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/full_38218_f1.csv",
+    "path": "reports/experiment_report_20261002/tables/full_38218_f1.csv",
     "bytes": 1648,
     "sha256": "aca390fcbe5f3db1844f149ae9f1215fb861c18af14da6af0d8c25b981f45020"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/visualization_manifest.csv",
+    "path": "reports/experiment_report_20261002/tables/visualization_manifest.csv",
     "bytes": 5976,
     "sha256": "2588af9654be56ff300b635fc05cc3eec9ee39b461f169b739892afb9b97093c"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/full_38218_average_precision_histogram.csv",
+    "path": "reports/experiment_report_20261002/tables/full_38218_average_precision_histogram.csv",
     "bytes": 1652,
     "sha256": "61381a30186b8b2e9d6fa95acfa897a837b8314ff75ac0d3a5fcae835ad4904c"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/overall_metrics.csv",
+    "path": "reports/experiment_report_20261002/tables/overall_metrics.csv",
     "bytes": 4931,
     "sha256": "e4af3aa2bd7668aff98780a239bb3872bee1c1634739a8cf19b477b629f3ea04"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/interrupted_positive_dice_channels.csv",
+    "path": "reports/experiment_report_20261002/tables/interrupted_positive_dice_channels.csv",
     "bytes": 3709,
     "sha256": "b05b733f57c289460f802cb67fa1eb40ee15d83b4c90cba0791d9aff9fcff3de"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/full_38218_recall.csv",
+    "path": "reports/experiment_report_20261002/tables/full_38218_recall.csv",
     "bytes": 1633,
     "sha256": "11f9d623c157232bf420379a34f190d0244041ddd052cb75cbe1cd54223f94c4"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/patch_balance.csv",
+    "path": "reports/experiment_report_20261002/tables/patch_balance.csv",
     "bytes": 2411,
     "sha256": "d2fa5f4b93aa556e8a8ccb06dbd6aac2677c07f49ec6acfab32d272a6b65529c"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/patch_balance_definition.json",
+    "path": "reports/experiment_report_20261002/tables/patch_balance_definition.json",
     "bytes": 521,
     "sha256": "126a106b48f5749df0d2529f69324f7520f0490691c1e65483670fbcfbfc05f2"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/full_38218_auroc_histogram.csv",
+    "path": "reports/experiment_report_20261002/tables/full_38218_auroc_histogram.csv",
     "bytes": 1634,
     "sha256": "aafeddd02a0638adc6554f02116306d40501045ad0986f1b99fa0d21388da613"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/positive_weights.csv",
+    "path": "reports/experiment_report_20261002/tables/positive_weights.csv",
     "bytes": 1335,
     "sha256": "b0ce208f946877525730c5efa39980c8282eec699cdaba70cafcb815bf82fb22"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/patch_balance_per_epoch.csv",
+    "path": "reports/experiment_report_20261002/tables/patch_balance_per_epoch.csv",
     "bytes": 7204,
     "sha256": "46047980fa5753a675ffb34a26719f38cf3d264a565d2309ed273142cecae54b"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/CRC02_6638_average_precision_histogram.csv",
+    "path": "reports/experiment_report_20261002/tables/CRC02_6638_average_precision_histogram.csv",
     "bytes": 3231,
     "sha256": "024a886082aaa79a71401721e3e46e08b43a3d58aca72f717a621b656801a929"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/CRC02_6638_auroc_histogram.csv",
+    "path": "reports/experiment_report_20261002/tables/CRC02_6638_auroc_histogram.csv",
     "bytes": 3152,
     "sha256": "c39fd748fac0fd71a1bd38513eeda38c2bebe2c31c83808c67fbbcbd8206dfc5"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/full_38218_iou.csv",
+    "path": "reports/experiment_report_20261002/tables/full_38218_iou.csv",
     "bytes": 1672,
     "sha256": "b8f498214e5520d2dfe269a4eba6f7f7140e4fb934f12864f3eebb54fb01da6b"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/CRC02_6638_f1.csv",
+    "path": "reports/experiment_report_20261002/tables/CRC02_6638_f1.csv",
     "bytes": 3225,
     "sha256": "eecb5d81619ade87ac0181d86fc9bfeb867d8effa3b80685b760bbb8e0cbd3b4"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/CRC02_6638_iou.csv",
+    "path": "reports/experiment_report_20261002/tables/CRC02_6638_iou.csv",
     "bytes": 3253,
     "sha256": "798037e3bf6dfd9336fd4138c07c1212721afeb7e28bb5d1a40db55b73b35741"
   },
   {
-    "path": "reports/mentor_report_20261002/tables/CRC02_6638_precision.csv",
+    "path": "reports/experiment_report_20261002/tables/\u5168\u90e8\u5b9e\u9a8c_\u5b8c\u6574\u6307\u6807.xlsx",
+    "bytes": 124397,
+    "sha256": "34d983396366f1c5841eb852841ab580d3ead91e8966460907b5a3ba869402bc"
+  },
+  {
+    "path": "reports/experiment_report_20261002/tables/CRC02_6638_precision.csv",
     "bytes": 3232,
     "sha256": "555828dd04707f45c9226ac2a33944bf4a0d494661f8540bf64f4d9ac7e099e3"
   },
   {
-    "path": "reports/mentor_report_20261002/figures/loss_curves.png",
+    "path": "reports/experiment_report_20261002/figures/loss_curves.png",
     "bytes": 154452,
     "sha256": "f3bd490e0b1c691b0ec32ef00c17dc4e21aa7a7dbab71190462cfaebd5ebf80b"
   },
   {
-    "path": "reports/mentor_report_20261002/figures/validation_curves.png",
+    "path": "reports/experiment_report_20261002/figures/validation_curves.png",
     "bytes": 138014,
     "sha256": "80d950bf847efed74ce339d0d7330d5110fe1096babaabe713be064b658a36fd"
   }
