@@ -1,0 +1,143 @@
+{
+  "status": "ready_for_user_review_not_executed",
+  "checked_at": "2026-09-25T23:18:05.625923+08:00",
+  "tests": {
+    "unit_tests": 13,
+    "unit_passed": 13,
+    "cpu_ddp": {
+      "world_size": 4,
+      "backend": "gloo",
+      "device": "cpu",
+      "dice_global_gradient": true,
+      "hinge_global_gradient": true,
+      "all_ignored_rank_safe": true,
+      "uneven_validation_exact": true,
+      "synchronized_stop_broadcast": true,
+      "gpu_training_executed": false
+    },
+    "python_syntax": "passed",
+    "shell_syntax": "passed",
+    "review_gate_no_run_created": true,
+    "seven_cli_entrypoints": "passed",
+    "production_cpu": {
+      "world_size": 4,
+      "backend": "gloo",
+      "tiny_model_substituted": true,
+      "production_train_loop": true,
+      "early_stop_after_two_epochs": true,
+      "completed_resume_did_not_retrain": true,
+      "val_threshold_selection": true,
+      "dual_threshold_test_metrics": true,
+      "final_report_and_prediction": true,
+      "gradient_accumulation_and_partial_group": true,
+      "argmax_only_positive_channels": true,
+      "gpu_executed": false
+    },
+    "one_command_stage_wiring": "passed with mocked child processes"
+  },
+  "execution": {
+    "new_full_preprocessing": false,
+    "gpu_capacity_probe": false,
+    "new_four_gpu_training": false,
+    "old_automatic_entry_disabled": true
+  },
+  "awaiting_review": [
+    "fresh patient split and full statistics",
+    "four GPU NCCL + SyncBatchNorm capacity calibration",
+    "resolved minibatch and gradient accumulation",
+    "full training and held-out test"
+  ],
+  "defaults": {
+    "task": "pixel_multilabel",
+    "label_policy": "multilabel",
+    "data_root": "/data/weiyh/orioncrc_miphei/ORIONCRC_dataset_tile_20x",
+    "weights_path": "/data/weiyh/weights/virchow2/model.safetensors",
+    "split_policy": "patient_70_15_15",
+    "split_seed": 42,
+    "seed": 42,
+    "world_size": 4,
+    "tile_size": 256,
+    "vit_size": 224,
+    "vit_layers": [
+      8,
+      16,
+      24,
+      32
+    ],
+    "lora_r": 32,
+    "lora_alpha": 16,
+    "dropout": 0,
+    "sync_batchnorm": true,
+    "precision": "bf16",
+    "batch_size": "auto",
+    "batch_min": 2,
+    "batch_max": 128,
+    "memory_target_fraction": 0.9,
+    "memory_reserve_gib": 2.0,
+    "max_external_memory_gib": 2.0,
+    "probe_steps": 3,
+    "probe_timeout_seconds": 1200,
+    "target_global_batch": 256,
+    "grad_accum": "auto",
+    "num_workers": 4,
+    "prefetch_factor": 2,
+    "epochs": 40,
+    "optimizer": "AdamW",
+    "lora_lr": 0.0001,
+    "decoder_lr": 0.0003,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "warmup_epochs": 2,
+    "min_lr_ratio": 0.05,
+    "grad_clip": 1.0,
+    "patience": 8,
+    "min_delta": 0.001,
+    "early_stop_warmup": 10,
+    "overlap_loss": "dice",
+    "mse_weight": 1.0,
+    "overlap_weight": 1.0,
+    "probability_threshold": 0.5,
+    "threshold_selection": {
+      "min": 0.05,
+      "max": 0.95,
+      "min_positive_pixels": 100,
+      "min_negative_pixels": 100,
+      "min_patients_per_label": 2
+    },
+    "log_every": 50,
+    "balanced_training": true,
+    "fusion": "existing_decoder_only",
+    "prior": "none",
+    "source_qc": "reuse_MIPHEI_published_QC_no_StarDist_rescreening"
+  },
+  "packaging": {
+    "includes": "source, configuration, documentation, tests and verification",
+    "excludes": [
+      "raw dataset",
+      "pretrained Virchow2 weights",
+      "old training results",
+      "runtime caches"
+    ]
+  },
+  "limitations": [
+    "CPU Gloo tests do not validate CUDA/NCCL/SyncBatchNorm execution",
+    "Largest safe GPU minibatch remains unmeasured until approval",
+    "Training stops/resumes only at complete epoch checkpoints",
+    "Pixel intensity >0 is an operational signal label, not clinically adjudicated expression"
+  ],
+  "review_revision": 2,
+  "threshold_policy": "fixed 0.5 for model selection; best checkpoint -> natural val channel F1 thresholds -> untouched test dual reporting",
+  "fixed_in_revision_2": [
+    "early-stopped resume no extra epoch",
+    "validation-only channel thresholds bound to model and data",
+    "positive-only argmax display",
+    "inference precision aligned with evaluation",
+    "architecture and environment resume identity",
+    "complete four-rank capacity reports",
+    "workflow lock lifetime"
+  ]
+}

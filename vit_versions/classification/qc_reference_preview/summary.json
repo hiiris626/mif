@@ -1,0 +1,37 @@
+{
+  "n_preview": 82,
+  "n_patients": 41,
+  "selection": "2 random patches per patient, seed 42",
+  "full_dataset_counts": false,
+  "quality_counts": {
+    "intensity": {
+      "rejected": 41,
+      "retained": 41,
+      "gold": 0
+    },
+    "nuclei": {
+      "rejected": 37,
+      "retained": 45,
+      "gold": 0
+    }
+  },
+  "disagreed_quality": 6,
+  "mean_dice": {
+    "intensity": 0.20754107278738293,
+    "nuclei": 0.22508555836808927
+  },
+  "original_n_patches": 318450,
+  "patient_counts": {
+    "test": 6,
+    "train": 29,
+    "val": 6
+  },
+  "patch_counts_before_cleaning": {
+    "train": 226465,
+    "val": 56832,
+    "test": 35153
+  },
+  "reference_selection": "pending revised QC method review",
+  "existing_mask_semantics": "Cellpose-derived expanded cell proxy",
+  "quality_counts_status": "diagnostic original rule only; not final QC decisions"
+}

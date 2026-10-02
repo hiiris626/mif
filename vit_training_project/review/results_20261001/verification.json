@@ -1,0 +1,7 @@
+{
+  "test_manifest_identical": true,
+  "per_channel_positive_negative_support_identical": true,
+  "test_patches": 38218,
+  "no_new_training": true,
+  "v7_v8_not_started": true
+}

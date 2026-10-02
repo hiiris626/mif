@@ -1,0 +1,2437 @@
+[
+  {
+    "path": "vit_versions/_shared/前置原型_v0/run_evals_after_sample.sh",
+    "link": null,
+    "sha256": "a3251d37a0c8f9aa08921ce8a0e5071e502b2791bb19a4027745503b330df699",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/_shared/前置原型_v0/start_training_after_cache.sh",
+    "link": null,
+    "sha256": "2c500396f7a429333e20d4f5239dc9485d910d74d107ebc4162e75810c396086",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/audit_20260925/check_versions.py",
+    "link": null,
+    "sha256": "7c3d9aaf771d8a36af7b1ed42d9c1148ede75dbbc38eaab92834a5cc085bf9ee",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/launch/auto_start_vit512.sh",
+    "link": null,
+    "sha256": "e3e3c631e609a1523f2245c830f633dd246e4397a8497ec4c2ded8232394ee5a",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/logs/auto_vit512.log",
+    "link": null,
+    "sha256": "425a39f027285e030c8dc30faf75b16f1e4e33f5f8ccc7fed16fae2b1bd68329",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/logs/vit512_test.log",
+    "link": null,
+    "sha256": "b1b7f167908c1f45117f7dcfbbf93778788919602bdc14a3e493e37615a998b2",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/logs/vitmatte_512.log",
+    "link": null,
+    "sha256": "4e66c62a760ef43dddea400f9447686da176276182f63b897a1147cd98329ca7",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/logs/vitmatte_512_cellf1.log",
+    "link": null,
+    "sha256": "fd115d091216693d19d42720d5c1ccbc1038ae063fd67ef21cc4e0ee81f64992",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/logs/vitmatte_512_eval.log",
+    "link": null,
+    "sha256": "13e561380a8df98b8813c916d4bda4997ae9b084fac18ceda974f0f476b6d063",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/logs/vitmatte_512_sample.log",
+    "link": null,
+    "sha256": "b240304dffae2e059c48d871a19bacdc2cff6886b00a6472b1b6e00b52e63074",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/logs/wsi_pred_vit512.log",
+    "link": null,
+    "sha256": "72bd1ae96f761b8184f06f2f369919cba167751132857bdcfbbe9c7348b6df84",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/epoch_快照/virchow2_vitmatte_512_epoch1.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_epoch1.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/epoch_快照/virchow2_vitmatte_512_epoch2.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_epoch2.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/epoch_快照/virchow2_vitmatte_512_epoch3.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_epoch3.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/epoch_快照/virchow2_vitmatte_512_epoch4.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_epoch4.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/epoch_快照/virchow2_vitmatte_512_epoch5.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_epoch5.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/epoch_快照/virchow2_vitmatte_512_epoch6.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_epoch6.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/epoch_快照/virchow2_vitmatte_512_epoch7.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_epoch7.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter10000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter10000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter100000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter100000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter105000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter105000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter110000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter110000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter115000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter115000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter120000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter120000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter125000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter125000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter130000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter130000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter135000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter135000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter15000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter15000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter20000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter20000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter25000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter25000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter30000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter30000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter35000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter35000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter40000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter40000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter45000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter45000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter5000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter5000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter50000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter50000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter55000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter55000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter60000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter60000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter65000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter65000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter70000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter70000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter75000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter75000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter80000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter80000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter85000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter85000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter90000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter90000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/weights/iter_快照/virchow2_vitmatte_512_iter95000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter95000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/launch/auto_start_vit_v2.sh",
+    "link": null,
+    "sha256": "edd72b5e3ffc8460f397100b6d3bdf579956532f7489e0ebb12a4218e555970d",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/logs/auto_vit_v2.log",
+    "link": null,
+    "sha256": "b4a198e89c604ed9f5c3330eb42278d6fb2d57a6abeccc7a8e1634a40941040d",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/logs/vitmatte_v2_512.log",
+    "link": null,
+    "sha256": "543a7115be0ca7611b8ad34e7fafdaba81daa132a670af2c67b9e2573cfe9564",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/logs/vitmatte_v2_cellf1.log",
+    "link": null,
+    "sha256": "c2c35b18f0b065c39b25eb580b55912f8b89aa93d762af2b9645060232b8548f",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/logs/vitmatte_v2_metrics.log",
+    "link": null,
+    "sha256": "f172eb3cf5c860844ab496a5f06c4f6fff9730c8ecd083cc0c77b551d56b4327",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/logs/vitmatte_v2_metrics_log.log",
+    "link": null,
+    "sha256": "52420ef9e5b867a8357f984a3bec0c257a0b77cc2b97f2d8ab9374cc0fa2bfb8",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/logs/vitmatte_v2_sample.log",
+    "link": null,
+    "sha256": "9c30442645a9cf16a4f32849b1456abe593504b5bba7af9ae993de19409b81e1",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch1.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch1.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch10.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch10.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch11.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch11.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch12.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch12.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch13.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch13.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch14.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch14.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch2.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch2.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch3.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch3.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch4.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch4.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch5.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch5.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch6.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch6.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch7.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch7.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch8.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch8.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/epoch_快照/virchow2_vitmatte_v2_512_epoch9.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch9.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter10000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter10000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter100000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter100000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1000000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1000000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1005000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1005000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1010000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1010000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1015000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1015000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1020000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1020000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1025000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1025000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1030000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1030000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1035000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1035000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1040000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1040000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1045000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1045000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter105000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter105000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1050000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1050000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1055000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1055000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1060000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1060000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1065000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1065000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1070000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1070000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1075000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1075000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1080000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1080000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1085000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1085000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1090000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1090000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1095000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1095000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter110000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter110000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1100000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1100000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter1105000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter1105000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter115000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter115000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter120000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter120000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter125000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter125000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter130000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter130000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter135000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter135000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter140000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter140000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter145000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter145000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter15000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter15000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter150000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter150000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter155000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter155000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter160000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter160000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter165000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter165000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter170000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter170000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter175000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter175000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter180000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter180000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter185000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter185000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter190000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter190000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter195000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter195000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter20000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter20000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter200000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter200000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter205000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter205000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter210000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter210000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter215000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter215000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter220000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter220000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter225000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter225000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter230000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter230000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter235000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter235000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter240000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter240000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter245000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter245000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter25000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter25000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter250000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter250000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter255000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter255000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter260000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter260000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter265000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter265000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter270000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter270000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter275000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter275000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter280000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter280000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter285000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter285000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter290000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter290000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter295000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter295000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter30000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter30000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter300000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter300000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter305000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter305000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter310000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter310000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter315000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter315000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter320000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter320000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter325000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter325000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter330000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter330000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter335000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter335000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter340000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter340000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter345000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter345000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter35000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter35000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter350000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter350000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter355000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter355000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter360000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter360000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter365000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter365000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter370000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter370000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter375000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter375000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter380000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter380000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter385000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter385000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter390000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter390000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter395000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter395000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter40000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter40000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter400000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter400000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter405000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter405000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter410000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter410000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter415000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter415000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter420000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter420000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter425000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter425000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter430000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter430000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter435000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter435000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter440000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter440000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter445000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter445000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter45000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter45000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter450000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter450000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter455000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter455000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter460000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter460000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter465000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter465000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter470000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter470000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter475000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter475000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter480000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter480000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter485000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter485000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter490000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter490000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter495000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter495000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter5000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter5000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter50000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter50000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter500000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter500000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter505000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter505000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter510000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter510000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter515000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter515000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter520000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter520000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter525000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter525000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter530000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter530000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter535000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter535000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter540000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter540000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter545000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter545000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter55000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter55000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter550000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter550000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter555000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter555000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter560000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter560000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter565000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter565000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter570000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter570000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter575000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter575000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter580000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter580000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter585000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter585000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter590000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter590000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter595000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter595000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter60000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter60000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter600000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter600000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter605000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter605000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter610000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter610000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter615000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter615000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter620000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter620000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter625000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter625000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter630000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter630000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter635000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter635000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter640000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter640000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter645000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter645000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter65000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter65000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter650000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter650000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter655000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter655000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter660000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter660000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter665000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter665000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter670000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter670000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter675000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter675000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter680000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter680000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter685000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter685000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter690000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter690000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter695000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter695000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter70000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter70000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter700000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter700000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter705000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter705000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter710000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter710000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter715000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter715000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter720000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter720000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter725000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter725000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter730000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter730000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter735000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter735000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter740000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter740000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter745000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter745000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter75000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter75000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter750000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter750000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter755000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter755000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter760000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter760000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter765000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter765000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter770000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter770000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter775000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter775000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter780000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter780000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter785000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter785000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter790000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter790000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter795000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter795000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter80000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter80000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter800000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter800000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter805000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter805000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter810000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter810000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter815000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter815000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter820000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter820000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter825000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter825000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter830000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter830000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter835000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter835000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter840000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter840000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter845000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter845000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter85000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter85000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter850000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter850000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter855000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter855000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter860000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter860000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter865000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter865000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter870000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter870000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter875000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter875000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter880000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter880000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter885000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter885000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter890000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter890000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter895000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter895000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter90000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter90000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter900000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter900000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter905000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter905000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter910000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter910000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter915000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter915000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter920000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter920000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter925000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter925000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter930000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter930000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter935000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter935000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter940000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter940000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter945000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter945000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter95000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter95000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter950000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter950000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter955000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter955000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter960000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter960000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter965000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter965000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter970000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter970000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter975000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter975000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter980000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter980000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter985000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter985000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter990000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter990000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v2/weights/iter_快照/virchow2_vitmatte_v2_512_iter995000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_iter995000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/launch/launch_vit_v3.sh",
+    "link": null,
+    "sha256": "86282dbc9f70ebce3c6bba8dd5a38afe585863b6545447b94e14da6d84d70356",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/launch/launch_vit_v3_256.sh",
+    "link": null,
+    "sha256": "21a95651c49879c9d9d1577e19db6b3e3b1ecc333a0801029f7be2e5bf25f745",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/launch/launch_vit_v3_256_ddp.sh",
+    "link": null,
+    "sha256": "d35495f611f4540d27783fbd8022131248188e82d71ee4c0f14a6de2502dc2d1",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/logs/vitmatte_v3_256.log",
+    "link": null,
+    "sha256": "68fd1aeca071cea7903e2112121be7524122fde7124e500d6fe558068959b4e2",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/logs/vitmatte_v3_256_cellf1.log",
+    "link": null,
+    "sha256": "dd71f2907d669512c83d4c438b28628009b7ae6872ffad913642b3cc699164c7",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/logs/vitmatte_v3_256_metrics.log",
+    "link": null,
+    "sha256": "df8adc8b485fb9acad5b4de954cd122c279d88c22c8f7a9e8ff7179871942c9f",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/logs/vitmatte_v3_256_sample.log",
+    "link": null,
+    "sha256": "ad85e71eb0edc6f07023f371cc1c9a1668a0c6d70a4843ac8b5b394b323afc7b",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/logs/wsi_vit256v3.log",
+    "link": null,
+    "sha256": "754419a5c82f40b4b89902cb4226bdb5437c5bfa293ca38a4cccbd7f677fcc34",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz_step7000.png",
+    "link": null,
+    "sha256": "720f21eb4404dac43e5fa4fc7ef18eab47bc6bdf52f0b5dd1ed00be6f9f26cba",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz_step8000.png",
+    "link": null,
+    "sha256": "d7c5742419cf2284da8fd7017d43f400ce31dd81283e0870dd166d334ccdf1e7",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz_step9000.png",
+    "link": null,
+    "sha256": "a4151c48a5ae6f63e59c1954e9c20a5a79a21e2c0bd4f2779d183f56ed9eb4c7",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz_step9999.png",
+    "link": null,
+    "sha256": "b73eb14950d33419cd11f9764180af48573a1aa8a5c8d9af3a7f1db1f808ba23",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step1000.png",
+    "link": null,
+    "sha256": "2f4c183b76b64081b9f313cf91504e149e836182243407aab31afd52b8fa489e",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step10000.png",
+    "link": null,
+    "sha256": "b56409f4cce4a8b5ddd6f7b86ea51ed3fc1b21079ca3e27bc8d35840ef68ca19",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step11000.png",
+    "link": null,
+    "sha256": "0e971746d53f342ccd64a5a4853e9dc25361474fdf953f6b1e27e0aa413142b2",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step12000.png",
+    "link": null,
+    "sha256": "999df5b07fcb72c7e18345b6a8a53a268855c47d1701a4e72af5d0bd4db54ab3",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step13000.png",
+    "link": null,
+    "sha256": "bffeb0de888a321fb37c04fd1ded969433353e4709d29235fdff40a87d692686",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step14000.png",
+    "link": null,
+    "sha256": "8f3d68500a86a2ce04cf820d702c39a178a8bcfcba1928f5e0ea09a246c8ca0b",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step15000.png",
+    "link": null,
+    "sha256": "786c71020c5ac3cc5b5064525fb9c87df7e213dc93f99f4d4e932fb69376ab70",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step16000.png",
+    "link": null,
+    "sha256": "1da6f535c40782be809f2141797ec024fb1e02184b3f03993dac7f926ebeb9a3",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step2000.png",
+    "link": null,
+    "sha256": "436f275a1b05a8f3083573f6a0db8f267501ddb213647aa8888ed15298ac9b14",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step3000.png",
+    "link": null,
+    "sha256": "624c0315d6b9fea139c5bafbc8c3660a8fbfeae7c73de3f691ee30968bbf0f5d",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step4000.png",
+    "link": null,
+    "sha256": "d398a5e2b6a9f4bcb7eeb80eb2978c7340e870dbaa6ab92f1a873375d4fdab0f",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step5000.png",
+    "link": null,
+    "sha256": "df785d5aefaa62bc57a52445c59b2b6ae840c46087d8cb15fdf1d562cb064661",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step6000.png",
+    "link": null,
+    "sha256": "362855315e09c85a1212ce63772476d079b7cad155ca015ca7c6a6e7a31f0846",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step7000.png",
+    "link": null,
+    "sha256": "8f87485df8e47433a22f31f41f66ee80085dff123bea2039690b5b1f4557ea34",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step8000.png",
+    "link": null,
+    "sha256": "09ff70b77f3f06d012a9519e8ffc23dce071b72715d422bae9635bfbf32e67fc",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/results/figures/viz快照_每1000步/viz_virchow2_vitmatte_v3_256_step9000.png",
+    "link": null,
+    "sha256": "297c42ce3084298c415a505d8ba90a83b9cc141fef70c4a55cd6fbb37cd9d1d1",
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/best与step快照/virchow2_vitmatte_v3_256_step13000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_step13000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/best与step快照/virchow2_vitmatte_v3_256_step14000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_step14000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/best与step快照/virchow2_vitmatte_v3_256_step15000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_step15000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/best与step快照/virchow2_vitmatte_v3_256_step16000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_step16000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/best与step快照/virchow2_vitmatte_v3_256_step17000.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_step17000.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch1.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch1.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch10.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch10.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch11.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch11.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch12.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch12.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch13.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch13.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch14.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch14.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch15.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch15.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch2.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch2.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch3.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch3.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch4.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch4.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch5.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch5.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch6.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch6.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch7.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch7.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch8.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch8.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v3/weights/epoch快照/virchow2_vitmatte_v3_256_epoch9.pt",
+    "link": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_epoch9.pt",
+    "sha256": null,
+    "reason": "unselected snapshot / intermediate preview / old log / obsolete entry point"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/vitmatte_unet.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "8869ecbf3ce287524e575dce05b3e117baf2c88af7f3fe19ce7f348714491ef2"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/compute_marker_stats.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "2fa3c2397755343c09467f8a999e68095db0a420814c0a0ebcc6e1a0e5201d7e"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/train.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "7efbfc886403a5474fff879c77de5f11a5098d119bbcf8d2b2cde22beac6b3e9"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/encoder.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/lora.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/sample.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "ec2b7bd827afd53ef9325e6c40034e3ebe1e7c61fb0bc9fcf2a7e0ad47ba491c"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/datacore/orioncrc_dataset.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "fb93aeeeaec1cc1017b833c22b7661f321fb99dabf7c8b22e4a6cf1d9f6e2c56"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/datacore/cache.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "2b2e344a1f53f40a07d24b150bcefbd977a4224aa98ef8620cbe498302faf7b8"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/cell_classify.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "ebb42c62fa346ad6b149e9fc7df891ba7f26969eeee9b184a0cc070a5d85d318"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/metrics.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "dc70db1445fce4d53d557946bc1127296d6c127847d767405811c8f27d42f1b9"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/metrics_log.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "0639a1ffc2ed44f6c4865e709b1f101130102cbbeed4a1270e23dd6663e5e4b5"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/vitmatte_unet.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "8869ecbf3ce287524e575dce05b3e117baf2c88af7f3fe19ce7f348714491ef2"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/compute_marker_stats.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "2fa3c2397755343c09467f8a999e68095db0a420814c0a0ebcc6e1a0e5201d7e"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/train.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "7efbfc886403a5474fff879c77de5f11a5098d119bbcf8d2b2cde22beac6b3e9"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/encoder.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/lora.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/sample.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "ec2b7bd827afd53ef9325e6c40034e3ebe1e7c61fb0bc9fcf2a7e0ad47ba491c"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/datacore/orioncrc_dataset.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "fb93aeeeaec1cc1017b833c22b7661f321fb99dabf7c8b22e4a6cf1d9f6e2c56"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/datacore/cache.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "2b2e344a1f53f40a07d24b150bcefbd977a4224aa98ef8620cbe498302faf7b8"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/cell_classify.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "ebb42c62fa346ad6b149e9fc7df891ba7f26969eeee9b184a0cc070a5d85d318"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/metrics.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "dc70db1445fce4d53d557946bc1127296d6c127847d767405811c8f27d42f1b9"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/metrics_log.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "0639a1ffc2ed44f6c4865e709b1f101130102cbbeed4a1270e23dd6663e5e4b5"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/vitmatte_unet.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "8869ecbf3ce287524e575dce05b3e117baf2c88af7f3fe19ce7f348714491ef2"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/compute_marker_stats.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "2fa3c2397755343c09467f8a999e68095db0a420814c0a0ebcc6e1a0e5201d7e"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/train.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "7efbfc886403a5474fff879c77de5f11a5098d119bbcf8d2b2cde22beac6b3e9"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/encoder.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/lora.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/sample.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "ec2b7bd827afd53ef9325e6c40034e3ebe1e7c61fb0bc9fcf2a7e0ad47ba491c"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/datacore/orioncrc_dataset.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "fb93aeeeaec1cc1017b833c22b7661f321fb99dabf7c8b22e4a6cf1d9f6e2c56"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/datacore/cache.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "2b2e344a1f53f40a07d24b150bcefbd977a4224aa98ef8620cbe498302faf7b8"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/cell_classify.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "ebb42c62fa346ad6b149e9fc7df891ba7f26969eeee9b184a0cc070a5d85d318"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/metrics.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "dc70db1445fce4d53d557946bc1127296d6c127847d767405811c8f27d42f1b9"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/metrics_log.py",
+    "reason": "deduplicated canonical source",
+    "sha256": "0639a1ffc2ed44f6c4865e709b1f101130102cbbeed4a1270e23dd6663e5e4b5"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/logs/shard_0.log",
+    "sha256": "078b82a91111360b6ebca7a3f63029a24cec6374920914b8c21b81c1d6cb4a27",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/logs/shard_1.log",
+    "sha256": "e72dd2a7517c0db637b0c364b72728596b90d7b6e05c218ab8f6fec1a24c328f",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/logs/shard_2.log",
+    "sha256": "f9a49b659bc46851f700535f1edb0e63a056f981fb1726fcbddb801a95dbbe1c",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/logs/shard_3.log",
+    "sha256": "b1ab3a77b9731f6adac1bcbb19d863ca632749f6fb69c61178b0198df9b4771b",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_0_1840.png",
+    "sha256": "1077ee99e0105495214bc55632f8d3cf27e879274cef8c397161e9d7f2bd17d6",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_0_7384.png",
+    "sha256": "964ba9db6ddfeb974cbab5bd2e4929196ef06fa91e06cc0bd9c28bb71cc41aa2",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_0_9860.png",
+    "sha256": "1e7f05fb7747569ba90c1d68f52386cbc487b69011abf0c2a1d63f87cb071b1d",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_2_11762.png",
+    "sha256": "d6994bb08d9752c530de2fe64d9fef454aada7bb395e71b3128505abc18f4333",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_2_18918.png",
+    "sha256": "28f10642f15053267902cc25c0073ae6c81f1dc2750eb45ddca88451a4cc1f5b",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_3_1839.png",
+    "sha256": "737815a93f0752074fc9448a57e224ee2f1b5c3972342a7a824a748d060dfabb",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_3_28451.png",
+    "sha256": "9b529332cd4363b034ac768e39fa50aec7a897b9846cecc5612a65de825832c3",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/gold_3_7671.png",
+    "sha256": "9dd5508c1a179b4877303335635e157ce3522f436b5b4e41179143b00d0f367f",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_0_4008.png",
+    "sha256": "076650264e1adf701591acc3911a344210139e3b17aca1d3e47e076ca51ccb73",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_0_500.png",
+    "sha256": "edd67851f4ef3dceb80556cb90e2ad1f9e8e958c249217b3fc212409ca4b9c9c",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_0_5468.png",
+    "sha256": "d4a2d963585d682a4180a3cda6c485997052e066cc8ec91860c0148e2f053818",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_1_2453.png",
+    "sha256": "ba3b0b6edefcb36d9c4876242721eee46f03ea780c1e8000090765ede2d91e51",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_1_3017.png",
+    "sha256": "6cbbde7d97ef17230aaf87ade8f36f9f5984a8f8771eb8e5fc9917c7b3944059",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_1_4697.png",
+    "sha256": "756186b84aeca443da4058bcbeaa416c030bcf248ee9e50aa8c59610800943a0",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_2_3334.png",
+    "sha256": "c0483e319073208fe2933db1d3a05b94b38ab14f28c846820e56d393e1fc9be1",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_2_3442.png",
+    "sha256": "537072b486f0191dec416715629cc128a82e0e8e3a204d10b435d0689df533e8",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_2_3522.png",
+    "sha256": "a5ad6dbea21da385ddb9674ab7a48225addc26963656b7277a6fb597bdff0933",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_3_5255.png",
+    "sha256": "b37fe5d9366512130487cbb4d66dffd02b25c6ba8cbf37d49cd4001be3cb02ae",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_3_5471.png",
+    "sha256": "c105e95bf9e67a8d144a637dfde905cb05d4f8dd40679a9cfba5d73ae16af090",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/not_evaluable_3_955.png",
+    "sha256": "b54a3c9004c1ddda91bf2c728a9370ab4b40f87ec39090634142da22961ced6c",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_0_0.png",
+    "sha256": "5db5cc32e7dee587e2a3b1f0874ced633d9158b364e3fe299f5e4c7053e0b793",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_0_4.png",
+    "sha256": "666e6bf3a8718c15d455f455becd0aed5db4794c413b74eb2c58d1737d87602e",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_0_8.png",
+    "sha256": "cac283f22298ae5ef42b754825164e0589c23d28bd43b08e0d3bdeacda3db034",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_1_1.png",
+    "sha256": "a6e265115e439f5ef544eab203cd69e7b3ddcfea42c3918586c3100058d07869",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_1_5.png",
+    "sha256": "781b398c41d0d00ab2ac630d7a9c9805554ca27a399a7fd63d3ac8f4a3778b8b",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_1_9.png",
+    "sha256": "e75b509b48600b9a38af38effbfb8e7030441900969c548d68e34ab88d7e693a",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_2_10.png",
+    "sha256": "afdc6f02543e006767b0ac2978ca5b64394ea8589cb3ba42001e5993ffbc697d",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_2_2.png",
+    "sha256": "3e119e19da19b9cd95ab56ee7370140bc57bf68d7ac3990050e6b3ed41cbc836",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_2_6.png",
+    "sha256": "7a82ac84d01511f60ae60845c3efc44a1acd83cd47b2ca8b7861dbe81b7dee31",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_3_11.png",
+    "sha256": "c55a42be0c5e98b794996447d84d675733eaf5e9063f8bec239222b094e5f5d0",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_3_3.png",
+    "sha256": "f87376f3474098342ebb86bf609223c9323340a573e4e87558718b41c77c0669",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/rejected_3_7.png",
+    "sha256": "0ac8812ec53bce09ac11ac9146aca661d111a7e6fc7450106da9026b8b3ad994",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_0_20.png",
+    "sha256": "a4f327414e29f3e7e9fb3141bb876cf8aaf7b4b2166b975c4f5ce30e054e5d6c",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_0_24.png",
+    "sha256": "ed76d2996c957e455c06996a601684a9a5843993c78eb9a38953b1770e0534ab",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_0_28.png",
+    "sha256": "f92e2bb980d2db86ecaf61f6b069c3c6537dfc6feeb6a556787d737e7bcffc2b",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_1_17.png",
+    "sha256": "e2cceb48323f8ca438fcc189fb3512ffbc5b3ec32240c9ffd2932c521cfa5f71",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_1_21.png",
+    "sha256": "a58cace3e01a46f5359161da30829002bf6d12a043b4537ab6618c73ddecb41d",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_1_25.png",
+    "sha256": "3d80e3b4af7d39ed90d72da514c5590f94128c9ce046b4ae1a564cc2e02a7561",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_2_18.png",
+    "sha256": "54e00095aed3bcf9a7d93eb31e55898ead4b9a08d5be423de67a944e7144b519",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_2_26.png",
+    "sha256": "075946a327b75c7e94370335d3293538ebe6555632db67f159ec79e8085dcfb0",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_2_30.png",
+    "sha256": "05d94c416a0de191d26fefdb9bbffc51adf7414e7aee3221242ed7b6e6f5a469",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_3_15.png",
+    "sha256": "1e1f0ec945dca567dc55d87c85c8265da6ce906d205f6562f8f91c015b21f951",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_3_19.png",
+    "sha256": "e2f1c9d3401a38982cdcb24805093be34edd3aa4ef9349e885fa75f3553255c2",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/previews/retained_3_27.png",
+    "sha256": "a00494f95d721ed91ae6f3bef785c2f929070d2f8748fcf87e7193c5a1e8e9fe",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/shard_0.sqlite",
+    "sha256": "a35d00add1b0b6c70dea7db7ac765801f704445ad6da7a77403a2f11818b1d32",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/shard_1.sqlite",
+    "sha256": "6200a824c0726eaf950abfa8760ca44f444f198f4915c0ce03a5611a688a58d0",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/shard_2.sqlite",
+    "sha256": "67afe5eb895bdcef2539977c5cee535cf0cdcbaf11ba4009874e61ac0e1483fa",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  },
+  {
+    "path": "vit_versions/classification/data_clean/shard_3.sqlite",
+    "sha256": "481c5326233b7bf9d59692fae144978fc8ca71dc5eb11ceef43b48d2ebed7c2e",
+    "reason": "canceled redundant StarDist scan; incomplete intermediate, no final result"
+  }
+]

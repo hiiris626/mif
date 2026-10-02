@@ -1,0 +1,13 @@
+{
+  "model": "v11",
+  "status": "completed_training",
+  "checkpoint": "/home/weiyh/h2e_mif_benchmark/vit_training_project/experiments/v11/runs/v11/results/model/best.pt",
+  "checkpoint_sha256": "5c2d8cff4cc486d14b76f93405b7fbbceeeccb233b57f559c577eef88fa695fc",
+  "checkpoint_epoch_one_based": 8,
+  "threshold_path": "/home/weiyh/h2e_mif_benchmark/vit_training_project/experiments/v11/runs/v11/results/thresholds.json",
+  "threshold_sha256": "22bd493c64b99742a1f589fb9ea16c7baa2f055ebb8814a54993883f41099e6c",
+  "test_manifest_sha256": "3161be312aa6f871c37d4a80e6986eb2a5c4d32ed8c9d9f55227a9124f42871a",
+  "test_patches": 6638,
+  "seconds": 75.28710933029652,
+  "source_code_sha256": "fbe38a173f796bcb2e2b44db5ff4e9dfa0272d5171e15726d8b90bcbbe3e2038"
+}

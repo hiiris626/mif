@@ -1,0 +1,129 @@
+{
+  "patch": 168299,
+  "source": "old ddp_baseline preview, NOT new BCE model",
+  "raw_file": "/data/weiyh/orioncrc_miphei/ORIONCRC_dataset_tile_20x/if/P37_S79_Full_A24_C59qX_E15_20220302_235254_496641-zlib.ome_9728_6144_0_512_512.tiff",
+  "raw_shape": [
+    333,
+    333,
+    17
+  ],
+  "raw_dtype": "uint8",
+  "raw_range": [
+    0,
+    248
+  ],
+  "raw_unique_values": 229,
+  "he_shape": [
+    333,
+    333,
+    3
+  ],
+  "tissue_pixels": 58453,
+  "total_pixels": 65536,
+  "ignored_inside_tissue": 38881,
+  "valid_pixels": 19572,
+  "cd4_gt_positive": 64,
+  "cd4_pred_ge05_inside_tissue": 28830,
+  "cd4_pred_ge05_inside_ignored": 28338,
+  "cd4_pred_ge025_inside_ignored": 28621,
+  "cd4_nonzero_outside_tissue": 7083,
+  "cd4_mean_ignored": 0.7217105627059937,
+  "raw_channel_stats": {
+    "Hoechst": {
+      "min": 0,
+      "max": 163,
+      "unique": 156,
+      "positive": 11516
+    },
+    "CD31": {
+      "min": 0,
+      "max": 99,
+      "unique": 81,
+      "positive": 1561
+    },
+    "CD45": {
+      "min": 0,
+      "max": 102,
+      "unique": 90,
+      "positive": 1156
+    },
+    "CD68": {
+      "min": 0,
+      "max": 11,
+      "unique": 7,
+      "positive": 11
+    },
+    "CD4": {
+      "min": 0,
+      "max": 49,
+      "unique": 13,
+      "positive": 114
+    },
+    "FOXP3": {
+      "min": 0,
+      "max": 0,
+      "unique": 1,
+      "positive": 0
+    },
+    "CD8a": {
+      "min": 0,
+      "max": 76,
+      "unique": 11,
+      "positive": 12
+    },
+    "CD45RO": {
+      "min": 0,
+      "max": 0,
+      "unique": 1,
+      "positive": 0
+    },
+    "CD20": {
+      "min": 0,
+      "max": 1,
+      "unique": 2,
+      "positive": 1
+    },
+    "PDL1": {
+      "min": 0,
+      "max": 0,
+      "unique": 1,
+      "positive": 0
+    },
+    "CD3e": {
+      "min": 0,
+      "max": 0,
+      "unique": 1,
+      "positive": 0
+    },
+    "CD163": {
+      "min": 0,
+      "max": 30,
+      "unique": 8,
+      "positive": 9
+    },
+    "ECadherin": {
+      "min": 0,
+      "max": 1,
+      "unique": 2,
+      "positive": 2
+    },
+    "Ki67": {
+      "min": 0,
+      "max": 0,
+      "unique": 1,
+      "positive": 0
+    },
+    "Pan-CK": {
+      "min": 0,
+      "max": 2,
+      "unique": 3,
+      "positive": 32
+    },
+    "SMA": {
+      "min": 0,
+      "max": 248,
+      "unique": 229,
+      "positive": 27578
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "all_56832_patches": true,
+  "all_channel_confusion_exact": true,
+  "classification_scores_exact": true,
+  "val_loss": 0.7139144442813595,
+  "old_val_loss": 0.7139144442813596,
+  "macro_f1": 0.5667087029851059,
+  "macro_iou": 0.43343195959487135
+}

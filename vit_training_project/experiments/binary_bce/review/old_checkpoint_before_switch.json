@@ -1,0 +1,16 @@
+[
+  {
+    "file": "/home/weiyh/h2e_mif_benchmark/vit_training_project/runs/ddp_positive_dice/results/model/last.pt",
+    "bytes": 2824154830,
+    "epoch": 3,
+    "step": 11296,
+    "readable": true
+  },
+  {
+    "file": "/home/weiyh/h2e_mif_benchmark/vit_training_project/runs/ddp_positive_dice/results/model/best.pt",
+    "bytes": 2824154830,
+    "epoch": 3,
+    "step": 11296,
+    "readable": true
+  }
+]

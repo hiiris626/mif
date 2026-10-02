@@ -1,0 +1,13 @@
+{
+  "model": "positive_dice_partial",
+  "status": "interrupted_after_epoch_4",
+  "checkpoint": "/home/weiyh/h2e_mif_benchmark/vit_training_project/runs/ddp_positive_dice/results/model/best.pt",
+  "checkpoint_sha256": "52e8a8ea59b18c668bf3cfc97cb284c324b05a3b77e64f2c75b2f97ab8c37c22",
+  "checkpoint_epoch_one_based": 4,
+  "threshold_path": null,
+  "threshold_sha256": null,
+  "test_manifest_sha256": "3161be312aa6f871c37d4a80e6986eb2a5c4d32ed8c9d9f55227a9124f42871a",
+  "test_patches": 6638,
+  "seconds": 77.01530619710684,
+  "source_code_sha256": "1888c827044732f0c1d328eb9b649fbdb4f6f31ac65730c031a3864446722a8a"
+}

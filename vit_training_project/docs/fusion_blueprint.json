@@ -1,0 +1,22 @@
+{
+  "status": "design_only_not_connected_to_training",
+  "baseline": "four ViT depths fused at stride16 + CNN detail skips",
+  "recommended_candidate": "four-stage gated fusion plus nested decoder",
+  "stages": [
+    {"vit_blocks": [8], "cnn_stride": 4, "projection_channels": 128},
+    {"vit_blocks": [16], "cnn_stride": 8, "projection_channels": 128},
+    {"vit_blocks": [24], "cnn_stride": 16, "projection_channels": 256},
+    {"vit_blocks": [32], "cnn_stride": 16, "projection_channels": 256}
+  ],
+  "fusion": "resize(project(ViT)) + gated_CNN residual; normalize each branch; zero-initialized residual gate",
+  "decoder": "UNet++ style nested skips with optional training-only deep supervision",
+  "ablation_ladder": ["existing_decoder", "four_stage_fusion", "four_stage_fusion_nested_skips", "eight_stage_fusion", "32_stage_fusion"],
+  "measure": ["macro_F1", "macro_IoU", "rare_class_recall", "ECE", "GPU_memory", "seconds_per_epoch"],
+  "prior_candidate": {
+    "status": "analysis_only",
+    "source": "HE-only StarDist, identical at train and inference",
+    "features": ["nucleus_probability", "distance_to_nucleus", "perinuclear_ring_proxy"],
+    "caveat": "ring is not a cytoplasm annotation; extracellular tissue is not glass background",
+    "integration": "small gated side branch; optional supervision, no hard exclusion of marker classes"
+  }
+}

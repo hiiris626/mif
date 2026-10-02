@@ -1,0 +1,69 @@
+{
+  "ranks": [
+    {
+      "rank": 0,
+      "batch_size": 64,
+      "warmup_steps": 3,
+      "measured_steps": 9,
+      "total_seconds": 15.612553216516972,
+      "mean_data_wait_seconds": 0.0003472241676516003,
+      "mean_step_including_sync_seconds": 0.9877876055737337,
+      "mean_iteration_seconds": 0.9881348297413853,
+      "peak_reserved_gib": 41.21875,
+      "real_model": true,
+      "real_native_patches": true,
+      "cache_enabled": true,
+      "model_saved": false,
+      "small_hot_subset": true
+    },
+    {
+      "rank": 1,
+      "batch_size": 64,
+      "warmup_steps": 3,
+      "measured_steps": 9,
+      "total_seconds": 15.612137570977211,
+      "mean_data_wait_seconds": 0.00025030515260166593,
+      "mean_step_including_sync_seconds": 0.9879129398614168,
+      "mean_iteration_seconds": 0.9881632450140185,
+      "peak_reserved_gib": 41.21875,
+      "real_model": true,
+      "real_native_patches": true,
+      "cache_enabled": true,
+      "model_saved": false,
+      "small_hot_subset": true
+    },
+    {
+      "rank": 2,
+      "batch_size": 64,
+      "warmup_steps": 3,
+      "measured_steps": 9,
+      "total_seconds": 15.610113069415092,
+      "mean_data_wait_seconds": 0.0002778149727318022,
+      "mean_step_including_sync_seconds": 0.9880124498158693,
+      "mean_iteration_seconds": 0.9882902647886012,
+      "peak_reserved_gib": 41.21875,
+      "real_model": true,
+      "real_native_patches": true,
+      "cache_enabled": true,
+      "model_saved": false,
+      "small_hot_subset": true
+    },
+    {
+      "rank": 3,
+      "batch_size": 64,
+      "warmup_steps": 3,
+      "measured_steps": 9,
+      "total_seconds": 15.612435713410378,
+      "mean_data_wait_seconds": 0.00020159574018584358,
+      "mean_step_including_sync_seconds": 0.9880074678609768,
+      "mean_iteration_seconds": 0.9882090636011627,
+      "peak_reserved_gib": 41.21875,
+      "real_model": true,
+      "real_native_patches": true,
+      "cache_enabled": true,
+      "model_saved": false,
+      "small_hot_subset": true
+    }
+  ],
+  "global_patches_per_second": 259.0332103036139
+}

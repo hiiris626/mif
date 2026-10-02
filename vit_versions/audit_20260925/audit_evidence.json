@@ -1,0 +1,230 @@
+{
+  "python_syntax": {
+    "count": 38,
+    "errors": []
+  },
+  "shell_syntax": {
+    "_shared/前置原型_v0/run_evals_after_sample.sh": {
+      "returncode": 0,
+      "stderr": ""
+    },
+    "_shared/前置原型_v0/start_training_after_cache.sh": {
+      "returncode": 0,
+      "stderr": ""
+    },
+    "vit_v1/code/launch/auto_start_vit512.sh": {
+      "returncode": 0,
+      "stderr": ""
+    },
+    "vit_v3/code/launch/launch_vit_v3.sh": {
+      "returncode": 0,
+      "stderr": ""
+    },
+    "vit_v3/code/launch/launch_vit_v3_256.sh": {
+      "returncode": 0,
+      "stderr": ""
+    },
+    "vit_v3/code/launch/launch_vit_v3_256_ddp.sh": {
+      "returncode": 0,
+      "stderr": ""
+    },
+    "vit_v2/code/launch/auto_start_vit_v2.sh": {
+      "returncode": 0,
+      "stderr": ""
+    }
+  },
+  "symlinks": {
+    "count": 300,
+    "broken": []
+  },
+  "isolated_train_help": {
+    "vit_v1": {
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/home/weiyh/.conda/envs/virchow_env/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/weiyh/.conda/envs/virchow_env/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v1/code/vit_matte/train.py\", line 48, in <module>\n    from datacore.training_monitor import EarlyStopper, save_training_artifacts\nModuleNotFoundError: No module named 'datacore.training_monitor'"
+    },
+    "vit_v2": {
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/home/weiyh/.conda/envs/virchow_env/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/weiyh/.conda/envs/virchow_env/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v2/code/vit_matte/train.py\", line 48, in <module>\n    from datacore.training_monitor import EarlyStopper, save_training_artifacts\nModuleNotFoundError: No module named 'datacore.training_monitor'"
+    },
+    "vit_v3": {
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/home/weiyh/.conda/envs/virchow_env/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/weiyh/.conda/envs/virchow_env/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v3/code/vit_matte/train.py\", line 48, in <module>\n    from datacore.training_monitor import EarlyStopper, save_training_artifacts\nModuleNotFoundError: No module named 'datacore.training_monitor'"
+    }
+  },
+  "missing_encoder_config": "/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v3/code/configs/virchow2_config.json",
+  "encoder_build_error": "[Errno 2] No such file or directory: '/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v3/code/configs/virchow2_config.json'",
+  "decoder_checkpoint_compatibility": {
+    "v1": {
+      "missing": [
+        "conv16.branches.0.0.weight",
+        "conv16.branches.0.1.bias",
+        "conv16.branches.0.1.num_batches_tracked",
+        "conv16.branches.0.1.running_mean",
+        "conv16.branches.0.1.running_var",
+        "conv16.branches.0.1.weight",
+        "conv16.branches.1.0.weight",
+        "conv16.branches.1.1.bias",
+        "conv16.branches.1.1.num_batches_tracked",
+        "conv16.branches.1.1.running_mean",
+        "conv16.branches.1.1.running_var",
+        "conv16.branches.1.1.weight",
+        "conv16.branches.2.0.weight",
+        "conv16.branches.2.1.bias",
+        "conv16.branches.2.1.num_batches_tracked",
+        "conv16.branches.2.1.running_mean",
+        "conv16.branches.2.1.running_var",
+        "conv16.branches.2.1.weight",
+        "conv16.fuse.0.weight",
+        "conv16.fuse.1.bias",
+        "conv16.fuse.1.num_batches_tracked",
+        "conv16.fuse.1.running_mean",
+        "conv16.fuse.1.running_var",
+        "conv16.fuse.1.weight",
+        "detail.c1.branches.0.0.weight",
+        "detail.c1.branches.0.1.bias",
+        "detail.c1.branches.0.1.num_batches_tracked",
+        "detail.c1.branches.0.1.running_mean",
+        "detail.c1.branches.0.1.running_var",
+        "detail.c1.branches.0.1.weight",
+        "detail.c1.branches.1.0.weight",
+        "detail.c1.branches.1.1.bias",
+        "detail.c1.branches.1.1.num_batches_tracked",
+        "detail.c1.branches.1.1.running_mean",
+        "detail.c1.branches.1.1.running_var",
+        "detail.c1.branches.1.1.weight",
+        "detail.c1.branches.2.0.weight",
+        "detail.c1.branches.2.1.bias",
+        "detail.c1.branches.2.1.num_batches_tracked",
+        "detail.c1.branches.2.1.running_mean",
+        "detail.c1.branches.2.1.running_var",
+        "detail.c1.branches.2.1.weight",
+        "detail.c1.branches.3.0.weight",
+        "detail.c1.branches.3.1.bias",
+        "detail.c1.branches.3.1.num_batches_tracked",
+        "detail.c1.branches.3.1.running_mean",
+        "detail.c1.branches.3.1.running_var",
+        "detail.c1.branches.3.1.weight",
+        "detail.c1.fuse.0.weight",
+        "detail.c1.fuse.1.bias",
+        "detail.c1.fuse.1.num_batches_tracked",
+        "detail.c1.fuse.1.running_mean",
+        "detail.c1.fuse.1.running_var",
+        "detail.c1.fuse.1.weight",
+        "detail.c2.branches.0.0.weight",
+        "detail.c2.branches.0.1.bias",
+        "detail.c2.branches.0.1.num_batches_tracked",
+        "detail.c2.branches.0.1.running_mean",
+        "detail.c2.branches.0.1.running_var",
+        "detail.c2.branches.0.1.weight",
+        "detail.c2.branches.1.0.weight",
+        "detail.c2.branches.1.1.bias",
+        "detail.c2.branches.1.1.num_batches_tracked",
+        "detail.c2.branches.1.1.running_mean",
+        "detail.c2.branches.1.1.running_var",
+        "detail.c2.branches.1.1.weight",
+        "detail.c2.branches.2.0.weight",
+        "detail.c2.branches.2.1.bias",
+        "detail.c2.branches.2.1.num_batches_tracked",
+        "detail.c2.branches.2.1.running_mean",
+        "detail.c2.branches.2.1.running_var",
+        "detail.c2.branches.2.1.weight",
+        "detail.c2.fuse.0.weight",
+        "detail.c2.fuse.1.bias",
+        "detail.c2.fuse.1.num_batches_tracked",
+        "detail.c2.fuse.1.running_mean",
+        "detail.c2.fuse.1.running_var",
+        "detail.c2.fuse.1.weight",
+        "vit_neck.fuse.0.bias",
+        "vit_neck.fuse.0.weight",
+        "vit_neck.projs.0.bias",
+        "vit_neck.projs.0.weight",
+        "vit_neck.projs.1.bias",
+        "vit_neck.projs.1.weight",
+        "vit_neck.projs.2.bias",
+        "vit_neck.projs.2.weight",
+        "vit_neck.projs.3.bias",
+        "vit_neck.projs.3.weight"
+      ],
+      "unexpected": [
+        "conv16.block.0.weight",
+        "conv16.block.1.bias",
+        "conv16.block.1.num_batches_tracked",
+        "conv16.block.1.running_mean",
+        "conv16.block.1.running_var",
+        "conv16.block.1.weight",
+        "detail.c1.block.0.weight",
+        "detail.c1.block.1.bias",
+        "detail.c1.block.1.num_batches_tracked",
+        "detail.c1.block.1.running_mean",
+        "detail.c1.block.1.running_var",
+        "detail.c1.block.1.weight",
+        "detail.c2.block.0.weight",
+        "detail.c2.block.1.bias",
+        "detail.c2.block.1.num_batches_tracked",
+        "detail.c2.block.1.running_mean",
+        "detail.c2.block.1.running_var",
+        "detail.c2.block.1.weight",
+        "vit_proj.bias",
+        "vit_proj.weight"
+      ],
+      "shape_mismatch": []
+    },
+    "v2": {
+      "missing": [],
+      "unexpected": [],
+      "shape_mismatch": []
+    },
+    "v3": {
+      "missing": [],
+      "unexpected": [],
+      "shape_mismatch": []
+    }
+  },
+  "decoder_strict_load": {
+    "v1": "Error(s) in loading state_dict for ViTMatteUNet:\n\tMissing key(s) in state_dict: \"detail.c1.branches.0.0.weight\", \"detail.c1.branches.0.1.weight\", \"detail.c1.branches.0.1.bias\", \"detail.c1.branches.0.1.running_mean\", \"detail.c1.branches.0.1.running_var\", \"detail.c1.branches.1.0.weight\", \"detail.c1.branches.1.1.weight\", \"detail.c1.branches.1.1.bias\", \"detail.c1.branches.1.1.running_mean\", \"detail.c1.branches.1.1.running_var\", \"detail.c1.branches.2.0.weight\", \"detail.c1.branches.2.1.weight\", \"detail.c1.branches.2.1.bias\", \"detail.c1.branches.2.1.running_mean\", \"detail.c1.branches.2.1.running_var\", \"detail.c1.branches.3.0.weight\", \"detail.c1.branches.3.1.weight\", \"detail.c1.branches.3.1.bias\", \"detail.c1.branches.3.1.running_mean\", \"detail.c1.branches.3.1.running_var\", \"detail.c1.fuse.0.weight\", \"detail.c1.fuse.1.weight\", \"detail.c1.fuse.1.bias\", \"detail.c1.fuse.1.running_mean\", \"detail.c1.fuse.1.running_var\", \"detail.c2.branches.0.0.weight\", \"detail.c2.branches.0.1.weight\", \"detail.c2.branches.0.1.bias\", \"detail.c2.branches.0.1.running_mean\", \"detail.c2.branches.0.1.running_var\", \"detail.c2.branches.1.0.weight\", \"detail.c2.branches.1.1.weight\", \"detail.c2.branches.1.1.bias\", \"detail.c2.branches.1.1.running_mean\", \"detail.c2.branches.1.1.running_var\", \"detail.c2.branches.2.0.weight\", \"detail.c2.branches.2.1.weight\", \"detail.c2.branches.2.1.bias\", \"detail.c2.branches.2.1.running_mean\", \"detail.c2.branches.2.1.running_var\", \"detail.c2.fuse.0.weight\", \"detail.c2.fuse.1.weight\", \"detail.c2.fuse.1.bias\", \"detail.c2.fuse.1.running_mean\", \"detail.c2.fuse.1.running_var\", \"vit_neck.projs.0.weight\", \"vit_neck.projs.0.bias\", \"vit_neck.projs.1.weight\", \"vit_neck.projs.1.bias\", \"vit_neck.projs.2.weight\", \"vit_neck.projs.2.bias\", \"vit_neck.projs.3.weight\", \"vit_neck.projs.3.bias\", \"vit_neck.fuse.0.weight\", \"vit_neck.fuse.0.bias\", \"conv16.branches.0.0.weight\", \"conv16.branches.0.1.weight\", \"conv16.branches.0.1.bias\", \"conv16.branches.0.1.running_mean\", \"conv16.branches.0.1.running_var\", \"conv16.branches.1.0.weight\", \"conv16.branches.1.1.weight\", \"conv16.branches.1.1.bias\", \"conv16.branches.1.1.running_mean\", \"conv16.branches.1.1.running_var\", \"conv16.branches.2.0.weight\", \"conv16.branches.2.1.weight\", \"conv16.branches.2.1.bias\", \"conv16.branches.2.1.running_mean\", \"conv16.branches.2.1.running_var\", \"conv16.fuse.0.weight\", \"conv16.fuse.1.weight\", \"conv16.fuse.1.bias\", \"conv16.fuse.1.running_mean\", \"conv16.fuse.1.running_var\". \n\tUnexpected key(s) in state_dict: \"vit_proj.weight\", \"vit_proj.bias\", \"detail.c1.block.0.weight\", \"detail.c1.block.1.weight\", \"detail.c1.block.1.bias\", \"detail.c1.block.1.running_mean\", \"detail.c1.block.1.running_var\", \"detail.c1.block.1.num_batches_tracked\", \"detail.c2.block.0.weight\", \"detail.c2.block.1.weight\", \"detail.c2.block.1.bias\", \"detail.c2.block.1.running_mean\", \"detail.c2.block.1.running_var\", \"detail.c2.block.1.num_batches_tracked\", \"conv16.block.0.weight\", \"conv16.block.1.weight\", \"conv16.block.1.bias\", \"conv16.block.1.running_mean\", \"conv16.block.1.running_var\", \"conv16.block.1.num_batches_tracked\". ",
+    "v2": "PASS",
+    "v3": "PASS"
+  },
+  "readme_v1_approximation": {
+    "neck_class": "ViTNeck",
+    "conv16_class": "MultiScaleConv",
+    "trainable_decoder_params": 18208176,
+    "plus_checkpoint_lora_params": 23451056
+  },
+  "v2_v3_full_state_schema_identical": true,
+  "import_origins": {
+    "vit_matte.encoder": "/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v3/code/vit_matte/encoder.py",
+    "vit_matte.vitmatte_unet": "/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v3/code/vit_matte/vitmatte_unet.py",
+    "datacore.orioncrc_dataset": "/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v3/code/datacore/orioncrc_dataset.py",
+    "eval.metrics": "/home/weiyh/h2e_mif_benchmark/vit_versions/vit_v3/code/eval/metrics.py"
+  },
+  "missing_prediction_accepted": {
+    "expected": 2,
+    "accepted": 1
+  },
+  "validation_actual_tile_count": {
+    "4": 28,
+    "16": 32,
+    "64": 64
+  },
+  "log_roundtrip_max_abs_error": 3.0517578125e-05,
+  "log_formula_max_abs_error": 2.288818359375e-05,
+  "zero_error_psnr_all_infinite": true,
+  "lora_initial_identity_max_error": 0.0,
+  "best_checkpoint_min_delta": [
+    [
+      true,
+      false
+    ],
+    [
+      false,
+      false
+    ]
+  ],
+  "historical_resume_lower_score_marked_improved": true,
+  "visualization_stem": {
+    "input": "18459_LSP10364_US_SCAN_OR_001__092347-registered.ome_0_27648_0_512_512",
+    "actual": "18459_LSP10364_US_SCAN_OR_001__092347-registered",
+    "expected": "18459_LSP10364_US_SCAN_OR_001__092347-registered.ome_0_27648_0_512_512"
+  }
+}

@@ -1,0 +1,12 @@
+# Python 3.10; install PyTorch CUDA wheels first as documented in README.
+torch==2.5.1
+torchvision==0.20.1
+timm==0.9.8
+numpy==2.2.6
+pandas==2.3.3
+opencv-python==5.0.0.93
+tifffile==2025.5.10
+imagecodecs==2025.3.30
+safetensors==0.8.0
+matplotlib==3.10.9
+Pillow==12.1.1

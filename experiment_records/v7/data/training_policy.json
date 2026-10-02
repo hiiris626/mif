@@ -1,0 +1,7 @@
+{
+  "sampling_policy": "shuffle_patches",
+  "patches_per_epoch": 223400,
+  "replacement": false,
+  "drop_last": false,
+  "pixel_balance_is_approximate": false
+}

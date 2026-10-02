@@ -1,0 +1,7 @@
+{
+  "seconds": 140.84214143455029,
+  "model": "v3",
+  "calibration_patches": 12402,
+  "test_patches": 6638,
+  "checkpoint": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_best.pt"
+}

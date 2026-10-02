@@ -1,0 +1,10 @@
+{
+  "n_patches": 4100,
+  "n_patients": 41,
+  "full_dataset": false,
+  "selection": "random 100 per patient, seed42",
+  "dapi_allzero_other_positive": 3,
+  "dapi_tissue_allzero_other_positive": 3,
+  "patches_with_other_signal_outside_dapi": 4038,
+  "pixels_with_other_signal_outside_dapi": 74153389
+}

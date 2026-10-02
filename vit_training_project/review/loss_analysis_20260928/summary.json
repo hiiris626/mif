@@ -1,0 +1,47 @@
+{
+  "last_completed_epoch": 18,
+  "first": {
+    "epoch": 1,
+    "step": 2885,
+    "train_loss": 0.8754671265388899,
+    "val_loss": 0.7926210650796903,
+    "val_macro_iou": 0.418806009975756,
+    "val_macro_f1": 0.5492405499361219,
+    "lr": 5e-05,
+    "train_seconds": 2894.284,
+    "val_seconds": 914.456,
+    "epoch_seconds": 3808.741,
+    "elapsed_seconds": 3808.741,
+    "snapshot": "epoch_001_patch_35422.png",
+    "reconstructed_val_mse": 0.08244235530095041,
+    "reconstructed_val_dice": 0.7101787097787399
+  },
+  "last": {
+    "epoch": 18,
+    "step": 51930,
+    "train_loss": 0.5866359318149772,
+    "val_loss": 0.7070076322116184,
+    "val_macro_iou": 0.4367434658417755,
+    "val_macro_f1": 0.570029459163518,
+    "lr": 6.416056063918797e-05,
+    "train_seconds": 2866.372,
+    "val_seconds": 93.607,
+    "epoch_seconds": 2959.98,
+    "elapsed_seconds": 61715.651,
+    "snapshot": "epoch_018_patch_35422.png",
+    "reconstructed_val_mse": 0.08818331309257965,
+    "reconstructed_val_dice": 0.6188243191190388
+  },
+  "best_iou_epoch": 14,
+  "native_empty_weighted": {
+    "natural_train": 0.10194976128573172,
+    "natural_val": 0.07400083454187945,
+    "balanced_train": 0.1781151079153461
+  },
+  "empty_dice_example": {
+    "0.1": 0.999999999,
+    "0.01": 0.9999999900000001,
+    "0.001": 0.99999990000001
+  },
+  "scope": "No GPU use, checkpoint writes, training changes or test-set evaluation. Empty fractions are native-resolution manifest statistics, before resizing/augmentation; not measured per-epoch empty-Dice contributions or mathematical lower bounds."
+}

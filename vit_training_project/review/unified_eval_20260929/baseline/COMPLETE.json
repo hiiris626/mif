@@ -1,0 +1,7 @@
+{
+  "seconds": 634.3083276282996,
+  "model": "baseline",
+  "calibration_patches": 56832,
+  "test_patches": 35153,
+  "checkpoint": "/home/weiyh/h2e_mif_benchmark/vit_training_project/runs/ddp_baseline/results/model/best.pt"
+}

@@ -1,0 +1,14 @@
+{
+  "sampling_policy": "shuffle_patches",
+  "training_manifest": "train.csv",
+  "patches_per_epoch": 223400,
+  "replacement": false,
+  "full_coverage": true,
+  "drop_last": false,
+  "world_size": 4,
+  "per_rank_patches": 55850,
+  "per_rank_batch": 64,
+  "steps_per_epoch": 873,
+  "last_batch_per_rank": 42,
+  "patient_split_unchanged": true
+}

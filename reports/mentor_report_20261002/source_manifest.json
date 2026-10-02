@@ -1,0 +1,154 @@
+[
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v1/expanded_fixed_05.json",
+    "sha256": "e15ce8b776a0b07232075511f448d617ac747995de43abd30f2a2558b561ca15"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v1/expanded_own_validation.json",
+    "sha256": "4008946fe2005a27c47054ea1ff0fc577945128f4f399b96e97be5797a32856b"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v2/expanded_fixed_05.json",
+    "sha256": "0b2c5f556a263b5fa668be17ed558662c6ae4a6d4bce5a20cc1eecc94606da1d"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v2/expanded_own_validation.json",
+    "sha256": "54e58bee71a8f661ee121df36ff826481755b430b324ae2625ff2ceec2aaab6e"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v3/expanded_fixed_05.json",
+    "sha256": "ed381ea3ec00b1adc5fe7e94538c9161d3619e9110518500a91708fa3a5a6807"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v3/expanded_own_validation.json",
+    "sha256": "050738c271c2d11637d6867af71f4da5b65e2c2252d26e69df9566b3ae674f68"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v4/expanded_fixed_05.json",
+    "sha256": "fd92e81f99e94bbdfe6ef7d026b8267b308523c01877bda323686d210dcf63a8"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v4/expanded_own_validation.json",
+    "sha256": "03e528573554469a99cbdf42af1d2e7282180f8af84d58a96ebafa2d12795894"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5/expanded_fixed_05.json",
+    "sha256": "edc4d1eab14d156b081806b1db7823aeaa004757713f5cb0d2666355fe67ddfa"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5/expanded_own_validation.json",
+    "sha256": "56ce5c5cf25f47e860db8e36d5d7a17859bbd152725627a0fea3ea7470526129"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v6/expanded_fixed_05.json",
+    "sha256": "5cfa441835e7eed7871310cab68877024df5609aabf20f566029186a8da9c2d4"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v6/expanded_own_validation.json",
+    "sha256": "b8677aa2ed9062104fefe9f9774123095948499457ff4752100594bb2c96e08b"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v7/expanded_fixed_05.json",
+    "sha256": "092e81333bb28ddf8c65caeec7e0ea41cf612b2fd38d97ba36c41b814768084c"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v7/expanded_own_validation.json",
+    "sha256": "d74f73216a8df2020703ad3bc0b9b934435134407e29bfa69ba17b2739e9b752"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v9/expanded_fixed_05.json",
+    "sha256": "560bc044d92e94ab198d54a23a0347ba24fdb51ea7c7515a87ffd3df3b7f4ee8"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v9/expanded_own_validation.json",
+    "sha256": "c85c41759f1960a4b8baf3284107f6b121a2ea7a64dadb9b6961d7599bd1f0b5"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v10/expanded_fixed_05.json",
+    "sha256": "60ed93b0b357ee53fe385a8ecc19176dba77b4f44aaaff3e1496623c690ebeda"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v10/expanded_own_validation.json",
+    "sha256": "a513cc5b812ea390992f5d6611d829b53557d3dd662fd446c884292b9fdf6db9"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v11/expanded_fixed_05.json",
+    "sha256": "cfb4cae016b34a0a918ce78ddaa3cdbf20e8447a7ee2244ec363ba89508514de"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v11/expanded_own_validation.json",
+    "sha256": "7772b750a673ce17f3ad5bebf218ae2976b101658e5f212e281e4a1dd8168fbf"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/runs/v6/results/test_metrics_default05.json",
+    "sha256": "b6392ee79c179052cf300db2d41d1c6c91f5cd1e67e2926134c6482af29039a4"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/runs/v6/results/test_metrics.json",
+    "sha256": "1eacffb6bbdc904ba053844f76a47c32cdd483841e15a3def7b3d1e41ab4a53c"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/runs/v7/results/test_metrics_default05.json",
+    "sha256": "ee6a25b82a8251806f97b9137ebdc45a91a7eb8c5a4efaa13f157976f7f959dd"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/runs/v7/results/test_metrics.json",
+    "sha256": "33ce0229210899201a932a8ae833ce363190e7490e733d031760b8db603b7280"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/runs/v9/results/test_metrics_default05.json",
+    "sha256": "0449bcf5b84dfe29f1d6ff598867b7bc5d643aa998e020ceb9535cf0d0065573"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/runs/v9/results/test_metrics.json",
+    "sha256": "6f60f33578e306dc5da192b898d914d69ed829c3bcac397006be4a6598507416"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/runs/v10/results/test_metrics_default05.json",
+    "sha256": "cc7d356b5c2b3802ad2167d536ffc81f9941a67bcf2288d8e62a8363c98c5aff"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/runs/v10/results/test_metrics.json",
+    "sha256": "cc009976aac24d2e41fbb793e97aae973a437e172e390ee218a0c756418fccd6"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/runs/v11/results/test_metrics_default05.json",
+    "sha256": "dd51fa3b7fcc660890aa2e1f8d3bbde1388867645ff1ce9959171e83073fd560"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/runs/v11/results/test_metrics.json",
+    "sha256": "206ea2bf51491158581b01059b8abc4cf551dba1938b16843f012fd2e24ed919"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/positive_dice_partial/expanded_fixed_05.json",
+    "sha256": "1929cae16c2ee4e3f2fb03758dd3088b36e8ad392a07742655735345b83ed685"
+  },
+  {
+    "path": "vit_training_project/runs/ddp_baseline/results/model/classification_history.json",
+    "sha256": "6d3341f4b123a5b9bdc72964c5ee965d94a9e05b515eef63fed9a2f157a6bc6f"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/runs/prepared/results/model/classification_history.json",
+    "sha256": "c6bf15dd8005a30e4ce70e307c309040c6cb1b8df78e3388f2ad1539dea552e7"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/runs/v6/results/model/classification_history.json",
+    "sha256": "28591d4a386925ca68acc94046474868f4f4617b134960e4a2d27c1e8fd97ca8"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/runs/v7/results/model/classification_history.json",
+    "sha256": "1c91b065dc8738689def04df76d84c0006cd100d9f3315ffaf3f8ba03a79c60f"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/runs/v9/results/model/classification_history.json",
+    "sha256": "62a5c65322774150b86057dafed90fc33abf870d5dd9d2c7b6dc680e13959a29"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/runs/v10/results/model/classification_history.json",
+    "sha256": "eef8a930e708d71fab4951c80b3ab21845c3e163308939a8436542ef8378fb89"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/runs/v11/results/model/classification_history.json",
+    "sha256": "455f516154ee4bde48061bfee2b93b6cd6145fbe38290db1595b94934cafdfa5"
+  }
+]

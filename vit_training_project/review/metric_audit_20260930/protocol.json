@@ -1,0 +1,37 @@
+{
+  "models": [
+    "v1",
+    "v2",
+    "v3",
+    "baseline",
+    "binary_bce"
+  ],
+  "common_test_patient": "CRC02",
+  "common_test_patches": 6638,
+  "new_model_full_test_patches": 38218,
+  "new_model_full_test_patients": 6,
+  "metric_grid": [
+    256,
+    256
+  ],
+  "roc_ap_histogram_bins": 256,
+  "original_mask": "Observed channels within H&E tissue and original eligible (any GT marker positive) pixels",
+  "expanded_mask": "Sensitivity only: observed channels within H&E tissue; processed GT zero treated as negative, not biologically verified",
+  "prediction_mask": "No GT positivity gating of predictions",
+  "thresholds": "Frozen pre-existing validation-only thresholds, each model own validation population/search limits; no test tuning",
+  "legacy_score_kind": "Inverse transformed normalized intensity, not probability",
+  "classification_score_kind": "Sigmoid output, weighted BCE not automatically calibrated",
+  "limitations": [
+    "Only one shared held-out patient; not patient-level statistical evidence of general superiority",
+    "Training data, sampling, objectives and validation splits differ: not a controlled loss/architecture ablation",
+    "Expanded negative labels can include technical staining/preprocessing failures; require QC"
+  ],
+  "binary_dataset": {
+    "folder": "/home/weiyh/h2e_mif_benchmark/vit_training_project/datasets/binary_expression_v1/targets",
+    "manifest_sha256": "7b7f278bd6a6033a323180cbef265f52a15ddb81b64ab4a6953627b7b0d24d79",
+    "labels": "uint8 0/1, lossless packed storage; use BinaryTargetStore.read",
+    "valid_mask": "separate bool mask",
+    "original_target_path_column": "provenance only; binary loader overrides intensity targets"
+  },
+  "new_test_manifest_sha256": "5d961f1c053b605795e4050c6182ead4483f1c870aeada5ada04f8bad37aa79e"
+}

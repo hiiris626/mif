@@ -1,0 +1,30 @@
+{
+  "config_sha256": "9b063938518e66ee51fb5d691d7d08ddc04388fc6f337cfd52fcbc8eb5175895",
+  "code_sha256": {
+    "vit_seg/model.py": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3",
+    "vit_seg/losses.py": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e",
+    "vit_seg/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vit_seg/distributed.py": "026bfad0432a1a84f9046c3485fc680f96d7d4872c0089d0d96fff853067c4b6",
+    "vit_seg/metrics.py": "65c8c3dcafb2aa4fd1fa9d112a03610fe0c730c773350da63409d4fbbbe05750",
+    "vit_seg/data.py": "68964f87ba2193181016f7fc6e3f0b944381f16007846a23f023453a285b56c8",
+    "vit_seg/train_ddp.py": "0e6207f92ffb0bc7b26befaeac05bc8e252a3f21512589648aaaa2125016a99b",
+    "vit_seg/cache.py": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6",
+    "vit_seg/thresholds.py": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78",
+    "vit_seg/prepare.py": "2330680bf7172806a8fe44b9d329f94c15b3c2e60010293ce392283c6c960f22",
+    "vit_seg/validate.py": "ba95b79b65e0aabbe13106c09f9a6c92f9f5ffb44b935bbce2d88484363fbc22",
+    "vit_seg/workflow.py": "0269c45ce9f89931e88b08a9692a7e36cd72e127c317a93cae1913a36c318d73",
+    "vit_seg/predict.py": "cacb38d14778e6a3f548d92969e763df94ff121469ec30381c0e5feb8cde7f9a",
+    "vit_seg/capacity.py": "2591e6692affbeeaa4c37d50b8c622f501fff64808794d7aea649238e5e7f453",
+    "vit_seg/artifacts.py": "ae1b8ea6091315dd41eb52007bf4f05abd39676b628d05e8e485c5614d18aeca",
+    "vit_seg/report.py": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05",
+    "vit_matte/vitmatte_unet.py": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e",
+    "vit_matte/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vit_matte/encoder.py": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8",
+    "vit_matte/lora.py": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336",
+    "datacore/training_monitor.py": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57",
+    "datacore/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "datacore/orioncrc_dataset.py": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f",
+    "configs/virchow2_config.json": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  "weights_sha256": "8d6cea947eb2418c3b0dff48cfb9b238e47744ab0dfca21b2b0637b140769b4b"
+}

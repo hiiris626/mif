@@ -1,0 +1,5 @@
+{
+  "same_as_tested_revised_v6_except_name_and_weights_path": true,
+  "empty_dice_policy": "mean_probability",
+  "empty_dice_weight": 1.0
+}

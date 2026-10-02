@@ -1,0 +1,46 @@
+最新安排（覆盖下文原先三组重训安排）
+用户要求恢复原 v6，从已完成第5轮的检查点继续第6轮；原损失代码未改。
+新损失仅用于 v9，系数1，纯阴性分支为有效组织内 mean(p)，v9 从原始预训练权重开始。
+执行顺序：原 v6 训练完成 → v9 完整流程。v7、v8 暂不启动。
+为立即衔接训练，原 v6 的额外最终阈值选择/测试报告没有插入两者之间；其逐轮验证照常。
+唯一当前队列状态：runs/v6_then_v9_status.json。
+队列入口：scripts/run_v6_then_v9.py --approved。
+原先新损失命名为 v6 的试运行已停止，文件保留，未完成首轮，不作为正式 v6/v9 结果。
+v9 日志 runs/v9/train.log；v9 模型链接到 /data/weiyh/results/vit_v6_v7_v8_emptydice_20260930/v9/model。
+
+v6 / v7 / v8：纯阴性 Dice 分支修订
+
+修订：每个 patch、每个通道，V 为有效组织像素，N=|V|。
+1. 存在阳性标签：保持前景 Dice，1-(2*sum(p*y)+epsilon)/(sum(p)+sum(y)+epsilon)。
+2. 标签全阴性且 N>0：改为 lambda_empty*sum(p)/N，lambda_empty=1。
+3. 无有效像素：忽略。
+不使用预测阈值或预测阳性像素计数来选择惩罚位置，全部有效阴性像素参与。
+这是 Dice 与纯阴性概率惩罚的分段组合，日志中的 train_dice_loss/val_dice_loss 包含此分支，不再是纯标准 Dice。
+BCE 系数 1、组合重叠损失系数 1。训练、验证、容量探测共用同一定义。
+
+梯度（单图单通道，外层图像/通道平均之前）：
+纯阴性：dL/dp_j=1/N，dL/dz_j=p_j*(1-p_j)/N。
+阳性存在：A=2*sum(p*y)+epsilon，B=sum(p)+sum(y)+epsilon；dL/dp_j=(A-2*y_j*B)/B^2，dL/dz_j=(A-2*y_j*B)*p_j*(1-p_j)/B^2。
+忽略像素梯度为 0。
+当前 BCE 阴性梯度（未计外层通道平均）为 p_j / 当前全局批次该通道有效像素数；它的像素分母不同于上述按图像的 N，实际相对贡献还受图像与通道平均影响。
+
+对比求和与求平均：
+L=sum(p_i) 的每个独立概率梯度为 1；对 logit 为 p_i*(1-p_i)。
+只有把所有 p_i 约束为同一个标量 p，L=N*p 对共同标量 p 的导数才是 N；不是每个像素梯度等于预测阳性数。
+L=mean(p_i) 的尺度不依赖有效组织像素数，避免原始求和压过 BCE/Dice。
+256×256 全阴性、概率均为0.5时：旧 Dice 的 logit 梯度2.3283e-16；新平均概率分支3.8147e-6；BCE7.6294e-6；原始概率求和0.25（每像素）。
+mean(p) 在高置信度误判时存在 sigmoid 饱和，所以仍保留 BCEWithLogits。
+
+实验定义与数据
+v6：正负 BCE 权重1，随机打乱patch；v7：阳性权重sqrt(原v5权重)，阴性1，随机打乱patch；v8：正负1，按各通道像素比例拟合patch采样概率。
+通道外层权重均1，无强度1/σ；患者集合不变。仅按现有可用性记录识别通道有效性，未新增人工染色QC。
+组织内全阴性标签0参与监督；组织外/缺失通道忽略。
+v8每轮实际比例有记录，不保证1:1；预期比例见review/experiment_comparison.csv。
+四卡每卡batch64，全局256；AdamW+2epoch预热+余弦，最多40epoch，patience8。
+
+旧实验保留在 ../v6_v7_v8，旧v6 last.pt已验证可读取，为第5轮结束检查点；第6轮未完成的更新不保留。
+本目录三组从同一原始预训练权重重新启动，不续接旧损失检查点，顺序v6→v7→v8。
+检查点目录：/data/weiyh/results/vit_v6_v7_v8_emptydice_20260930/<版本>/model。
+运行状态：runs/queue_status.json；日志：runs/v6/train.log；每轮损失/指标/快照：runs/v6/results/model。
+入口：/home/weiyh/.conda/envs/virchow_env/bin/python scripts/train_suite.py --approved
+40项单元测试、四进程DDP梯度一致性、三组CPU全流程和真实patch检查通过。

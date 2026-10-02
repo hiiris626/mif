@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "validation": {
+    "n_source": 318450,
+    "n_retained": 318450,
+    "patient_counts": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "patch_counts": {
+      "train": 223400,
+      "val": 56832,
+      "test": 38218
+    },
+    "balanced_train_rows": 0,
+    "balanced_unique_patches": 0,
+    "training_rows": 223400,
+    "training_unique_patches": 223400,
+    "sampling_policy": "pixel_balanced_patches",
+    "signature": {
+      "statistics.json": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b",
+      "patient_split.csv": "ce93eaf5148eed8724a8bd237e92cd2e72ba9644f1166ba55f327adee6f4afcc",
+      "train_balanced.csv": "89ba78c02ecba1ad45407530c7610104f3d098620b9b26a733bab4a3a914f28e",
+      "val.csv": "3255856c9f41535cf9f1eb025e60cb1492052c26137c24bf81a1b2aa852c68a3",
+      "test.csv": "5d961f1c053b605795e4050c6182ead4483f1c870aeada5ada04f8bad37aa79e",
+      "binary_targets.json": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc",
+      "train.csv": "3e106c5f3b747264f29551ad9cea58e8f0e089c39f7535205b87c21d3fec2c5a",
+      "training_policy.json": "0051bdc5c57b30d68f332e4e8a89aaa43445be47de974302f8bf759168289da5",
+      "bce_pixel_weights.json": "1c395b845628dc6238c4cb39c82420a5bc79c266626f6c7c200c0b90cdce1f16",
+      "patch_sampling.npz": "e6ebee67311b275fe4c1c9811ad66493b50b68349329821ddd7b38728b429d96"
+    },
+    "patient_leakage": false,
+    "nuclear_qc_performed": false
+  },
+  "sampling_source": "/home/weiyh/h2e_mif_benchmark/vit_training_project/experiments/v6_v7_v8/runs/v8/data/patch_sampling.npz",
+  "first_epoch_draws": 223400,
+  "first_epoch_unique_patches": 125161,
+  "weight_source": "v10 unchanged, natural train counts before sampling",
+  "expected_positive_fraction": [
+    0.5542305754213814,
+    0.017753328136175292,
+    0.38205242688142543,
+    0.12007952454387191,
+    0.22014672284163636,
+    0.01112795972607033,
+    0.0669143621384707,
+    0.16894873125953166,
+    0.038678113488186144,
+    0.14629487657520177,
+    0.11636497269578706,
+    0.11021362956028308,
+    0.23583206989278935,
+    0.0672045779779361,
+    0.3227104991450136,
+    0.1609534316206673
+  ]
+}

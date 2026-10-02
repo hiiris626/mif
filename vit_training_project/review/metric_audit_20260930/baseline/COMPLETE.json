@@ -1,0 +1,12 @@
+{
+  "model": "baseline",
+  "checkpoint": "/home/weiyh/h2e_mif_benchmark/vit_training_project/runs/ddp_baseline/results/model/best.pt",
+  "checkpoint_sha256": "163b394bf4a4c1496a9e15ef60e8564f536110781f7e561d3bbe9346bbe43de3",
+  "checkpoint_epoch_zero_based": 13,
+  "threshold_path": "/home/weiyh/h2e_mif_benchmark/vit_training_project/review/unified_eval_20260929/baseline/thresholds.json",
+  "threshold_sha256": "fa8ed0d1af5028834ab7a9aa02e88129a424f1554880571ac3f65d3c75bb8fbb",
+  "test_patches": 6638,
+  "seconds": 86.40252325125039,
+  "new_binary_matches_old_labels_all_records": false,
+  "source_code_sha256": "1a56d6650e468e48c04aaa6d2ecf00f8d9324be046fac3f1799b62f484c0acff"
+}

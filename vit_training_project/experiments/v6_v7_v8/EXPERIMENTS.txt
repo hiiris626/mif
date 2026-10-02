@@ -1,0 +1,31 @@
+v6 / v7 / v8 实验说明
+
+共同监督定义
+保留已清洗的 318450 个 patch，不再次通过 DAPI 淘汰其他通道。患者集合不变：训练 223400、验证 56832、测试 38218。
+标签为 16 个独立通道的二值 0/1。有效像素 = H&E 组织掩膜 AND 已记录的通道可用性。组织内所有通道均为 0 的像素也参与监督；组织外、缺失通道忽略。
+“通道可靠”目前依据既有公开质控与可用性记录，未新增人工染色可靠性审查。
+新数据视图：../../datasets/binary_expression_tissue_v2。复用原始二值标签分片，更新有效掩膜，不覆盖原数据。
+原生 patch 333×333，标签以最近邻缩放到 256×256，ViT 输入 224×224。只使用二值标签，不使用染色强度回归。
+
+实验差别
+v6：阳性、阴性 BCE 权重均为 1；每轮无放回打乱全部训练 patch。
+v7：阳性 BCE 权重为原 v5 已冻结权重的平方根，阴性为 1；与 v6 相同采样。不是按新有效掩膜重新计算权重。
+v8：阳性、阴性 BCE 权重均为 1；根据训练集逐通道正负像素数拟合 patch 概率，有放回抽样，每轮仍为 223400 个 patch。每个抽样出现位置有独立增强随机种子。
+三组通道外层权重均为 1，不使用强度 1/σ。
+BCE 与 Dice 系数均为 1，L = BCE + Dice；这不代表两项实际数值或梯度贡献相等。Dice 包括有效阴性 patch。
+v8 仅改变训练采样，验证和测试保持自然分布。目标比例 1:1 只作为优化目标，不承诺达到。最大相对抽样概率 10，保留全部 patch 支持；有效样本量约 86939。具体各通道比例见 review/experiment_comparison.csv。
+
+训练与比较
+四卡 DDP，每卡目标 batch 64，全局 256；40 epoch 上限，AdamW，LoRA 学习率 1e-4、decoder 3e-4，2 epoch warmup 后余弦退火。
+早停 patience 8、warmup 10、min_delta 0.001。每轮输出 train/val loss、分类指标、用时、固定 patch 快照及实际抽样后的正负像素统计。
+三组使用同一初始化、随机种子和患者划分。训练完成后仅用验证集选择逐通道阈值，测试同时报告 0.5 与验证阈值结果。argmax 仅用于经过阈值门控的展示。
+顺序 v6 → v7 → v8；每组完成训练、阈值选择、测试和报告后进入下一组。任一阶段失败，队列停止。
+
+运行与文件
+已授权启动入口：/home/weiyh/.conda/envs/virchow_env/bin/python scripts/train_suite.py --approved
+队列状态：runs/queue_status.json；各组运行状态：runs/v6/status.json（v7/v8 同理）。
+训练日志：runs/v6/train.log；模型、曲线、快照、逐轮采样统计：runs/v6/results/model/。
+为保证磁盘空间，三组 model 目录链接到 /data/weiyh/results/vit_v6_v7_v8_20260930/<版本>/model/。
+保存 best.pt 与 last.pt；不改动 v4/v5 模型。
+检查证据：review/CHECKS_PASSED.json。35 项单元测试、三组四进程 CPU 流程测试、真实 patch 168299 检查已通过。CPU 流程测试使用小模型，实际 GPU 容量由启动流程另行验证。
+准备阶段记录 review/PREPARED.json 是启动前快照；当前运行状态以 runs/queue_status.json 为准。

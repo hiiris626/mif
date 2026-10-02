@@ -1,0 +1,25 @@
+{
+  "all_passed": true,
+  "time": "2026-09-30T14:12:15.991221+08:00",
+  "unit_tests": 40,
+  "four_process_cpu_workflows": [
+    "v6",
+    "v7",
+    "v8"
+  ],
+  "ddp_global_gradient_verified": true,
+  "empty_dice_policy": "mean_probability",
+  "empty_dice_weight": 1,
+  "files_sha256": {
+    "review/unit_tests.log": "eb7e3b25d2ee12bf3b0cdf7018bca4a875d6a8ee3067567d513979779256ae1c",
+    "review/ddp_cpu.log": "f70062ed36964c11caeaeee391dbfbc0b07f98ae4b13247c36956e39bf355706",
+    "review/v6_production_cpu.log": "8c614fb4255afa5e69c2bf0004bb4b332ad4d8ef2f97f39b6fed142711a22f99",
+    "review/v7_production_cpu.log": "4ce19ece43f1547011298d8cf41cec42a1a692570c88cb4da988479d5367e4b8",
+    "review/v8_production_cpu.log": "807a23e4533e2b50c7d3fc106210e6053262fad36537c195f224b386330b45af",
+    "review/real_data_verification.json": "ea95685600970c425ac525a3cd718866689bac1ea7ac1d62d60f4b7f33d37ff3",
+    "configs/v8.json": "f195cece260a4ece7bffcc6a92a920fe5b231b0a9fd5029a93509e9ad510cf01",
+    "configs/v6.json": "ea94901749cafe1898b8c869de332995e9bdcd425b0f3512652d3d0290d0c57e",
+    "configs/v7.json": "4e3cb186c4cabf16ad3e000f935548d4307849199a9b9a211fca15ed17c8a89f"
+  },
+  "note": "CPU workflow tests substitute a small model. GPU capacity checked separately at launch."
+}

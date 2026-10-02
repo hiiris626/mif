@@ -1,0 +1,7 @@
+{
+  "folder": "/home/weiyh/h2e_mif_benchmark/vit_training_project/datasets/binary_expression_v1/targets",
+  "manifest_sha256": "7b7f278bd6a6033a323180cbef265f52a15ddb81b64ab4a6953627b7b0d24d79",
+  "labels": "uint8 0/1, lossless packed storage; use BinaryTargetStore.read",
+  "valid_mask": "separate bool mask",
+  "original_target_path_column": "provenance only; binary loader overrides intensity targets"
+}

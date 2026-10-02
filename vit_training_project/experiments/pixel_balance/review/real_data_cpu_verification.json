@@ -1,0 +1,25 @@
+{
+  "actual_cache_batch": 4,
+  "image_shape": [
+    4,
+    3,
+    256,
+    256
+  ],
+  "label_shape": [
+    4,
+    16,
+    256,
+    256
+  ],
+  "four_rank_local_draws": 180736,
+  "global_draws": 722944,
+  "unique_train_patches": 223400,
+  "max_repeats": 4,
+  "background_gradient_zero": true,
+  "finite_weighted_loss": 0.6675142645835876,
+  "current_training_code_matches_provenance": true,
+  "fixed_patient_split_unchanged": true,
+  "gpu_executed": false,
+  "seconds": 15.025322085246444
+}

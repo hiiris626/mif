@@ -1,0 +1,8 @@
+{
+  "count": 318450,
+  "grid": 256,
+  "source_manifest_sha256": "7b7f278bd6a6033a323180cbef265f52a15ddb81b64ab4a6953627b7b0d24d79",
+  "all_records_decoded": true,
+  "validity_policy": "available_channel_and_tissue",
+  "seconds": 85.14436989463866
+}

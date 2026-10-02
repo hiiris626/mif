@@ -1,0 +1,11 @@
+{
+  "world_size": 4,
+  "backend": "gloo",
+  "device": "cpu",
+  "dice_global_gradient": true,
+  "hinge_global_gradient": true,
+  "all_ignored_rank_safe": true,
+  "uneven_validation_exact": true,
+  "synchronized_stop_broadcast": true,
+  "gpu_training_executed": false
+}

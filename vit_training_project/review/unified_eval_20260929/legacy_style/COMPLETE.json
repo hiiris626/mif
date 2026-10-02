@@ -1,0 +1,9 @@
+{
+  "patches": 24,
+  "comparison_pngs": 24,
+  "probability_pairs": 24,
+  "standalone_rgb_pngs": 144,
+  "source_scores_unchanged": true,
+  "gpu_used": false,
+  "training_changed": false
+}

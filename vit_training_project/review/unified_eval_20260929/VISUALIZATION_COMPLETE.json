@@ -1,0 +1,11 @@
+{
+  "patches": 24,
+  "models": [
+    "v1",
+    "v2",
+    "v3",
+    "baseline"
+  ],
+  "selection": "4 evenly spaced patch IDs per baseline test section; fixed before predictions",
+  "score_metrics_use_argmax": false
+}

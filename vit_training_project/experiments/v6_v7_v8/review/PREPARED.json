@@ -1,0 +1,15 @@
+{
+  "experiments": [
+    "v6",
+    "v7",
+    "v8"
+  ],
+  "validity_policy": "available_channel_and_tissue",
+  "patient_split_unchanged": true,
+  "bce_dice_coefficients": [
+    1,
+    1
+  ],
+  "channel_weighting": "uniform",
+  "new_training_executed": false
+}

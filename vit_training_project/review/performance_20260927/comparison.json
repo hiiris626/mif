@@ -1,0 +1,103 @@
+{
+  "old_train_patches": 295096,
+  "old_epochs": 15,
+  "old_steps": 17280,
+  "new_natural_train_patches": 226465,
+  "new_sampled_train_rows": 738752,
+  "new_unique_sampled_patches": 218672,
+  "new_steps_per_epoch": 2885,
+  "new_max_epochs": 40,
+  "new_max_steps": 115400,
+  "step_count_ratio": 6.6782407407407405,
+  "old_epoch_step_times": {
+    "1": {
+      "first_step": 50,
+      "last_step": 1150,
+      "seconds_per_step_between_logged_points": 6.897272727272727
+    },
+    "2": {
+      "first_step": 1200,
+      "last_step": 2300,
+      "seconds_per_step_between_logged_points": 2.3845454545454547
+    },
+    "3": {
+      "first_step": 2350,
+      "last_step": 3450,
+      "seconds_per_step_between_logged_points": 2.2845454545454547
+    },
+    "4": {
+      "first_step": 3500,
+      "last_step": 4600,
+      "seconds_per_step_between_logged_points": 1.9436363636363636
+    },
+    "5": {
+      "first_step": 4650,
+      "last_step": 5750,
+      "seconds_per_step_between_logged_points": 2.2227272727272727
+    },
+    "6": {
+      "first_step": 5800,
+      "last_step": 6900,
+      "seconds_per_step_between_logged_points": 1.2463636363636363
+    },
+    "7": {
+      "first_step": 6950,
+      "last_step": 8050,
+      "seconds_per_step_between_logged_points": 1.2027272727272726
+    },
+    "8": {
+      "first_step": 8100,
+      "last_step": 9200,
+      "seconds_per_step_between_logged_points": 1.018181818181818
+    },
+    "9": {
+      "first_step": 9250,
+      "last_step": 10350,
+      "seconds_per_step_between_logged_points": 1.0627272727272727
+    },
+    "10": {
+      "first_step": 10400,
+      "last_step": 11500,
+      "seconds_per_step_between_logged_points": 1.029090909090909
+    },
+    "11": {
+      "first_step": 11550,
+      "last_step": 12650,
+      "seconds_per_step_between_logged_points": 1.0236363636363637
+    },
+    "12": {
+      "first_step": 12700,
+      "last_step": 13800,
+      "seconds_per_step_between_logged_points": 1.0254545454545454
+    },
+    "13": {
+      "first_step": 13850,
+      "last_step": 14950,
+      "seconds_per_step_between_logged_points": 1.1172727272727272
+    },
+    "14": {
+      "first_step": 15000,
+      "last_step": 16100,
+      "seconds_per_step_between_logged_points": 1.2345454545454546
+    },
+    "15": {
+      "first_step": 16150,
+      "last_step": 17250,
+      "seconds_per_step_between_logged_points": 1.079090909090909
+    }
+  },
+  "old_final_logged_seconds": 30640,
+  "old_final_logged_step": 17250,
+  "new_current_progress": {
+    "epoch": 1,
+    "batch": 50,
+    "batches": 2885,
+    "step": 50,
+    "loss": 1.0811166763305664,
+    "mean_loss": 1.0970163869857787,
+    "patches_per_second": 37.656075211465975,
+    "train_loss": 1.0970163869857787,
+    "elapsed_seconds": 339.92,
+    "train_remaining_seconds": 19273.39
+  }
+}

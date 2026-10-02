@@ -1,0 +1,13 @@
+{
+  "torch": "2.5.1+cu121",
+  "torchvision": "0.20.1+cu121",
+  "timm": "0.9.8",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "tifffile": "2025.5.10",
+  "safetensors": "0.8.0",
+  "opencv-python": "5.0.0.93",
+  "imagecodecs": "2025.3.30",
+  "matplotlib": "3.10.9",
+  "Pillow": "12.1.1"
+}

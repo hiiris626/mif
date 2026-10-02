@@ -1,0 +1,33 @@
+{
+  "unit_tests": 31,
+  "production_cpu_four_ranks": true,
+  "original_v5_source_hashes_preserved": true,
+  "gpu_training_started": false,
+  "gt_binary": true,
+  "probability_fixed_scale": true,
+  "threshold_argmax_verified": true,
+  "new_config_outer_channel_weights": "uniform",
+  "historical_v5_outer_weights": "legacy intensity sigma",
+  "mask_rebuilt": false,
+  "real_data_cpu_probe": {
+    "real_native_patches_checked": 8,
+    "positive_pixels_checked": 1626883,
+    "model_grid_patches_checked": 4,
+    "native_target_values": [
+      0,
+      1
+    ],
+    "validity_separate": true,
+    "cache_and_uncached_binary_loader": true,
+    "old_intensity_target_reads": 0,
+    "two_worker_after_parent_read": true,
+    "stable_bce": true,
+    "negative_dice_pairs_counted": true,
+    "ignored_gradient_zero": true,
+    "current_training_source_unchanged": true,
+    "fixed_patient_splits_unchanged": true,
+    "original_manifest_files_preserved": true,
+    "train_fitted_pixel_weights": true,
+    "gpu_executed": false
+  }
+}

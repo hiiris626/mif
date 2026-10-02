@@ -1,0 +1,37 @@
+{
+  "time": "2026-09-30T12:40:54.539178+08:00",
+  "four_gpu_capacity_passed": true,
+  "batch_per_gpu": 64,
+  "global_batch": 256,
+  "v6_observed_progress": {
+    "epoch": 1,
+    "batch": 1,
+    "batches": 873,
+    "step": 1,
+    "loss": 1.5651330947875977,
+    "mean_loss": 1.5651330947875977,
+    "patches_per_second": 43.51678860392812,
+    "train_loss": 1.5651330947875977,
+    "elapsed_seconds": 5.88,
+    "train_remaining_seconds": 5129.85,
+    "train_bce_loss": 0.6999412775039673,
+    "train_dice_loss": 0.8651921153068542,
+    "dice_scope": "all_valid",
+    "max_rank_data_wait_seconds": 3.099,
+    "max_rank_model_step_including_sync_seconds": 3.081,
+    "native_cache_enabled": true
+  },
+  "v7_v8": "queued_after_v6_workflow",
+  "queue": {
+    "order": [
+      "v6",
+      "v7",
+      "v8"
+    ],
+    "completed": [],
+    "current": "v6",
+    "stage": "running",
+    "pid": 1487285,
+    "time": "2026-09-30T12:38:57.304000+08:00"
+  }
+}

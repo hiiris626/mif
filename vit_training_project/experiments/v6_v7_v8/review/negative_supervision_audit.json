@@ -1,0 +1,176 @@
+{
+  "running_source_matches_provenance": true,
+  "real_patch_checks": [
+    {
+      "experiment": "v6",
+      "patch": 168299,
+      "all_channels_negative_tissue_pixels": 38881,
+      "supervised_channel_pixels_in_this_region": 622096,
+      "negative_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "components": {
+        "bce": {
+          "loss": 0.6931472420692444,
+          "all_negative_region_gradient_min": 5.346175839804346e-07,
+          "all_negative_region_gradient_max": 5.346175839804346e-07,
+          "positive_gradients": 622096
+        },
+        "dice": {
+          "loss": 0.9626291990280151,
+          "all_negative_region_gradient_min": 1.829221912643845e-17,
+          "all_negative_region_gradient_max": 1.2285583750326623e-07,
+          "positive_gradients": 622096
+        }
+      },
+      "augmentation_checks": [
+        {
+          "epoch": 0,
+          "all_negative_tissue_pixels": 38903
+        },
+        {
+          "epoch": 1,
+          "all_negative_tissue_pixels": 37575
+        },
+        {
+          "epoch": 2,
+          "all_negative_tissue_pixels": 39955
+        }
+      ]
+    },
+    {
+      "experiment": "v7",
+      "patch": 168299,
+      "all_channels_negative_tissue_pixels": 38881,
+      "supervised_channel_pixels_in_this_region": 622096,
+      "negative_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "components": {
+        "bce": {
+          "loss": 0.7073609828948975,
+          "all_negative_region_gradient_min": 5.346175839804346e-07,
+          "all_negative_region_gradient_max": 5.346175839804346e-07,
+          "positive_gradients": 622096
+        },
+        "dice": {
+          "loss": 0.9626291990280151,
+          "all_negative_region_gradient_min": 1.829221912643845e-17,
+          "all_negative_region_gradient_max": 1.2285583750326623e-07,
+          "positive_gradients": 622096
+        }
+      },
+      "augmentation_checks": [
+        {
+          "epoch": 0,
+          "all_negative_tissue_pixels": 38903
+        },
+        {
+          "epoch": 1,
+          "all_negative_tissue_pixels": 37575
+        },
+        {
+          "epoch": 2,
+          "all_negative_tissue_pixels": 39955
+        }
+      ]
+    },
+    {
+      "experiment": "v8",
+      "patch": 168299,
+      "all_channels_negative_tissue_pixels": 38881,
+      "supervised_channel_pixels_in_this_region": 622096,
+      "negative_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "components": {
+        "bce": {
+          "loss": 0.6931472420692444,
+          "all_negative_region_gradient_min": 5.346175839804346e-07,
+          "all_negative_region_gradient_max": 5.346175839804346e-07,
+          "positive_gradients": 622096
+        },
+        "dice": {
+          "loss": 0.9626291990280151,
+          "all_negative_region_gradient_min": 1.829221912643845e-17,
+          "all_negative_region_gradient_max": 1.2285583750326623e-07,
+          "positive_gradients": 622096
+        }
+      },
+      "augmentation_checks": [
+        {
+          "epoch": 0,
+          "all_negative_tissue_pixels": 38903
+        },
+        {
+          "epoch": 1,
+          "all_negative_tissue_pixels": 37575
+        },
+        {
+          "epoch": 2,
+          "all_negative_tissue_pixels": 39955
+        }
+      ]
+    }
+  ],
+  "fully_negative_channel_256x256_at_probability_0_5": [
+    {
+      "component": "bce",
+      "loss": 0.6931472420692444,
+      "gradient_per_pixel": 7.62939453125e-06,
+      "gradient_sum": 0.5
+    },
+    {
+      "component": "dice",
+      "loss": 1.0,
+      "gradient_per_pixel": 2.3283064306602876e-16,
+      "gradient_sum": 1.5258792493422213e-11
+    }
+  ],
+  "note": "Positive gradient lowers predicted probability under gradient descent. Empty-channel soft Dice is included but has a near-zero gradient with epsilon=1e-6; BCE supplies effective negative supervision."
+}

@@ -1,0 +1,15 @@
+{
+  "world_size": 4,
+  "backend": "gloo",
+  "tiny_model_substituted": true,
+  "production_train_loop": true,
+  "early_stop_after_two_epochs": true,
+  "completed_resume_did_not_retrain": true,
+  "val_threshold_selection": true,
+  "dual_threshold_test_metrics": true,
+  "final_report_and_prediction": true,
+  "gradient_accumulation_and_partial_group": true,
+  "argmax_only_positive_channels": true,
+  "native_cache_enabled": true,
+  "gpu_executed": false
+}

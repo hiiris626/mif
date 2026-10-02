@@ -1,0 +1,21 @@
+{
+  "real_native_patches_checked": 8,
+  "positive_pixels_checked": 1626883,
+  "model_grid_patches_checked": 4,
+  "native_target_values": [
+    0,
+    1
+  ],
+  "validity_separate": true,
+  "cache_and_uncached_binary_loader": true,
+  "old_intensity_target_reads": 0,
+  "two_worker_after_parent_read": true,
+  "stable_bce": true,
+  "negative_dice_pairs_counted": true,
+  "ignored_gradient_zero": true,
+  "current_training_source_unchanged": true,
+  "fixed_patient_splits_unchanged": true,
+  "original_manifest_files_preserved": true,
+  "train_fitted_pixel_weights": true,
+  "gpu_executed": false
+}

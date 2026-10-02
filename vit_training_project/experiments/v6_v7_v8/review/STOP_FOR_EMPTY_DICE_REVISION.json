@@ -1,0 +1,6 @@
+{
+  "last_saved_epoch": 5,
+  "step": 4365,
+  "path": "/home/weiyh/h2e_mif_benchmark/vit_training_project/experiments/v6_v7_v8/runs/v6/results/model/last.pt",
+  "action": "stop old queue; preserve checkpoint and restart three revised-loss runs from original pretrained weights"
+}

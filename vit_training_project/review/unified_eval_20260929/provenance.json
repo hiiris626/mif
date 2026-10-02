@@ -1,0 +1,45 @@
+{
+  "v1": {
+    "seconds": 190.9297874365002,
+    "model": "v1",
+    "calibration_patches": 12402,
+    "test_patches": 6638,
+    "checkpoint": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter140000.pt",
+    "checkpoint_sha256": "15a696969932f10a72ab772468af8f02a245038a5facdead9f2e9cbf8f7a6890"
+  },
+  "v2": {
+    "seconds": 478.00028370320797,
+    "model": "v2",
+    "calibration_patches": 12402,
+    "test_patches": 6638,
+    "checkpoint": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v2_512_epoch15.pt",
+    "checkpoint_sha256": "c16d49143d875c228225f2dfaa33ed8a5fe0e308e61fa83ed1d2304225518085"
+  },
+  "v3": {
+    "seconds": 140.84214143455029,
+    "model": "v3",
+    "calibration_patches": 12402,
+    "test_patches": 6638,
+    "checkpoint": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_best.pt",
+    "checkpoint_sha256": "ea1bd2abec96e2f9e3baa51d95dd5e27418e3ee4ef2fa5758b5285c708e43f99"
+  },
+  "baseline": {
+    "seconds": 634.3083276282996,
+    "model": "baseline",
+    "calibration_patches": 56832,
+    "test_patches": 35153,
+    "checkpoint": "/home/weiyh/h2e_mif_benchmark/vit_training_project/runs/ddp_baseline/results/model/best.pt",
+    "checkpoint_sha256": "163b394bf4a4c1496a9e15ef60e8564f536110781f7e561d3bbe9346bbe43de3"
+  },
+  "common_test.csv": "7d09ad0fb129c710e87494dec2ab11019d92258a8c46c43f208933a26d8a2e7b",
+  "legacy_val.csv": "5ff4b31bd8949b9cfde2eab04747bc9a5ed0cc716a66ac495851dceb5ba77d3c",
+  "baseline_val.csv": "674ae653e97c3076a3ed88a74dce3553f64d9310c1651a2d12d0c9cd16aa5bd6",
+  "baseline_test.csv": "c99830d630c4b51787e8e859aaad1825fcbc257db0c1c57248388cfe96281867",
+  "preview_manifest.csv": "e48eac18939485023bb0185b385592dde60c053e2ae33102adc8616592779345",
+  "v3_log_inverse_q_source": {
+    "path": "/data/weiyh/orioncrc_cache/marker_q.json",
+    "sha256": "cae3f57b9e244ded90b071cc3ef233ae92c6c3fec67e15fc36bd4e0db2a7449a"
+  },
+  "inference_precision": "BF16 forward, FP32 scores; same metric code for all versions",
+  "matching_gt_support": "All 16 channel positive/negative counts and total valid pixels equal across four common-test evaluations"
+}

@@ -1,0 +1,19 @@
+{
+  "patches": 24,
+  "models": [
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7",
+    "v9",
+    "positive_dice_partial"
+  ],
+  "new_random_patches": 12,
+  "seed": 20261001,
+  "gt_coexpression_tie_break": "original intensity",
+  "thresholds": "frozen own validation; partial experiment 0.5",
+  "training_changed": false
+}

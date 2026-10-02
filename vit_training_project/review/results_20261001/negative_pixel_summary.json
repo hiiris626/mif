@@ -1,0 +1,12 @@
+{
+  "v6": {
+    "false_positive_pixels": 1049125581,
+    "negative_pixels": 27560510119,
+    "all_negative_pixel_fpr": 0.03806626134531309
+  },
+  "v9": {
+    "false_positive_pixels": 1079393736,
+    "negative_pixels": 27560510119,
+    "all_negative_pixel_fpr": 0.03916450498700583
+  }
+}

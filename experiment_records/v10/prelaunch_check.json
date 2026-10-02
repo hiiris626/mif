@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "validation": {
+    "n_source": 318450,
+    "n_retained": 318450,
+    "patient_counts": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "patch_counts": {
+      "train": 223400,
+      "val": 56832,
+      "test": 38218
+    },
+    "balanced_train_rows": 0,
+    "balanced_unique_patches": 0,
+    "training_rows": 223400,
+    "training_unique_patches": 223400,
+    "sampling_policy": "shuffle_patches",
+    "signature": {
+      "statistics.json": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b",
+      "patient_split.csv": "ce93eaf5148eed8724a8bd237e92cd2e72ba9644f1166ba55f327adee6f4afcc",
+      "train_balanced.csv": "89ba78c02ecba1ad45407530c7610104f3d098620b9b26a733bab4a3a914f28e",
+      "val.csv": "3255856c9f41535cf9f1eb025e60cb1492052c26137c24bf81a1b2aa852c68a3",
+      "test.csv": "5d961f1c053b605795e4050c6182ead4483f1c870aeada5ada04f8bad37aa79e",
+      "binary_targets.json": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc",
+      "train.csv": "3e106c5f3b747264f29551ad9cea58e8f0e089c39f7535205b87c21d3fec2c5a",
+      "training_policy.json": "bfd7d086fff543b276b3d1d81208b6ed65669b94a1356f16e61eeee19b2bfdf9",
+      "bce_pixel_weights.json": "1c395b845628dc6238c4cb39c82420a5bc79c266626f6c7c200c0b90cdce1f16"
+    },
+    "patient_leakage": false,
+    "nuclear_qc_performed": false
+  },
+  "weights": [
+    1.0,
+    11.716347922568662,
+    1.7114258745178585,
+    4.611286870135367,
+    2.8714951312566677,
+    16.0,
+    8.30005780517737,
+    4.154475469944983,
+    11.562286110360096,
+    5.64814984796524,
+    4.887714734409634,
+    4.661501724112262,
+    2.032434808473632,
+    5.6322785568126355,
+    1.645758677051442,
+    2.864431622365007
+  ],
+  "only_config_changes": [
+    "experiment",
+    "bce_pixel_weights_file"
+  ]
+}

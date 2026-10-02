@@ -1,0 +1,13 @@
+{
+  "shared_test_patients": [
+    "CRC02"
+  ],
+  "shared_test_patches": 6638,
+  "contaminated_by_legacy_training": 28515,
+  "baseline_patient_identity_issue": "CRC33_01 train / CRC33_02 test: exclude CRC33 for clean baseline test",
+  "calibration": "Each checkpoint uses its own unseen validation patients; validation populations differ.",
+  "common_protocol": "16 GT>0 binary channels; native labels nearest to 256; unknown and all-marker-zero pixels ignored; same 256-bin ROC/AP; per-channel validation F1 thresholds on grid 1/256..255/256; no test fitting.",
+  "legacy_scores": "Inverse-transform regression output, clip intensity to [0,255], divide by 255. NOT expression probabilities.",
+  "inference": "Native trained input geometry/preprocessing per checkpoint; outputs bilinear to common 256 grid before scoring.",
+  "limitations": "Only one common independent case. Historical selected checkpoints use different selection criteria. This is a matched held-out checkpoint comparison, not a controlled architecture experiment."
+}

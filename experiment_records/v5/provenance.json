@@ -1,0 +1,33 @@
+{
+  "config_sha256": "c69f3e658671b0c1b994031c80515aab82c95b14792c7f3696c06974396fb548",
+  "code_sha256": {
+    "vit_seg/model.py": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3",
+    "vit_seg/losses.py": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e",
+    "vit_seg/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vit_seg/display.py": "65230ed1f652aa9747c06c538be5ef8feb39c4ff8acc5677ee22423ca5aa52e6",
+    "vit_seg/distributed.py": "e93aef8c3faabbb7364a306947156aa0f2d14d21c8f268e49637966b0efccca5",
+    "vit_seg/binary_targets.py": "9fd04377a4b12959238a05dfb10de9f5a91a89e9d13bcc431593c8f70d336b9b",
+    "vit_seg/metrics.py": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952",
+    "vit_seg/data.py": "2c20ca1f945bf633836622f5a5fe5e3a03de481dd29bac97c39ac596bde6e470",
+    "vit_seg/train_ddp.py": "bb7892d3c6acba92d74ec944bcadf1e8619ad465c8fe99cb8e900bec745f1828",
+    "vit_seg/bce_balance.py": "7056f5c4d38cf325706ce3d84d46c17e3fc4d7056ac0be149e15361f355282d5",
+    "vit_seg/cache.py": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6",
+    "vit_seg/thresholds.py": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78",
+    "vit_seg/prepare.py": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff",
+    "vit_seg/validate.py": "16186863bbb6613e5090cd5588af77d0bb14a919320c6b7dad2987f7767e9390",
+    "vit_seg/workflow.py": "d82b1b0dca842ec78ca0a73ad9463fa9ae71c764f84c62f9feb1a6cb2c9209ce",
+    "vit_seg/predict.py": "7a04d03155a0521f66dbff289bf9531ff642b2dcb3f9fa5507ca27f7123e0a02",
+    "vit_seg/capacity.py": "3a0bb437930e241af70702b3d61ab1df57659ff3c0da9bfbfb8261e88557f5e9",
+    "vit_seg/artifacts.py": "19c8b981f58cd2a039bc64d9ae235073b5d2acc3dca03a19dcc32c1643840661",
+    "vit_seg/report.py": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05",
+    "vit_matte/vitmatte_unet.py": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e",
+    "vit_matte/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vit_matte/encoder.py": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8",
+    "vit_matte/lora.py": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336",
+    "datacore/training_monitor.py": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57",
+    "datacore/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "datacore/orioncrc_dataset.py": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f",
+    "configs/virchow2_config.json": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  "weights_sha256": "8d6cea947eb2418c3b0dff48cfb9b238e47744ab0dfca21b2b0637b140769b4b"
+}

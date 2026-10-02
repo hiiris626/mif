@@ -1,0 +1,4202 @@
+[
+  {
+    "path": "vit_training_project/prepare_v10.py",
+    "bytes": 2538,
+    "sha256": "fa3483949b80d49ba725f291929258007261dadb06b2515f8bdf476607a72d75"
+  },
+  {
+    "path": "vit_training_project/README.md",
+    "bytes": 6652,
+    "sha256": "583cb4e5f783f5c92d1bc6df89eba9d3eedc43780d2e5ed90a39494e56313185"
+  },
+  {
+    "path": "vit_training_project/requirements.txt",
+    "bytes": 266,
+    "sha256": "f5a031419aa05a4eaf41fc6f2541b67b24c384063e85a5aad37db0b0e421540a"
+  },
+  {
+    "path": "vit_training_project/prepare_v11.py",
+    "bytes": 3197,
+    "sha256": "86ee5601a53716761eea90f0a821922e16b164e3a6a40068f09dac5a5c9245e6"
+  },
+  {
+    "path": "vit_training_project/vit_seg/model.py",
+    "bytes": 1190,
+    "sha256": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3"
+  },
+  {
+    "path": "vit_training_project/vit_seg/losses.py",
+    "bytes": 866,
+    "sha256": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e"
+  },
+  {
+    "path": "vit_training_project/vit_seg/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/vit_seg/display.py",
+    "bytes": 1060,
+    "sha256": "65230ed1f652aa9747c06c538be5ef8feb39c4ff8acc5677ee22423ca5aa52e6"
+  },
+  {
+    "path": "vit_training_project/vit_seg/distributed.py",
+    "bytes": 8017,
+    "sha256": "4d8d6b0e622ff32791e16a8101ea055c29f7c19824a3e42eaf6f2cf874598f3a"
+  },
+  {
+    "path": "vit_training_project/vit_seg/metrics.py",
+    "bytes": 7222,
+    "sha256": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952"
+  },
+  {
+    "path": "vit_training_project/vit_seg/data.py",
+    "bytes": 7302,
+    "sha256": "68964f87ba2193181016f7fc6e3f0b944381f16007846a23f023453a285b56c8"
+  },
+  {
+    "path": "vit_training_project/vit_seg/train_ddp.py",
+    "bytes": 28275,
+    "sha256": "c4a3d1d37f3bae24f3f5689f3da8c56b491be791d6686858639211425887e00a"
+  },
+  {
+    "path": "vit_training_project/vit_seg/cache.py",
+    "bytes": 8266,
+    "sha256": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6"
+  },
+  {
+    "path": "vit_training_project/vit_seg/thresholds.py",
+    "bytes": 3431,
+    "sha256": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78"
+  },
+  {
+    "path": "vit_training_project/vit_seg/prepare.py",
+    "bytes": 19056,
+    "sha256": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff"
+  },
+  {
+    "path": "vit_training_project/vit_seg/validate.py",
+    "bytes": 3853,
+    "sha256": "641851d16379bf4af68fb49178e8cc075b35b8a5a67a73e1d7bf1be544351714"
+  },
+  {
+    "path": "vit_training_project/vit_seg/workflow.py",
+    "bytes": 14808,
+    "sha256": "19755774e122e455a970a976bc2057b1d3cf949ffdf9b3f08728f27dd7b0a950"
+  },
+  {
+    "path": "vit_training_project/vit_seg/predict.py",
+    "bytes": 4862,
+    "sha256": "7a04d03155a0521f66dbff289bf9531ff642b2dcb3f9fa5507ca27f7123e0a02"
+  },
+  {
+    "path": "vit_training_project/vit_seg/capacity.py",
+    "bytes": 6583,
+    "sha256": "42da89dd9c7369ead561a62d769f1ee949a9ddea31c09147668efdbb52e6dbf1"
+  },
+  {
+    "path": "vit_training_project/vit_seg/artifacts.py",
+    "bytes": 478,
+    "sha256": "ae1b8ea6091315dd41eb52007bf4f05abd39676b628d05e8e485c5614d18aeca"
+  },
+  {
+    "path": "vit_training_project/vit_seg/report.py",
+    "bytes": 6883,
+    "sha256": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05"
+  },
+  {
+    "path": "vit_training_project/tests/test_workflow.py",
+    "bytes": 4999,
+    "sha256": "6dee227ec9299c912fa4d362e8c7ddc906a7157f9b7994db6b7bff1c0a22d122"
+  },
+  {
+    "path": "vit_training_project/tests/ddp_cpu_check.py",
+    "bytes": 3554,
+    "sha256": "ea222bbd09eda099466c7883319de6d35e5a2240fc810a2f8d57fec0f85962a5"
+  },
+  {
+    "path": "vit_training_project/tests/test_core.py",
+    "bytes": 6796,
+    "sha256": "525ecad0d3a2c2ceb9ed5c079916510485905cfdbfb042b68be4fdc70e5c0144"
+  },
+  {
+    "path": "vit_training_project/tests/test_thresholds.py",
+    "bytes": 2514,
+    "sha256": "f510966e9de5517542451afbeab9a5b771c0812ad2909df471f5c61b413a8a4d"
+  },
+  {
+    "path": "vit_training_project/tests/test_positive_dice.py",
+    "bytes": 2451,
+    "sha256": "5e33cbc0474d48e82f3d8fc7b72ded68a921c25e4ee2673bb0b8738bada3a532"
+  },
+  {
+    "path": "vit_training_project/tests/production_cpu_check.py",
+    "bytes": 6927,
+    "sha256": "bdbb530d542e0b4e8ec49f2845d2a84674320b1e875f69482ef160769c405738"
+  },
+  {
+    "path": "vit_training_project/tests/test_device_metrics.py",
+    "bytes": 1478,
+    "sha256": "84e56de7e640cbcf2f892775cfe7c7ea51dc5a8a9ff1535fb6f8c724fe2214ca"
+  },
+  {
+    "path": "vit_training_project/tests/test_cache.py",
+    "bytes": 3493,
+    "sha256": "e9c00430ee9856de311a7cd28b1de902dbf0b14817a861ba5da608783ff6a62d"
+  },
+  {
+    "path": "vit_training_project/tests/gpu_cached_input_check.py",
+    "bytes": 3440,
+    "sha256": "ad07c3d2c3fca81d6fc13f4023251f44983994cf2540c673ea1a11b949d3a196"
+  },
+  {
+    "path": "vit_training_project/vit_matte/vitmatte_unet.py",
+    "bytes": 11402,
+    "sha256": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e"
+  },
+  {
+    "path": "vit_training_project/vit_matte/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_training_project/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_training_project/review/production_cpu_verification.json",
+    "bytes": 454,
+    "sha256": "8bd1a5beb33aaa5eb2d9ecf904b38fb6243fe9bf93bb872f169aec62cea24f3c"
+  },
+  {
+    "path": "vit_training_project/review/file_manifest.json",
+    "bytes": 4203,
+    "sha256": "2af7e3c54a9857854fbe1eaa7a63b782178195d65e2a3a997b4f47bbc3854693"
+  },
+  {
+    "path": "vit_training_project/review/ddp_cpu_verification.json",
+    "bytes": 267,
+    "sha256": "2ef44b46dfedda92385ae54c2895c0070aebadc44a105717c5f648727d69b89b"
+  },
+  {
+    "path": "vit_training_project/review/verification.json",
+    "bytes": 4346,
+    "sha256": "b4e18d61fa0d1fb4e54f2398e9af996f48d267de36f7746f8b94870a17cead50"
+  },
+  {
+    "path": "vit_training_project/review/build_mentor_report.py",
+    "bytes": 27500,
+    "sha256": "5ce06c26efbc24cb5c559e3a565688919a5cf13bc959d0243ac13c5b20c83ba0"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/patch168299_comparison.json",
+    "bytes": 1738,
+    "sha256": "398251d2b63db253cd27841bca82d566bd8fe6ae7fcba6060ed2b66a8ba72255"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/run_audit.py",
+    "bytes": 777,
+    "sha256": "e9f4933c2119eed12202e6b1993b3d41eecf0ca97c66791d46d53dbc13e6dc43"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/protocol.json",
+    "bytes": 1805,
+    "sha256": "239ef152c6b84cf765fbd6920e7b77305e8d2b4fc345f33d28969d6658b522fc"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/COMPLETE.json",
+    "bytes": 274,
+    "sha256": "b56961fc5e6f60bbc0f04ad5d10fc0537069602b91d45143fb981ef1522b7a9b"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/evaluate.py",
+    "bytes": 8459,
+    "sha256": "1a56d6650e468e48c04aaa6d2ecf00f8d9324be046fac3f1799b62f484c0acff"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/verification.json",
+    "bytes": 2504,
+    "sha256": "75d30d2a4944b4f824e2db8453d88a543eac1446b73274d3190e78b762da6609"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/summarize.py",
+    "bytes": 10077,
+    "sha256": "5e94ad2155beb290fce3b048694fd2126d94d27ab0d5eb8ed8469a11d65675e7"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v2/common_original_05.json",
+    "bytes": 9334,
+    "sha256": "7fdc1211009d4958e96e20b0eda7f7eeb6111921cf629775f00acfc8067001f9"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v2/common_original.json",
+    "bytes": 10132,
+    "sha256": "27fe69b6094ec90b920891a27dcb1b86475e5ff4980a29bd8f092ee11b636f74"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v2/per_patient.json",
+    "bytes": 12081,
+    "sha256": "801bbcb1063b082b9f02158ba04fa174307cfe34b087808a9f11c769ad59d710"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v2/COMPLETE.json",
+    "bytes": 647,
+    "sha256": "922c23eb7899bd8bcf5f605688450ac46b0ed65bdf032c4b79b6cbb9b0ba07a1"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v2/common_expanded.json",
+    "bytes": 10152,
+    "sha256": "f4f6d8b4a1d2bcc8cc3b64836e090fc26927a428309197aac3a87ecf5ca11df3"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v2/common_ignored_tissue.json",
+    "bytes": 1697,
+    "sha256": "9bbec1d05aa6f15781a65acf575245432faff8432e254dc2d1ba354242b87d26"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v1/common_original_05.json",
+    "bytes": 9101,
+    "sha256": "2cf5554377a208de6c02b26d768f9fb63d93f2efeb51b663cca6acd3945d7f9b"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v1/common_original.json",
+    "bytes": 10148,
+    "sha256": "79ca975f2e07329ccafa4b80c51e613bea10ddf4f59cb9e112bd72956252b349"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v1/per_patient.json",
+    "bytes": 12102,
+    "sha256": "583155456c3cfc1b994b20af9db3c751561750d33662428a01e350d4d505e6a0"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v1/COMPLETE.json",
+    "bytes": 645,
+    "sha256": "cb59d7c01716711e45eab2caa87b53472403ef95f8f5e87b867fbf5eb4d99921"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v1/common_expanded.json",
+    "bytes": 10142,
+    "sha256": "61d394ba6ffee86be79404493cc61940804f7eb31014c31f64580ad026c84cb3"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v1/common_ignored_tissue.json",
+    "bytes": 1692,
+    "sha256": "54eeefea65d4ca0481b38651952f20d3e1c03963da2baae982cbfd835295de5d"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/common_original_05.json",
+    "bytes": 11240,
+    "sha256": "8e7059c34000406107ce4f930355d3f404be501f4fa8c8a74fba497cc1fda8b2"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/full_ignored_tissue.json",
+    "bytes": 1704,
+    "sha256": "552f5cb3c5ce0fe9a5281bd92806b093c270288d41059301433530c39df04c32"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/common_original.json",
+    "bytes": 11325,
+    "sha256": "a9a1cc9b6058ff41e08263b86dc5c455b5659537d024d9c27abc01607d360245"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/per_patient.json",
+    "bytes": 72430,
+    "sha256": "425bb32cf9f7f770e06de454c90d6b749e4e29ba514a1278ea9aa0d9f56275b1"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/COMPLETE.json",
+    "bytes": 712,
+    "sha256": "617554bb9e3615a7de042d965503be2ee847dd8512e91b0c53ffbcf2cd3137c9"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/full_expanded.json",
+    "bytes": 11409,
+    "sha256": "0b11234e0da5672fbe0943f97ab00fc29480a16af18620f4799263c3274f9ea9"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/full_original.json",
+    "bytes": 11394,
+    "sha256": "fc094c6c2c211c81df13c235322200a10545f7c4e7ebf89848f61a9f7444d12a"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/common_expanded.json",
+    "bytes": 11340,
+    "sha256": "28c1c067b90b6b6d4d8d46d63b3d91bda24c4e6bb38af4b0b64b13dba6703867"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/common_ignored_tissue.json",
+    "bytes": 1693,
+    "sha256": "86dab8161e2630abd40f97b012d2e13f932523f7ec12e5df96ba6e5181bb8204"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/binary_bce/full_original_05.json",
+    "bytes": 11313,
+    "sha256": "65db4c625818adddbb69ec42dd719c08055e8db0d25c1a4b109d84712d5a5091"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/baseline/common_original_05.json",
+    "bytes": 11231,
+    "sha256": "c060e9b9b59d95bdb854e7b4bcf100ce4089293523265c05110e0815b9c302a7"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/baseline/common_original.json",
+    "bytes": 11338,
+    "sha256": "f4b37b3a6e15954c1758a908ded86748bd3eb3d60f142d0059615373a179b587"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/baseline/per_patient.json",
+    "bytes": 12092,
+    "sha256": "b1b093859ede2132a303a36edf8a95b4f238b68d84ae0daa07bf0b896582cd3e"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/baseline/COMPLETE.json",
+    "bytes": 683,
+    "sha256": "cbd6d299ecadc09b3ae8125b51e7a33dc61d6b3bfae3a7fb7e865d6107f2e0c2"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/baseline/common_expanded.json",
+    "bytes": 11353,
+    "sha256": "0df06a13b865b4c9826a42747113986aeeb0698c6fd0e867ed5365b400ed51fe"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/baseline/common_ignored_tissue.json",
+    "bytes": 1692,
+    "sha256": "feb3468ef3bc47df975c8d838606267f474dada78b3616bd754ba256bfa2a916"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v3/common_original_05.json",
+    "bytes": 9263,
+    "sha256": "2bac2af4ff491ba86698d2c5548dfcfd21bdbad85dd4c04451b98e52df5a8c31"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v3/common_original.json",
+    "bytes": 10145,
+    "sha256": "fad51f87759750539ff4b3eb5f8c475b690c50e792d9165dc170d55cf4cd2d76"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v3/per_patient.json",
+    "bytes": 12100,
+    "sha256": "e5a774d2d2e2ed844f139bb6036c622c7c7ab3cef24bbbc17b8229f4c61869cb"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v3/COMPLETE.json",
+    "bytes": 644,
+    "sha256": "bb991f94b15adb54759cfff469a2a754a0bf076b11a785d098115d8af3d02e74"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v3/common_expanded.json",
+    "bytes": 10149,
+    "sha256": "cfc6562852354618bc5343dbe8787077586b6e8de75ce6c806432eedbd999753"
+  },
+  {
+    "path": "vit_training_project/review/metric_audit_20260930/v3/common_ignored_tissue.json",
+    "bytes": 1693,
+    "sha256": "ecd89c62d23904e8362ac0ee535956081d1fb08c867b2b48422c1da0347a91e4"
+  },
+  {
+    "path": "vit_training_project/review/v7_visualizations_20261001/COMPLETE.json",
+    "bytes": 341,
+    "sha256": "32546ed210091eff409f81d7b3fa3ceb6f11f1ef9cbbf3f0e28516455eed3846"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/protocol.json",
+    "bytes": 1035,
+    "sha256": "36f1afa65253cc0daca4e17f0801d2d5c36db5a41f0ec8978c252b85c85cf57e"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/evaluate.py",
+    "bytes": 10944,
+    "sha256": "05a2aa0e337e07efebda507a165b17426741255686d938dc646295392147253f"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/VISUALIZATION_COMPLETE.json",
+    "bytes": 216,
+    "sha256": "31697cf75489e233fb073460b55e5e681fd720af566d918ac2b71ad94d407056"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/provenance.json",
+    "bytes": 2114,
+    "sha256": "2e828a835aadd4fd759c253c14bd6af918031fef20ae6a8b1ed0dc83b82611bb"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/render_report.py",
+    "bytes": 9312,
+    "sha256": "daaa8bd04256dbcd0988c48b5d2622bb776dedde5da261b523df075495cc0cf2"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/palette.json",
+    "bytes": 1506,
+    "sha256": "c3786c90840faa4a99972887a506d34623f5688edf19523868f764eecf178442"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/build_pdf_report.py",
+    "bytes": 5723,
+    "sha256": "3291f126410339d5f75d13740ceacf095535d0a7c5c2c2d6baf7cf019ea051af"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/render_legacy_style.py",
+    "bytes": 12202,
+    "sha256": "d3e52e3dcd1d342b1e012fbe57a5f362cb661257ce4bb1cf03c4bc32f22c53f5"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v2/thresholds.json",
+    "bytes": 177519,
+    "sha256": "ee8f520b03e9016e0cba404ae45e73d79711cfa175b7310f7949c24c5ff74aeb"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v2/per_patient.json",
+    "bytes": 12081,
+    "sha256": "801bbcb1063b082b9f02158ba04fa174307cfe34b087808a9f11c769ad59d710"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v2/COMPLETE.json",
+    "bytes": 193,
+    "sha256": "b113f8dd7e52eebb6da9b14bbc3d534ba2c854ad54b7dd1e5fe966a51e79f1c8"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v2/common_test_metrics.json",
+    "bytes": 10237,
+    "sha256": "bc76397f442f348526e2efb6d4a19815b7a15b1e566671cc7ef38449ab505b5a"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v2/all_test_metrics.json",
+    "bytes": 10237,
+    "sha256": "bc76397f442f348526e2efb6d4a19815b7a15b1e566671cc7ef38449ab505b5a"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v2/clean_test_metrics.json",
+    "bytes": 10237,
+    "sha256": "bc76397f442f348526e2efb6d4a19815b7a15b1e566671cc7ef38449ab505b5a"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v1/thresholds.json",
+    "bytes": 173422,
+    "sha256": "537db11b7c6347b9f2b4b24abeb0b922b0c197cd3f0c75f4c309f8d09ced32e5"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v1/per_patient.json",
+    "bytes": 12102,
+    "sha256": "583155456c3cfc1b994b20af9db3c751561750d33662428a01e350d4d505e6a0"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v1/COMPLETE.json",
+    "bytes": 192,
+    "sha256": "0b1872032bf27bf7c88186ac7db1ab33b447360b0a32dd451dded79a513ce903"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v1/common_test_metrics.json",
+    "bytes": 10253,
+    "sha256": "d447d4423337ee7e348da3770b9d32b825158ec49b2ae99f7504fe0a3f6fb90c"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v1/all_test_metrics.json",
+    "bytes": 10253,
+    "sha256": "d447d4423337ee7e348da3770b9d32b825158ec49b2ae99f7504fe0a3f6fb90c"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v1/clean_test_metrics.json",
+    "bytes": 10253,
+    "sha256": "d447d4423337ee7e348da3770b9d32b825158ec49b2ae99f7504fe0a3f6fb90c"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/baseline/thresholds.json",
+    "bytes": 199928,
+    "sha256": "fa8ed0d1af5028834ab7a9aa02e88129a424f1554880571ac3f65d3c75bb8fbb"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/baseline/per_patient.json",
+    "bytes": 72494,
+    "sha256": "16610d3972c40cdcf8ba2199e6dce3e034f7590746d6d386fcb2b9866ec10ef4"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/baseline/COMPLETE.json",
+    "bytes": 224,
+    "sha256": "f697bb3d3ecc27375175caf21b535f28837e644cd3b557f554375701e0aaaad3"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/baseline/common_test_metrics.json",
+    "bytes": 11435,
+    "sha256": "3e7338ff6fd4b67d633b3bcc5c03cee683e05e1c0befec1861c6fede53e53017"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/baseline/all_test_metrics.json",
+    "bytes": 11510,
+    "sha256": "e83c08dabcc97038fd735e45b39810be741a43690328b3d0630242e3592d115a"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/baseline/clean_test_metrics.json",
+    "bytes": 11527,
+    "sha256": "2cd043bd229f73b39e8745fbc1da63e23b8b806b0d346c2eaa94b204495b8873"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/legacy_style/protocol.json",
+    "bytes": 12317,
+    "sha256": "6c34eeb99c9226b7dc0b5495cb0aa7b3c4fb753dc60c36aa039c01e84202acce"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/legacy_style/COMPLETE.json",
+    "bytes": 186,
+    "sha256": "239d36804855692ee8fa76ac368d2a72008a2d4acad88ef7d2357fb72ab68525"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/legacy_style/README.md",
+    "bytes": 1481,
+    "sha256": "9abd0b83de7e4567f82dcc2f448e3ffce3c6a1cc76a21d04e96cbd522233e129"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v3/thresholds.json",
+    "bytes": 174406,
+    "sha256": "5300ca597bb4817b2149cef56e2f3cb67035ab3b6f99439ff22876cd475ffa20"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v3/per_patient.json",
+    "bytes": 12100,
+    "sha256": "e5a774d2d2e2ed844f139bb6036c622c7c7ab3cef24bbbc17b8229f4c61869cb"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v3/COMPLETE.json",
+    "bytes": 190,
+    "sha256": "856c99481f6953f2867e9a3774a3a34d78b71898b7c2c0508cf435c197218a46"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v3/common_test_metrics.json",
+    "bytes": 10247,
+    "sha256": "89679cae3c065e02b3f03b788057ae9a769bff6e0cacc579f6119cc798d93325"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v3/all_test_metrics.json",
+    "bytes": 10247,
+    "sha256": "89679cae3c065e02b3f03b788057ae9a769bff6e0cacc579f6119cc798d93325"
+  },
+  {
+    "path": "vit_training_project/review/unified_eval_20260929/v3/clean_test_metrics.json",
+    "bytes": 10247,
+    "sha256": "89679cae3c065e02b3f03b788057ae9a769bff6e0cacc579f6119cc798d93325"
+  },
+  {
+    "path": "vit_training_project/review/background_diagnosis_20260930/patch168299_audit.json",
+    "bytes": 2308,
+    "sha256": "9af7688eac0010d09e2bb39feef6d23030cb19a9e3f7dbb58b91da2e0fd843b7"
+  },
+  {
+    "path": "vit_training_project/review/v11_visualizations_20261002/COMPLETE.json",
+    "bytes": 363,
+    "sha256": "54ffff3a9adf11f9646529387e595f6ae95d4c40e4e12d328352b90d6e53ae11"
+  },
+  {
+    "path": "vit_training_project/review/loss_sample_weighting_20260929/summary.json",
+    "bytes": 2824,
+    "sha256": "91473341072f2e221998c3d102fcca0785ed0a72fd839c2946fe22bcf991f842"
+  },
+  {
+    "path": "vit_training_project/review/loss_sample_weighting_20260929/\u5206\u6790\u62a5\u544a.md",
+    "bytes": 10444,
+    "sha256": "1bfe513209feec8874c39db01525ce79a9b1f800a818ad31dffe8bd57f75a13f"
+  },
+  {
+    "path": "vit_training_project/review/loss_sample_weighting_20260929/analyze.py",
+    "bytes": 18616,
+    "sha256": "0ac699274bb27d38d8a50a90741a3a4c99bd96474a83a0a97815898b6b2fe538"
+  },
+  {
+    "path": "vit_training_project/review/v4_v5_classification_20260930/render.py",
+    "bytes": 10951,
+    "sha256": "1e2cda72aadc1df33f4448fa8eefb8531c3d0390f3fceee5ddb76a532d38ee95"
+  },
+  {
+    "path": "vit_training_project/review/v4_v5_classification_20260930/protocol.json",
+    "bytes": 1924,
+    "sha256": "eaa593d79072064d8163ae787517cb5cb78052e67ab3b9b631c65d4bcaa95c04"
+  },
+  {
+    "path": "vit_training_project/review/v4_v5_classification_20260930/COMPLETE.json",
+    "bytes": 131,
+    "sha256": "0c659bc95674df84f341a691db348e125b4e1cbf1392c19011d503c735756210"
+  },
+  {
+    "path": "vit_training_project/review/v4_v5_classification_20260930/verification.json",
+    "bytes": 1026,
+    "sha256": "6a663d6b62cdf4c320dbaf85240849fd459ed4bc9613b6a4f49bebb7aeb68c5a"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/provenance_before.json",
+    "bytes": 2506,
+    "sha256": "e9b453b47b10c0792b07f94f54c2e65e7138d5838335329ad4ea4fc21597ebe4"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/full_validation_equivalence.json",
+    "bytes": 251,
+    "sha256": "ef426b1ea50414c84af47abfa8ee63ca9f89ad7a1af6ad999311d514a9fb1538"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/full_validation/val_metrics.json",
+    "bytes": 11299,
+    "sha256": "c899ec4b116cf02eaf7b93e4a53cbef2a36885534d22f6bb62a83bcafb589dd0"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/full_validation/validation_progress/validation_rank_1.json",
+    "bytes": 196,
+    "sha256": "6e22941b738266a0f8031e4960450fe79e47ff2d0de680b97b24c04bb84cf789"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/full_validation/validation_progress/validation_rank_0.json",
+    "bytes": 196,
+    "sha256": "9a991b57665a0ad2331e7aa8778880b61dc6368ee4effacda760ca0597724920"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/full_validation/validation_progress/validation_rank_3.json",
+    "bytes": 196,
+    "sha256": "c601110e87b3a60aa5dc9a086253c81134e46678d45c7f49e630928bcf204000"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/full_validation/validation_progress/validation_rank_2.json",
+    "bytes": 195,
+    "sha256": "2b49cd022d792fe0b143272b9ac4124d971cfa1581b1e0bfeaf64650a01cc614"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/source_before/distributed.py",
+    "bytes": 6658,
+    "sha256": "026bfad0432a1a84f9046c3485fc680f96d7d4872c0089d0d96fff853067c4b6"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/source_before/metrics.py",
+    "bytes": 4584,
+    "sha256": "65c8c3dcafb2aa4fd1fa9d112a03610fe0c730c773350da63409d4fbbbe05750"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/source_before/train_ddp.py",
+    "bytes": 22917,
+    "sha256": "0e6207f92ffb0bc7b26befaeac05bc8e252a3f21512589648aaaa2125016a99b"
+  },
+  {
+    "path": "vit_training_project/review/timeout_fix_20260928/source_before/workflow.py",
+    "bytes": 12907,
+    "sha256": "0269c45ce9f89931e88b08a9692a7e36cd72e127c317a93cae1913a36c318d73"
+  },
+  {
+    "path": "vit_training_project/review/performance_20260927/comparison.json",
+    "bytes": 2797,
+    "sha256": "cffc053d08c6a50dd27ebfdb0f825d45baed47069b256801984b70aa62d9be3e"
+  },
+  {
+    "path": "vit_training_project/review/performance_20260927/disk.txt",
+    "bytes": 2620,
+    "sha256": "a00be36bec6700d67f239bab4b3b8ead8e9a6d707f27694f22e0aa2e6a180dca"
+  },
+  {
+    "path": "vit_training_project/review/results_20261001/build_report.py",
+    "bytes": 7181,
+    "sha256": "bbb71b67eb46590d4150c4ee651d7eb19173ee80ed4377e27f678f6aba90aa82"
+  },
+  {
+    "path": "vit_training_project/review/results_20261001/verification.json",
+    "bytes": 177,
+    "sha256": "f86a253107271a52d37e7fd8269a5ec50df91ac254ecc158932e1496f6fc8a25"
+  },
+  {
+    "path": "vit_training_project/review/results_20261001/negative_pixel_summary.json",
+    "bytes": 286,
+    "sha256": "fdf9f23a3d8831d6839addf88dc8aa60d88fe06fc639bc927e28f3f0615fb399"
+  },
+  {
+    "path": "vit_training_project/review/results_20261001/checkpoint_verification.json",
+    "bytes": 1641,
+    "sha256": "b7ae75e2ab142599ea2b36ced27ee61a092fd54a0eda7db616ba389f557f0602"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/render_previews.py",
+    "bytes": 6543,
+    "sha256": "5f93176fc49fe82e68c2cc71f851a60156f9c103fe2452614efd0a0d3c0d9d88"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/run_all.py",
+    "bytes": 920,
+    "sha256": "2d70e87261e711536742a7bfdc8ef091155c07de7cff07ba4321622bca75de5f"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/evaluate_latest.py",
+    "bytes": 549,
+    "sha256": "b7b80efba1ed299db93405fb637b820b1e95c2fc6a6bbaa36d5a9044c39894dc"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5_v6_change_analysis.md",
+    "bytes": 2194,
+    "sha256": "30443486515e77965ddfa1dac1f6f66e1761f39b40534eb219e95a5034b76669"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/run_previews.py",
+    "bytes": 878,
+    "sha256": "2cb0685378ab0b66713e242ab1963ba7e311001f438475fa2285781187587716"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/evaluate.py",
+    "bytes": 8271,
+    "sha256": "fbe38a173f796bcb2e2b44db5ff4e9dfa0272d5171e15726d8b90bcbbe3e2038"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/verification.json",
+    "bytes": 1863,
+    "sha256": "0706cfcb79fe361e3fba8f964a292bae48bda160eff9a1f365c7e55c02f9a11d"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/VISUALIZATION_COMPLETE.json",
+    "bytes": 277,
+    "sha256": "fd0eb5ec4c0b7e927a6c99b738eb4a6bdeee9c867a28866f7e4b72f25cc0e1e5"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/refresh_v11_previews.py",
+    "bytes": 1608,
+    "sha256": "a35bb55f6f312b241a062bb5c98c6ce06307532def49313ca7b4c36a28177760"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/select_previews.py",
+    "bytes": 2216,
+    "sha256": "108637cb5d877dfb621a4950042a13d5dd728f03043b974ff08239a7d4e3ab71"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/refresh_v7_previews.py",
+    "bytes": 5303,
+    "sha256": "49c3bd5f0448083d0432e028bec9795e58de391f09b52962c38468e2580caafd"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/summarize.py",
+    "bytes": 9726,
+    "sha256": "1bda9498917f8f8758f1e3926f82f5c6991ea09dedc65fc61b1307c2d63272f8"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v10/original_fixed_05.json",
+    "bytes": 11266,
+    "sha256": "2499a3ec381407a42e0094ead296fa2b4a923e5799b2bf3fcbb561b3aba2c94c"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v10/COMPLETE.json",
+    "bytes": 752,
+    "sha256": "f0c344ca8c6b44889fb0edd36bec2a61e62bbfdb9b81535e26a58739e4b13204"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v10/original_own_validation.json",
+    "bytes": 11383,
+    "sha256": "867e878b90c4a1656a126a19d9596a3ee539d8591772d370aa19a27879bd9453"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v10/expanded_own_validation.json",
+    "bytes": 11379,
+    "sha256": "a513cc5b812ea390992f5d6611d829b53557d3dd662fd446c884292b9fdf6db9"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v10/expanded_fixed_05.json",
+    "bytes": 11292,
+    "sha256": "60ed93b0b357ee53fe385a8ecc19176dba77b4f44aaaff3e1496623c690ebeda"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v2/original_fixed_05.json",
+    "bytes": 9385,
+    "sha256": "21bec00a9cc616d5d8ee28bdfff26127e625a96e41fdd7dd84cdac8f800f18eb"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v2/COMPLETE.json",
+    "bytes": 720,
+    "sha256": "695acfbe30747da30bfd25c39f2ec0ebe18f8a116a82f20a2e4e530f820c83b5"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v2/original_own_validation.json",
+    "bytes": 10192,
+    "sha256": "66456c619d86327bd2024f36e6b02be9b16df2fee5a1db5640d0b34ea37aed7b"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v2/expanded_own_validation.json",
+    "bytes": 10213,
+    "sha256": "54e58bee71a8f661ee121df36ff826481755b430b324ae2625ff2ceec2aaab6e"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v2/expanded_fixed_05.json",
+    "bytes": 9381,
+    "sha256": "0b2c5f556a263b5fa668be17ed558662c6ae4a6d4bce5a20cc1eecc94606da1d"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v9/original_fixed_05.json",
+    "bytes": 11292,
+    "sha256": "cf7ff756700a1676cb5d623054a532436869f833cd3e6b7a46501a38ed5b9abd"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v9/COMPLETE.json",
+    "bytes": 779,
+    "sha256": "c08d8463b99b30823b9ef7b0fe1a3626f36ea59feab56923140d802070b3a3d6"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v9/original_own_validation.json",
+    "bytes": 11391,
+    "sha256": "9d5d0b883922209d25ee592058aa981f957164cb36a5d9a94a0a0768f72e1180"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v9/expanded_own_validation.json",
+    "bytes": 11401,
+    "sha256": "c85c41759f1960a4b8baf3284107f6b121a2ea7a64dadb9b6961d7599bd1f0b5"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v9/expanded_fixed_05.json",
+    "bytes": 11291,
+    "sha256": "560bc044d92e94ab198d54a23a0347ba24fdb51ea7c7515a87ffd3df3b7f4ee8"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v1/original_fixed_05.json",
+    "bytes": 9152,
+    "sha256": "219e95bef37854fb8ffc46ea3ea1eb97eae151574148dfb4cb6c901af32636ba"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v1/COMPLETE.json",
+    "bytes": 719,
+    "sha256": "bf235a596f97545017c3646640365fb19ec0886543f3b57bde79f145a14b1605"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v1/original_own_validation.json",
+    "bytes": 10208,
+    "sha256": "5a6ea6ef9706dc61c4dfeb3d8e6f30367e62225a5de65deb90027a3185b17a3a"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v1/expanded_own_validation.json",
+    "bytes": 10203,
+    "sha256": "4008946fe2005a27c47054ea1ff0fc577945128f4f399b96e97be5797a32856b"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v1/expanded_fixed_05.json",
+    "bytes": 9154,
+    "sha256": "e15ce8b776a0b07232075511f448d617ac747995de43abd30f2a2558b561ca15"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5/original_fixed_05.json",
+    "bytes": 11267,
+    "sha256": "02ec9a899f3cad2e3ccaa32c99559a5e8f5ab3b49448c4bb640c6f0b7bfe5d03"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5/COMPLETE.json",
+    "bytes": 776,
+    "sha256": "131fc3e682354e333e75f3b382c0a2dbaea1f34e3f43eee7a5202fd1fc12c7e8"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5/original_own_validation.json",
+    "bytes": 11372,
+    "sha256": "fbfff2cd70b6792fdbf95161fffe07723a01c6164caf8151103209b5ce3e8ce2"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5/expanded_own_validation.json",
+    "bytes": 11385,
+    "sha256": "56ce5c5cf25f47e860db8e36d5d7a17859bbd152725627a0fea3ea7470526129"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v5/expanded_fixed_05.json",
+    "bytes": 11290,
+    "sha256": "edc4d1eab14d156b081806b1db7823aeaa004757713f5cb0d2666355fe67ddfa"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v4/original_fixed_05.json",
+    "bytes": 11275,
+    "sha256": "735b91673a2b5c05c03fefb65534b562e5e9f5274497e71cff1a5d6bcd0b20e1"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v4/COMPLETE.json",
+    "bytes": 750,
+    "sha256": "9e716e1c32220c830de98dec97c7c6d97125fb34f3b9a2ab66339852c655095a"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v4/original_own_validation.json",
+    "bytes": 11391,
+    "sha256": "7803b7f06bff341ba72ee2bd840efbada9478ff604697fbb82810b12a534c5f5"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v4/expanded_own_validation.json",
+    "bytes": 11407,
+    "sha256": "03e528573554469a99cbdf42af1d2e7282180f8af84d58a96ebafa2d12795894"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v4/expanded_fixed_05.json",
+    "bytes": 11297,
+    "sha256": "fd92e81f99e94bbdfe6ef7d026b8267b308523c01877bda323686d210dcf63a8"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v3/original_fixed_05.json",
+    "bytes": 9314,
+    "sha256": "9300b9bf544efd1cb9a033e33c4f35a6e13935ed0bba3ac202d53be8bc22213a"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v3/COMPLETE.json",
+    "bytes": 717,
+    "sha256": "edc82003936e6da60311287127955c493f5c1c7df3aa61502debc189b7286d9e"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v3/original_own_validation.json",
+    "bytes": 10205,
+    "sha256": "5f38c3ef0396be7441dd1c3269bd28fc26dbda6425dd8c632ac83cb551e22b24"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v3/expanded_own_validation.json",
+    "bytes": 10210,
+    "sha256": "050738c271c2d11637d6867af71f4da5b65e2c2252d26e69df9566b3ae674f68"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v3/expanded_fixed_05.json",
+    "bytes": 9312,
+    "sha256": "ed381ea3ec00b1adc5fe7e94538c9161d3619e9110518500a91708fa3a5a6807"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v6/original_fixed_05.json",
+    "bytes": 11276,
+    "sha256": "de5190070c29e8e52c116901ce80c8ce963852698f97a72ed2a7c17b186a5fdd"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v6/COMPLETE.json",
+    "bytes": 760,
+    "sha256": "456faad0511e0875755c15552323343f6014dfa6458af3979e38936ffd507e0b"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v6/original_own_validation.json",
+    "bytes": 11394,
+    "sha256": "1ae1dface8ee5240460e4f870d3174c7c88d7c346e33a3567cfb0a6cad33120f"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v6/expanded_own_validation.json",
+    "bytes": 11396,
+    "sha256": "b8677aa2ed9062104fefe9f9774123095948499457ff4752100594bb2c96e08b"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v6/expanded_fixed_05.json",
+    "bytes": 11291,
+    "sha256": "5cfa441835e7eed7871310cab68877024df5609aabf20f566029186a8da9c2d4"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v11/original_fixed_05.json",
+    "bytes": 11279,
+    "sha256": "8d7c0e5eb8d685c97a709520e2422b5327d967a584216735f39a45f932cd4768"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v11/COMPLETE.json",
+    "bytes": 752,
+    "sha256": "4ca104b58047016aceb2c31e88a899982409ddd2eea572a6e927aa5fc34b5c16"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v11/original_own_validation.json",
+    "bytes": 11363,
+    "sha256": "2b5264fb7bf46122358b9e4764830b2d4b7b535b7398b0a6ae0097f433ca46d1"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v11/expanded_own_validation.json",
+    "bytes": 11385,
+    "sha256": "7772b750a673ce17f3ad5bebf218ae2976b101658e5f212e281e4a1dd8168fbf"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v11/expanded_fixed_05.json",
+    "bytes": 11293,
+    "sha256": "cfb4cae016b34a0a918ce78ddaa3cdbf20e8447a7ee2244ec363ba89508514de"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v7/original_fixed_05.json",
+    "bytes": 11281,
+    "sha256": "dd4ffa65c1d68b01ec4898de1bc4da625e7101281ba22102c37d81d98a2585c2"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v7/COMPLETE.json",
+    "bytes": 760,
+    "sha256": "d1c970fafa7e0a8d5fa7da0e67a5d8addf7e94065ae83b8f3b177112eff0e3e2"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v7/original_own_validation.json",
+    "bytes": 11376,
+    "sha256": "5a645aec8b1dded6a2e8baac5db1ba43c3d8ece8d3ff3b932ced1b1e44001c69"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v7/expanded_own_validation.json",
+    "bytes": 11400,
+    "sha256": "d74f73216a8df2020703ad3bc0b9b934435134407e29bfa69ba17b2739e9b752"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/v7/expanded_fixed_05.json",
+    "bytes": 11298,
+    "sha256": "092e81333bb28ddf8c65caeec7e0ea41cf612b2fd38d97ba36c41b814768084c"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/positive_dice_partial/original_fixed_05.json",
+    "bytes": 11299,
+    "sha256": "6a97004a91fa5a6900407369056bd52ce7cd0b854f1d83d2c0ae96319305bfbc"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/positive_dice_partial/COMPLETE.json",
+    "bytes": 616,
+    "sha256": "d8504cfaeaf8d87e6570fa84d644dc7965c814e7f6526f031984bd3e07f7d0cc"
+  },
+  {
+    "path": "vit_training_project/review/unified_all_experiments_20261001/positive_dice_partial/expanded_fixed_05.json",
+    "bytes": 11318,
+    "sha256": "1929cae16c2ee4e3f2fb03758dd3088b36e8ad392a07742655735345b83ed685"
+  },
+  {
+    "path": "vit_training_project/review/cache_real_probe/gpu_throughput.json",
+    "bytes": 2087,
+    "sha256": "ace3dc1302817f792ed10f5e71cb10d798d705a27defe44684b4ea481b18363f"
+  },
+  {
+    "path": "vit_training_project/review/cache_real_probe/data/statistics.json",
+    "bytes": 3894,
+    "sha256": "3f6e7ab55f240a1a690f14c079f8355ed39cceabc9a5a2109f35c03d17c41580"
+  },
+  {
+    "path": "vit_training_project/review/loss_analysis_20260928/summary.json",
+    "bytes": 1579,
+    "sha256": "eb5b7b1c0345f1fc7b879ef93beda6362e5ca784f053aa43672f7c914eabedd3"
+  },
+  {
+    "path": "vit_training_project/review/loss_analysis_20260928/analyze.py",
+    "bytes": 4831,
+    "sha256": "b71036f744bf5518be5d43886660ae348b958335bf42236dfad4859f49596941"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/model.py",
+    "bytes": 1190,
+    "sha256": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/losses.py",
+    "bytes": 866,
+    "sha256": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/display.py",
+    "bytes": 1736,
+    "sha256": "c02476e9fbb176f23f1aa4f70a60f927c060a50f982779ba373a56e6943e7db6"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/distributed.py",
+    "bytes": 9698,
+    "sha256": "e93aef8c3faabbb7364a306947156aa0f2d14d21c8f268e49637966b0efccca5"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/binary_targets.py",
+    "bytes": 2582,
+    "sha256": "050ed1adc52331b07706ad76d99b18f539f16f9018a2603267da54f745886c78"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/metrics.py",
+    "bytes": 7222,
+    "sha256": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/data.py",
+    "bytes": 8501,
+    "sha256": "efdeeb8058cd1831b29ff25aeeb175bf0645c926ad2f8d4f37902eff033444c6"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/train_ddp.py",
+    "bytes": 30342,
+    "sha256": "6d97f21c6243b99d4f83ec9bf3489ef57d11897cdf8b4851c37d6887c229fda2"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/pixel_sampling.py",
+    "bytes": 3957,
+    "sha256": "a3945b455cf76865d18d7eaa11280907bb81fa2f9219b63bf597c5dc2ff1c8a5"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/bce_balance.py",
+    "bytes": 3194,
+    "sha256": "70c8b45a12ee52e9f7bd06a88e9202e9fb036682147f318ff0069f063c48baf1"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/cache.py",
+    "bytes": 8266,
+    "sha256": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/thresholds.py",
+    "bytes": 3431,
+    "sha256": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/prepare.py",
+    "bytes": 19056,
+    "sha256": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/validate.py",
+    "bytes": 4598,
+    "sha256": "dd48594b4ea7b611d9239a93ed888ca304bdead680824b4d4f4c31652606019b"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/workflow.py",
+    "bytes": 15426,
+    "sha256": "bfde97ce8c02a5dbf0c6bfee44fea3dbfb1ca0645bc8ce3bb7bdd9c732def2a9"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/predict.py",
+    "bytes": 4778,
+    "sha256": "1e473fe8598818504b73537d73bfb5d6cd6f4d9ebbb6ef41e03a0391a4a83bf5"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/capacity.py",
+    "bytes": 6679,
+    "sha256": "3a0bb437930e241af70702b3d61ab1df57659ff3c0da9bfbfb8261e88557f5e9"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/artifacts.py",
+    "bytes": 713,
+    "sha256": "d97a8292d9b0737d842bbae8d8e29084800becb91f0233f00aafc1ef2bdfc3e8"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_seg/report.py",
+    "bytes": 6883,
+    "sha256": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_matte/vitmatte_unet.py",
+    "bytes": 11402,
+    "sha256": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_matte/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/scripts/run.sh",
+    "bytes": 330,
+    "sha256": "6987e40f978b372d2820e816d5236fbb3f1599f31f2b7cc77e14c6b073ecc0ac"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/configs/train_binary_bce.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/configs/train.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/configs/v8.json",
+    "bytes": 2060,
+    "sha256": "d7405ff6554161bc2279f9317ef9a84902f5c9e9aaf68834bbe74b358125a0ae"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/configs/v6.json",
+    "bytes": 2053,
+    "sha256": "f7876f11452124cbecf8e72c3377a7b92f674cbc044dd3ae42d32d33083a8a97"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/configs/v7.json",
+    "bytes": 2053,
+    "sha256": "d21d9088f22df51db7a859dc4544a760e16ebe10a6b8c38af0c085c8b3290b6a"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/configs/v10.json",
+    "bytes": 2050,
+    "sha256": "5d53c11314f04b52da31a504c6372175b2ac14a72a8735f3c496b6ee2b5975b0"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/datacore/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v10/datacore/orioncrc_dataset.py",
+    "bytes": 557,
+    "sha256": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/EXPERIMENTS.txt",
+    "bytes": 3205,
+    "sha256": "4b2ca0ad49250053df4857ce980b78cd1fba17796b3726b662a672aa256a71a1"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/model.py",
+    "bytes": 1190,
+    "sha256": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/losses.py",
+    "bytes": 866,
+    "sha256": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/display.py",
+    "bytes": 1736,
+    "sha256": "c02476e9fbb176f23f1aa4f70a60f927c060a50f982779ba373a56e6943e7db6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/distributed.py",
+    "bytes": 9698,
+    "sha256": "e93aef8c3faabbb7364a306947156aa0f2d14d21c8f268e49637966b0efccca5"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/binary_targets.py",
+    "bytes": 2582,
+    "sha256": "050ed1adc52331b07706ad76d99b18f539f16f9018a2603267da54f745886c78"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/metrics.py",
+    "bytes": 7222,
+    "sha256": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/data.py",
+    "bytes": 8501,
+    "sha256": "efdeeb8058cd1831b29ff25aeeb175bf0645c926ad2f8d4f37902eff033444c6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/train_ddp.py",
+    "bytes": 30342,
+    "sha256": "6d97f21c6243b99d4f83ec9bf3489ef57d11897cdf8b4851c37d6887c229fda2"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/pixel_sampling.py",
+    "bytes": 3957,
+    "sha256": "a3945b455cf76865d18d7eaa11280907bb81fa2f9219b63bf597c5dc2ff1c8a5"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/bce_balance.py",
+    "bytes": 2703,
+    "sha256": "bdc0f6c887d6e7d754691bb099cd8130cce19875ba368d64eb9f1911671bde4c"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/cache.py",
+    "bytes": 8266,
+    "sha256": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/thresholds.py",
+    "bytes": 3431,
+    "sha256": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/prepare.py",
+    "bytes": 19056,
+    "sha256": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/validate.py",
+    "bytes": 4598,
+    "sha256": "dd48594b4ea7b611d9239a93ed888ca304bdead680824b4d4f4c31652606019b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/workflow.py",
+    "bytes": 15426,
+    "sha256": "bfde97ce8c02a5dbf0c6bfee44fea3dbfb1ca0645bc8ce3bb7bdd9c732def2a9"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/predict.py",
+    "bytes": 4778,
+    "sha256": "1e473fe8598818504b73537d73bfb5d6cd6f4d9ebbb6ef41e03a0391a4a83bf5"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/capacity.py",
+    "bytes": 6679,
+    "sha256": "3a0bb437930e241af70702b3d61ab1df57659ff3c0da9bfbfb8261e88557f5e9"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/artifacts.py",
+    "bytes": 713,
+    "sha256": "d97a8292d9b0737d842bbae8d8e29084800becb91f0233f00aafc1ef2bdfc3e8"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_seg/report.py",
+    "bytes": 6883,
+    "sha256": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_workflow.py",
+    "bytes": 4995,
+    "sha256": "5ad2b92032ada506af154a894048a49894e873c68399adef5f653db4cc078cbe"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/ddp_cpu_check.py",
+    "bytes": 3654,
+    "sha256": "c47a903a2e6e95bccc332ae1b321ae9e456e75070f7382e7b3ce63d371262db6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_threshold_display.py",
+    "bytes": 1164,
+    "sha256": "93cb65e6c8c85bf6de3903c97b5a67f38398fbfa99d53793905d4520cb56c18e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_tissue_experiments.py",
+    "bytes": 3427,
+    "sha256": "bdacb0a3fa3c68834656370b4687937d3a76bda044a1d1933852efc7996f55c1"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_core.py",
+    "bytes": 6796,
+    "sha256": "525ecad0d3a2c2ceb9ed5c079916510485905cfdbfb042b68be4fdc70e5c0144"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_thresholds.py",
+    "bytes": 2514,
+    "sha256": "f510966e9de5517542451afbeab9a5b771c0812ad2909df471f5c61b413a8a4d"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_positive_dice.py",
+    "bytes": 2479,
+    "sha256": "178976895000b7785eb45ae31182600932d35fee0808f3bb00234d34b39fa0dd"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/production_cpu_check.py",
+    "bytes": 9330,
+    "sha256": "951e6e799a5f9617c03cc0c5f2b192947c128aaaf081b4e1b827f30028ad72cc"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_device_metrics.py",
+    "bytes": 1478,
+    "sha256": "84e56de7e640cbcf2f892775cfe7c7ea51dc5a8a9ff1535fb6f8c724fe2214ca"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_cache.py",
+    "bytes": 3493,
+    "sha256": "e9c00430ee9856de311a7cd28b1de902dbf0b14817a861ba5da608783ff6a62d"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/gpu_cached_input_check.py",
+    "bytes": 3571,
+    "sha256": "8d082288fc7137af2bf08d868d0130afef2ceb16e400257bbefba8f2c321daf7"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_binary_bce.py",
+    "bytes": 2169,
+    "sha256": "9a9fe79621ddf670ac7675ccdaf39d8211d4281acdda278021f9446982030c23"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/tests/test_random_balanced_bce.py",
+    "bytes": 3153,
+    "sha256": "7d6fa24a4606616d837e7b513324b6e3e1cbe0768e51d3b80441eb74642a651e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_matte/vitmatte_unet.py",
+    "bytes": 11402,
+    "sha256": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_matte/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/audit_negative_supervision.py",
+    "bytes": 3088,
+    "sha256": "be021eae2afe196be5f50a10e28bf5fb3eba58ad7bf3eb3bf827b124cb1dbe16"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/real_data_verification.json",
+    "bytes": 1777,
+    "sha256": "9114e5535087baaf828feebcadb68524d10cb8f8cfc53571cf088b4a728e0a2a"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/STOP_FOR_EMPTY_DICE_REVISION.json",
+    "bytes": 278,
+    "sha256": "0cfc1d07d42ef021c3d08ed8c4bf2b01f42543bbf7b4ae0b49fe363d3e243082"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/production_cpu_verification.json",
+    "bytes": 635,
+    "sha256": "13913a1ec6ef867dc88ab243441f7d1726bbe3cac9813e2ed8af49ee577bec68"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/CHECKS_PASSED.json",
+    "bytes": 1152,
+    "sha256": "56b6c3f83f30d7e463457e4284823cad50e65782d3de84810455e941b0285210"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/all_patch_tissue_counts.json",
+    "bytes": 248,
+    "sha256": "9336fdcf2a6749901026fe4b0a82f124a9e2a9162a111fad64b677b3ab4994e6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/PREPARED.json",
+    "bytes": 258,
+    "sha256": "a7654f4211e0da4d7cc6a1437518715b9f46ea7524bd4a66aa43814aca69599b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/LAUNCH_VERIFIED.json",
+    "bytes": 945,
+    "sha256": "859faa041a5653d1b1f8a91e5c72e71db46605c56626a67a14f29cb4c927e595"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/v8_sampling_fit.json",
+    "bytes": 2309,
+    "sha256": "aba4ef7860a9c7db8ee5835d8e752aadc50bd2333e20f418834004cddfa8d45b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/count_progress.json",
+    "bytes": 58,
+    "sha256": "5809de3840ffb0ff59972192cc7f574822de12c14b4436f6d417de50be296a21"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/review/negative_supervision_audit.json",
+    "bytes": 4369,
+    "sha256": "b91da053825df9b2aa4510e1629010c6bf0d5ac2bfec41edf9c41723ad9ed2b7"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/train_suite.py",
+    "bytes": 2000,
+    "sha256": "fa22f3994005f0c8f689016242bf0601c26981e7613ca9dd9b2a50cf881eb7e2"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/prepare_binary_run.py",
+    "bytes": 2578,
+    "sha256": "f07ee08abcc6a8ca0fea8a2c0c353afb6c246cab52f4a98cb8d454207360ce3c"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/run.sh",
+    "bytes": 330,
+    "sha256": "6987e40f978b372d2820e816d5236fbb3f1599f31f2b7cc77e14c6b073ecc0ac"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/configure_random_bce.py",
+    "bytes": 5223,
+    "sha256": "5a1b924826102850cf41e170f985fd809dedfb66a100f16fdf42af5fbd016a17"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/check_cpu.sh",
+    "bytes": 706,
+    "sha256": "884c473e2c4d54a4fbb833d579fcfe7c7af4bdffea7f5ef94df250556a647ef6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/count_tissue_pixels.py",
+    "bytes": 2420,
+    "sha256": "ea4cbf11c58c4daddb05bd5a404d779f0aa88ff901904db35f029cbb56114778"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/export_binary_dataset.py",
+    "bytes": 6948,
+    "sha256": "fc4f506491685f87dc3d8f38c5f0b5bab9401c96ed57be6e5c70cadf4842c210"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/prepare_suite.py",
+    "bytes": 7079,
+    "sha256": "e76ab866ba8ddb80b2280f61422c25ce2662d2eca2d6a0225cb6388a3e0f9ec8"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/verify_binary_data.py",
+    "bytes": 4903,
+    "sha256": "0cdd9d4122d823b4acda227744d01b8a7130a0c6e40b717612a4e6a78ed05036"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/export_binary_patch.py",
+    "bytes": 1284,
+    "sha256": "7e36adfdcda67a8eacb2cdfbdc2912c2b8ff43a23dc56a20961db5e0d9d5378b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/scripts/verify_suite.py",
+    "bytes": 2049,
+    "sha256": "9b7e6426627e2e90e80127d3e0b76c5c272531053402eb4217cfd8c3eb508132"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/configs/train_binary_bce.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/configs/train.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/configs/v8.json",
+    "bytes": 2060,
+    "sha256": "d7405ff6554161bc2279f9317ef9a84902f5c9e9aaf68834bbe74b358125a0ae"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/configs/v6.json",
+    "bytes": 2053,
+    "sha256": "f7876f11452124cbecf8e72c3377a7b92f674cbc044dd3ae42d32d33083a8a97"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/configs/v7.json",
+    "bytes": 2053,
+    "sha256": "d21d9088f22df51db7a859dc4544a760e16ebe10a6b8c38af0c085c8b3290b6a"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/datacore/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8/datacore/orioncrc_dataset.py",
+    "bytes": 557,
+    "sha256": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/README.md",
+    "bytes": 7741,
+    "sha256": "fb2ceead6f3bcbe7a25dff98f8e95076e20ccf6d7136e7fea1c141888c3968c8"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/model.py",
+    "bytes": 1190,
+    "sha256": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/losses.py",
+    "bytes": 866,
+    "sha256": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/display.py",
+    "bytes": 1736,
+    "sha256": "c02476e9fbb176f23f1aa4f70a60f927c060a50f982779ba373a56e6943e7db6"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/distributed.py",
+    "bytes": 9698,
+    "sha256": "e93aef8c3faabbb7364a306947156aa0f2d14d21c8f268e49637966b0efccca5"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/binary_targets.py",
+    "bytes": 2241,
+    "sha256": "9fd04377a4b12959238a05dfb10de9f5a91a89e9d13bcc431593c8f70d336b9b"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/metrics.py",
+    "bytes": 7222,
+    "sha256": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/data.py",
+    "bytes": 8345,
+    "sha256": "2c20ca1f945bf633836622f5a5fe5e3a03de481dd29bac97c39ac596bde6e470"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/train_ddp.py",
+    "bytes": 28434,
+    "sha256": "3b3749170570ab2a40bfd6041a9a2ff05e4cefdc7c6a965048a207022e249368"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/bce_balance.py",
+    "bytes": 2109,
+    "sha256": "e916db943b01c1a44cdd220bec01c08e456a06bba5a955110a8f20d1b70cf56a"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/cache.py",
+    "bytes": 8266,
+    "sha256": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/thresholds.py",
+    "bytes": 3431,
+    "sha256": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/prepare.py",
+    "bytes": 19056,
+    "sha256": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/validate.py",
+    "bytes": 4573,
+    "sha256": "16186863bbb6613e5090cd5588af77d0bb14a919320c6b7dad2987f7767e9390"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/workflow.py",
+    "bytes": 15393,
+    "sha256": "452735ba9354096335d3ce38d64e66a960ba3447c773bc0c22375fb255d49229"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/predict.py",
+    "bytes": 4778,
+    "sha256": "1e473fe8598818504b73537d73bfb5d6cd6f4d9ebbb6ef41e03a0391a4a83bf5"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/capacity.py",
+    "bytes": 6679,
+    "sha256": "3a0bb437930e241af70702b3d61ab1df57659ff3c0da9bfbfb8261e88557f5e9"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/artifacts.py",
+    "bytes": 692,
+    "sha256": "19c8b981f58cd2a039bc64d9ae235073b5d2acc3dca03a19dcc32c1643840661"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_seg/report.py",
+    "bytes": 6883,
+    "sha256": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_workflow.py",
+    "bytes": 4995,
+    "sha256": "5ad2b92032ada506af154a894048a49894e873c68399adef5f653db4cc078cbe"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/ddp_cpu_check.py",
+    "bytes": 3654,
+    "sha256": "c47a903a2e6e95bccc332ae1b321ae9e456e75070f7382e7b3ce63d371262db6"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_threshold_display.py",
+    "bytes": 1164,
+    "sha256": "93cb65e6c8c85bf6de3903c97b5a67f38398fbfa99d53793905d4520cb56c18e"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_core.py",
+    "bytes": 6796,
+    "sha256": "525ecad0d3a2c2ceb9ed5c079916510485905cfdbfb042b68be4fdc70e5c0144"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_thresholds.py",
+    "bytes": 2514,
+    "sha256": "f510966e9de5517542451afbeab9a5b771c0812ad2909df471f5c61b413a8a4d"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_positive_dice.py",
+    "bytes": 2479,
+    "sha256": "178976895000b7785eb45ae31182600932d35fee0808f3bb00234d34b39fa0dd"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/production_cpu_check.py",
+    "bytes": 8649,
+    "sha256": "7a215ca0084fe3d362fc3c674cfd5d09901188d224296e055ba0107c9202639f"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_device_metrics.py",
+    "bytes": 1478,
+    "sha256": "84e56de7e640cbcf2f892775cfe7c7ea51dc5a8a9ff1535fb6f8c724fe2214ca"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_cache.py",
+    "bytes": 3493,
+    "sha256": "e9c00430ee9856de311a7cd28b1de902dbf0b14817a861ba5da608783ff6a62d"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/gpu_cached_input_check.py",
+    "bytes": 3571,
+    "sha256": "8d082288fc7137af2bf08d868d0130afef2ceb16e400257bbefba8f2c321daf7"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_binary_bce.py",
+    "bytes": 2169,
+    "sha256": "9a9fe79621ddf670ac7675ccdaf39d8211d4281acdda278021f9446982030c23"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/tests/test_random_balanced_bce.py",
+    "bytes": 3153,
+    "sha256": "7d6fa24a4606616d837e7b513324b6e3e1cbe0768e51d3b80441eb74642a651e"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_matte/vitmatte_unet.py",
+    "bytes": 11402,
+    "sha256": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_matte/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/review/production_cpu_verification.json",
+    "bytes": 635,
+    "sha256": "13913a1ec6ef867dc88ab243441f7d1726bbe3cac9813e2ed8af49ee577bec68"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/review/ddp_cpu_verification.json",
+    "bytes": 267,
+    "sha256": "2ef44b46dfedda92385ae54c2895c0070aebadc44a105717c5f648727d69b89b"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/review/real_data_cpu_verification.json",
+    "bytes": 594,
+    "sha256": "ffce11484a9f6b57d44e5d4c496887d780f6def5043dcebcdc4784838c688be6"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/review/verification.json",
+    "bytes": 613,
+    "sha256": "32b5dd469d6713e730a8730d5f0cfd89f537a6cdc879504f907c187e16b7e5f6"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/review/old_checkpoint_before_switch.json",
+    "bytes": 404,
+    "sha256": "c0ca02c96482266fb29a4c76a5af5d25877aead0236fc5d2a6e4856ab1cb72c8"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/review/binary_examples/patch_314024.json",
+    "bytes": 352,
+    "sha256": "128e0c77c094bb7832950da3a0b45b4c20863e94779f90924be43f5ad8333a22"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/scripts/prepare_binary_run.py",
+    "bytes": 2578,
+    "sha256": "f07ee08abcc6a8ca0fea8a2c0c353afb6c246cab52f4a98cb8d454207360ce3c"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/scripts/run.sh",
+    "bytes": 330,
+    "sha256": "6987e40f978b372d2820e816d5236fbb3f1599f31f2b7cc77e14c6b073ecc0ac"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/scripts/configure_random_bce.py",
+    "bytes": 5223,
+    "sha256": "5a1b924826102850cf41e170f985fd809dedfb66a100f16fdf42af5fbd016a17"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/scripts/check_cpu.sh",
+    "bytes": 706,
+    "sha256": "884c473e2c4d54a4fbb833d579fcfe7c7af4bdffea7f5ef94df250556a647ef6"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/scripts/export_binary_dataset.py",
+    "bytes": 6948,
+    "sha256": "fc4f506491685f87dc3d8f38c5f0b5bab9401c96ed57be6e5c70cadf4842c210"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/scripts/verify_binary_data.py",
+    "bytes": 4903,
+    "sha256": "0cdd9d4122d823b4acda227744d01b8a7130a0c6e40b717612a4e6a78ed05036"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/scripts/export_binary_patch.py",
+    "bytes": 1284,
+    "sha256": "7e36adfdcda67a8eacb2cdfbdc2912c2b8ff43a23dc56a20961db5e0d9d5378b"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/configs/train_binary_bce.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/configs/train.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/datacore/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/binary_bce/datacore/orioncrc_dataset.py",
+    "bytes": 557,
+    "sha256": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/README.md",
+    "bytes": 2788,
+    "sha256": "decf057ffa7324846ea5f24410086111663b33c30664b405706d067483411609"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/model.py",
+    "bytes": 1190,
+    "sha256": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/losses.py",
+    "bytes": 866,
+    "sha256": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/display.py",
+    "bytes": 1060,
+    "sha256": "65230ed1f652aa9747c06c538be5ef8feb39c4ff8acc5677ee22423ca5aa52e6"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/distributed.py",
+    "bytes": 9454,
+    "sha256": "8fd19336e34bd21b6965985d4b4a1d5854688c971c6fdd32e2a8e5238fe5f2cc"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/metrics.py",
+    "bytes": 7222,
+    "sha256": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/data.py",
+    "bytes": 7409,
+    "sha256": "d48e88b8af093f2f9539af1df027c11434978200fc9161752954fd64208ff91d"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/train_ddp.py",
+    "bytes": 29236,
+    "sha256": "d7c9a46407b35dac5bb5558899cbded5436cb3647535bccfc6ff72a0552590b3"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/pixel_sampling.py",
+    "bytes": 6762,
+    "sha256": "f2bd20c1ab629236eae1d5f021d47663ae6b926548132c27df999e3cf0a9b292"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/cache.py",
+    "bytes": 8266,
+    "sha256": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/thresholds.py",
+    "bytes": 3431,
+    "sha256": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/prepare.py",
+    "bytes": 19056,
+    "sha256": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/validate.py",
+    "bytes": 3853,
+    "sha256": "641851d16379bf4af68fb49178e8cc075b35b8a5a67a73e1d7bf1be544351714"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/workflow.py",
+    "bytes": 15455,
+    "sha256": "ab9e9387b46086f081fa452d8257cd6b197537a7d7bf1c0d84e49e87ac32d853"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/predict.py",
+    "bytes": 4862,
+    "sha256": "7a04d03155a0521f66dbff289bf9531ff642b2dcb3f9fa5507ca27f7123e0a02"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/capacity.py",
+    "bytes": 6720,
+    "sha256": "8e8a086dd44b72157ca1178563a4ea9ca71d679323443cf0f6328394221e73aa"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/artifacts.py",
+    "bytes": 582,
+    "sha256": "14f927372211de2a17b1a85fdc2a46d1ce60d8ea9a43fa911f37b59ff711afae"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_seg/report.py",
+    "bytes": 6883,
+    "sha256": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/test_workflow.py",
+    "bytes": 4999,
+    "sha256": "6dee227ec9299c912fa4d362e8c7ddc906a7157f9b7994db6b7bff1c0a22d122"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/ddp_cpu_check.py",
+    "bytes": 3582,
+    "sha256": "c5184b96aff0e3dfc4de01f4b66d26680404b46381ac03d387d685289133fac1"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/test_core.py",
+    "bytes": 6796,
+    "sha256": "525ecad0d3a2c2ceb9ed5c079916510485905cfdbfb042b68be4fdc70e5c0144"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/test_thresholds.py",
+    "bytes": 2514,
+    "sha256": "f510966e9de5517542451afbeab9a5b771c0812ad2909df471f5c61b413a8a4d"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/test_positive_dice.py",
+    "bytes": 2451,
+    "sha256": "5e33cbc0474d48e82f3d8fc7b72ded68a921c25e4ee2673bb0b8738bada3a532"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/production_cpu_check.py",
+    "bytes": 7852,
+    "sha256": "3458b01b732556a253ff147c51a9427cdbf3871e42cc0b2afbecd37ec60d415e"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/test_pixel_balance.py",
+    "bytes": 3875,
+    "sha256": "a2fa5a0922fb3b52cea750b40f2c0f80a8b8284c4504e703492912d41aab7533"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/test_device_metrics.py",
+    "bytes": 1478,
+    "sha256": "84e56de7e640cbcf2f892775cfe7c7ea51dc5a8a9ff1535fb6f8c724fe2214ca"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/test_cache.py",
+    "bytes": 3493,
+    "sha256": "e9c00430ee9856de311a7cd28b1de902dbf0b14817a861ba5da608783ff6a62d"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/tests/gpu_cached_input_check.py",
+    "bytes": 3651,
+    "sha256": "3901e21e6bdaecfd62d91ae1290955d06aa68880fed3155fff1d0d1655af94d0"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_matte/vitmatte_unet.py",
+    "bytes": 11402,
+    "sha256": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_matte/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/production_cpu_verification.json",
+    "bytes": 534,
+    "sha256": "2119bd6c4b2dd05b5e793e91b1e556bfe71ab7e1544ea3a47cfa300d2016af70"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/sampling_epoch_001.json",
+    "bytes": 7628,
+    "sha256": "18ce5b215af7397571a2da9083974880ad507c9d5099895ece917e45efd3e6b8"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/sampling_epoch_003.json",
+    "bytes": 7631,
+    "sha256": "9eef3bd307a7207444fa3c423a80671113c1abba700e21e5b276574f82ff2f60"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/ddp_cpu_verification.json",
+    "bytes": 267,
+    "sha256": "2ef44b46dfedda92385ae54c2895c0070aebadc44a105717c5f648727d69b89b"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/real_data_cpu_verification.json",
+    "bytes": 488,
+    "sha256": "cfb839f6f2849b1d8f105e273e8b44c78d675744054651cbe5d0a538c9ba0478"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/\u65b9\u6848\u4e0e\u68c0\u67e5\u7ed3\u679c.md",
+    "bytes": 9772,
+    "sha256": "17f033774e8ad4ac29b15c8db4ae20e2c954c522b97c4f77bfbdc5cb61103e36"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/sampling_epoch_002.json",
+    "bytes": 7622,
+    "sha256": "5e4b025237e7af91d0f4af3d444b413095cf7112be0215f80f4dc6c87cabc050"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/threshold_stability/full_sample_thresholds_diagnostic_only.json",
+    "bytes": 600,
+    "sha256": "81ab56e1d0cf6b7f9703f35b2aae3f89df616b10bc681a36aab546dffe074f51"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/review/threshold_stability/receipt.json",
+    "bytes": 834,
+    "sha256": "03022e0f6a2f45b9005175b0706e8bf9ca8ed05d1c84cc1ac163c8f0db7f05f2"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/scripts/count_training_pixels.py",
+    "bytes": 3748,
+    "sha256": "2a931686b0c28617b27f2d78ddda11b25179aee09532cddc1bcff4711f750245"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/scripts/run.sh",
+    "bytes": 330,
+    "sha256": "6987e40f978b372d2820e816d5236fbb3f1599f31f2b7cc77e14c6b073ecc0ac"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/scripts/report_proposal.py",
+    "bytes": 11011,
+    "sha256": "7a21e78457a7317a5ce854233179e24e3dd6288083e707fc0560b10dae352c5f"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/scripts/patient_threshold_audit.py",
+    "bytes": 7183,
+    "sha256": "3e28f46813ce5c5eda4d7d47f07b13154826f2d87a42c1edd01d5e2fe14c5bf6"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/scripts/check_cpu.sh",
+    "bytes": 706,
+    "sha256": "884c473e2c4d54a4fbb833d579fcfe7c7af4bdffea7f5ef94df250556a647ef6"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/scripts/prepare_proposal.py",
+    "bytes": 6058,
+    "sha256": "298873ed9e2b3a0b1b02569c6c58b020d5ff779dc8fbfb2f5b30cd80558d7f29"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/scripts/prepare_positive_dice_run.py",
+    "bytes": 5424,
+    "sha256": "fb548167568acf11c5495dc16231b83d5812d4af087942aaae92728f58ab5fd7"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/configs/train_pixel_balance_no_positive_boost.json",
+    "bytes": 1959,
+    "sha256": "260c88422f5fbbfbfe3ee1d553951c93fb2a3b18b2eb09d8161dd91f5a131c5d"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/configs/train_pixel_balance_dice1_control.json",
+    "bytes": 2100,
+    "sha256": "b8bd9e0290d86ff63015f7d7c786098f4e30552ebe045f29617573d92d40036b"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/configs/train.json",
+    "bytes": 2100,
+    "sha256": "cb8ae2de6b21519b6911b2848cc4569929ae37c3e854c7e432cf494abff4dd6f"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/configs/train_positive_dice.json",
+    "bytes": 1684,
+    "sha256": "90bfd2b28a300672f1ecf874ee67e1a1b31a2dde4d4ad71d9724ca72017e9eb4"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/configs/train_pixel_balance.json",
+    "bytes": 2100,
+    "sha256": "cb8ae2de6b21519b6911b2848cc4569929ae37c3e854c7e432cf494abff4dd6f"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/datacore/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/pixel_balance/datacore/orioncrc_dataset.py",
+    "bytes": 557,
+    "sha256": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/EXPERIMENTS.txt",
+    "bytes": 3810,
+    "sha256": "5d1b08a1bdd7316f5a58f1fa7d59af132f251626bbbc1054197444a033345c69"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/model.py",
+    "bytes": 1190,
+    "sha256": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/losses.py",
+    "bytes": 866,
+    "sha256": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/display.py",
+    "bytes": 1736,
+    "sha256": "c02476e9fbb176f23f1aa4f70a60f927c060a50f982779ba373a56e6943e7db6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/distributed.py",
+    "bytes": 10981,
+    "sha256": "7cd702830e2dc45d9dec88f0176a9e015f2bef353904d6922ab84cac6d5fd1da"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/binary_targets.py",
+    "bytes": 2582,
+    "sha256": "050ed1adc52331b07706ad76d99b18f539f16f9018a2603267da54f745886c78"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/metrics.py",
+    "bytes": 7222,
+    "sha256": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/data.py",
+    "bytes": 8501,
+    "sha256": "efdeeb8058cd1831b29ff25aeeb175bf0645c926ad2f8d4f37902eff033444c6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/train_ddp.py",
+    "bytes": 30602,
+    "sha256": "f1b57dd3d18a8021fb6e58b75337f25e4d62034d9737d66bde222c0ada40f953"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/pixel_sampling.py",
+    "bytes": 3957,
+    "sha256": "a3945b455cf76865d18d7eaa11280907bb81fa2f9219b63bf597c5dc2ff1c8a5"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/bce_balance.py",
+    "bytes": 2703,
+    "sha256": "bdc0f6c887d6e7d754691bb099cd8130cce19875ba368d64eb9f1911671bde4c"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/cache.py",
+    "bytes": 8266,
+    "sha256": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/thresholds.py",
+    "bytes": 3431,
+    "sha256": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/prepare.py",
+    "bytes": 19056,
+    "sha256": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/validate.py",
+    "bytes": 4598,
+    "sha256": "dd48594b4ea7b611d9239a93ed888ca304bdead680824b4d4f4c31652606019b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/workflow.py",
+    "bytes": 15960,
+    "sha256": "22d2085549a6ae98649755bb88c3c7aef9ee376a8c21da259e25d915ee89a427"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/predict.py",
+    "bytes": 4778,
+    "sha256": "1e473fe8598818504b73537d73bfb5d6cd6f4d9ebbb6ef41e03a0391a4a83bf5"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/capacity.py",
+    "bytes": 6749,
+    "sha256": "bf817ac770a11255127d7a6ba85f5926112b754d7e6671589512817bef3b006e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/artifacts.py",
+    "bytes": 713,
+    "sha256": "d97a8292d9b0737d842bbae8d8e29084800becb91f0233f00aafc1ef2bdfc3e8"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_seg/report.py",
+    "bytes": 6883,
+    "sha256": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_workflow.py",
+    "bytes": 4995,
+    "sha256": "5ad2b92032ada506af154a894048a49894e873c68399adef5f653db4cc078cbe"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/ddp_cpu_check.py",
+    "bytes": 3752,
+    "sha256": "8b57737e93bb2680bc1d13a1d894f86ca12361f4f7cfc996c0f1d0358509e020"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_threshold_display.py",
+    "bytes": 1164,
+    "sha256": "93cb65e6c8c85bf6de3903c97b5a67f38398fbfa99d53793905d4520cb56c18e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_empty_dice.py",
+    "bytes": 3020,
+    "sha256": "324c77efb2048d1a6bfc35e8b2fd97cb460f5df69a1c1953dd3b81fc980c8e22"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_tissue_experiments.py",
+    "bytes": 3427,
+    "sha256": "bdacb0a3fa3c68834656370b4687937d3a76bda044a1d1933852efc7996f55c1"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_core.py",
+    "bytes": 6796,
+    "sha256": "525ecad0d3a2c2ceb9ed5c079916510485905cfdbfb042b68be4fdc70e5c0144"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_thresholds.py",
+    "bytes": 2514,
+    "sha256": "f510966e9de5517542451afbeab9a5b771c0812ad2909df471f5c61b413a8a4d"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_positive_dice.py",
+    "bytes": 2479,
+    "sha256": "178976895000b7785eb45ae31182600932d35fee0808f3bb00234d34b39fa0dd"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/production_cpu_check.py",
+    "bytes": 9330,
+    "sha256": "951e6e799a5f9617c03cc0c5f2b192947c128aaaf081b4e1b827f30028ad72cc"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_device_metrics.py",
+    "bytes": 1478,
+    "sha256": "84e56de7e640cbcf2f892775cfe7c7ea51dc5a8a9ff1535fb6f8c724fe2214ca"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_cache.py",
+    "bytes": 3493,
+    "sha256": "e9c00430ee9856de311a7cd28b1de902dbf0b14817a861ba5da608783ff6a62d"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/gpu_cached_input_check.py",
+    "bytes": 3571,
+    "sha256": "8d082288fc7137af2bf08d868d0130afef2ceb16e400257bbefba8f2c321daf7"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_binary_bce.py",
+    "bytes": 2169,
+    "sha256": "9a9fe79621ddf670ac7675ccdaf39d8211d4281acdda278021f9446982030c23"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/tests/test_random_balanced_bce.py",
+    "bytes": 3153,
+    "sha256": "7d6fa24a4606616d837e7b513324b6e3e1cbe0768e51d3b80441eb74642a651e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_matte/vitmatte_unet.py",
+    "bytes": 11402,
+    "sha256": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_matte/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/review/real_data_verification.json",
+    "bytes": 1777,
+    "sha256": "ea95685600970c425ac525a3cd718866689bac1ea7ac1d62d60f4b7f33d37ff3"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/review/production_cpu_verification.json",
+    "bytes": 635,
+    "sha256": "13913a1ec6ef867dc88ab243441f7d1726bbe3cac9813e2ed8af49ee577bec68"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/review/CHECKS_PASSED.json",
+    "bytes": 1278,
+    "sha256": "1dd81822e77aef44158831e5749114d5dca3dbfe39e8995d1a16d33c81c365a6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/review/ddp_cpu_verification.json",
+    "bytes": 267,
+    "sha256": "2ef44b46dfedda92385ae54c2895c0070aebadc44a105717c5f648727d69b89b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/review/V9_CONFIG_VERIFIED.json",
+    "bytes": 139,
+    "sha256": "b2da03a7b4d8730a416b5f1e580115d3f311efbdcd8326e1a2e730f521a20c10"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/review/v8_sampling_fit.json",
+    "bytes": 2309,
+    "sha256": "aba4ef7860a9c7db8ee5835d8e752aadc50bd2333e20f418834004cddfa8d45b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/review/ACTIVE_PLAN.json",
+    "bytes": 332,
+    "sha256": "c1f446b0ac916c4e05f649b412ff56d5fbae3cdb312d54d3755ffbbd1fa1baef"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/train_suite.py",
+    "bytes": 2000,
+    "sha256": "fa22f3994005f0c8f689016242bf0601c26981e7613ca9dd9b2a50cf881eb7e2"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/prepare_binary_run.py",
+    "bytes": 2578,
+    "sha256": "f07ee08abcc6a8ca0fea8a2c0c353afb6c246cab52f4a98cb8d454207360ce3c"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/run_v6_then_v9.py",
+    "bytes": 2006,
+    "sha256": "e3bbb353dc60b6a147189e62f4bd373d7d3106efcf8b78688c6a0023a3141c38"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/run.sh",
+    "bytes": 330,
+    "sha256": "6987e40f978b372d2820e816d5236fbb3f1599f31f2b7cc77e14c6b073ecc0ac"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/configure_random_bce.py",
+    "bytes": 5223,
+    "sha256": "5a1b924826102850cf41e170f985fd809dedfb66a100f16fdf42af5fbd016a17"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/check_cpu.sh",
+    "bytes": 706,
+    "sha256": "884c473e2c4d54a4fbb833d579fcfe7c7af4bdffea7f5ef94df250556a647ef6"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/count_tissue_pixels.py",
+    "bytes": 2420,
+    "sha256": "ea4cbf11c58c4daddb05bd5a404d779f0aa88ff901904db35f029cbb56114778"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/export_binary_dataset.py",
+    "bytes": 6948,
+    "sha256": "fc4f506491685f87dc3d8f38c5f0b5bab9401c96ed57be6e5c70cadf4842c210"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/prepare_suite.py",
+    "bytes": 7079,
+    "sha256": "e76ab866ba8ddb80b2280f61422c25ce2662d2eca2d6a0225cb6388a3e0f9ec8"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/verify_binary_data.py",
+    "bytes": 4903,
+    "sha256": "0cdd9d4122d823b4acda227744d01b8a7130a0c6e40b717612a4e6a78ed05036"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/export_binary_patch.py",
+    "bytes": 1284,
+    "sha256": "7e36adfdcda67a8eacb2cdfbdc2912c2b8ff43a23dc56a20961db5e0d9d5378b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/scripts/verify_suite.py",
+    "bytes": 2135,
+    "sha256": "d6b29e72294781a76395c633e4b39e41c15ef85970e967f496885118c3c161a4"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/configs/train_binary_bce.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/configs/train.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/configs/v8.json",
+    "bytes": 2198,
+    "sha256": "f195cece260a4ece7bffcc6a92a920fe5b231b0a9fd5029a93509e9ad510cf01"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/configs/v9.json",
+    "bytes": 2191,
+    "sha256": "4db0c924633b00af2a0dc7591f1059f6d6abae53c9f5d73b0862d1ad4ab37160"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/configs/v6.json",
+    "bytes": 2191,
+    "sha256": "ea94901749cafe1898b8c869de332995e9bdcd425b0f3512652d3d0290d0c57e"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/configs/v7.json",
+    "bytes": 2191,
+    "sha256": "4e3cb186c4cabf16ad3e000f935548d4307849199a9b9a211fca15ed17c8a89f"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/datacore/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v6_v7_v8_emptydice/datacore/orioncrc_dataset.py",
+    "bytes": 557,
+    "sha256": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/model.py",
+    "bytes": 1190,
+    "sha256": "8b48dfeed82e1b4e8e228a8a1ca7cd6991b3fcdc8c4ad182b9dec9d6005330c3"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/losses.py",
+    "bytes": 866,
+    "sha256": "7e301daabb5ff33b7053a4ac6644b8b57bb09dc481dfeb7310650e7582e43e4e"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/display.py",
+    "bytes": 1736,
+    "sha256": "c02476e9fbb176f23f1aa4f70a60f927c060a50f982779ba373a56e6943e7db6"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/distributed.py",
+    "bytes": 9698,
+    "sha256": "e93aef8c3faabbb7364a306947156aa0f2d14d21c8f268e49637966b0efccca5"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/binary_targets.py",
+    "bytes": 2582,
+    "sha256": "050ed1adc52331b07706ad76d99b18f539f16f9018a2603267da54f745886c78"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/metrics.py",
+    "bytes": 7222,
+    "sha256": "37df8f5e8afa4f63e50fece5d7f37b4c9ac2feb4fb11d9c0423c920d6952c952"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/data.py",
+    "bytes": 8501,
+    "sha256": "efdeeb8058cd1831b29ff25aeeb175bf0645c926ad2f8d4f37902eff033444c6"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/train_ddp.py",
+    "bytes": 30342,
+    "sha256": "6d97f21c6243b99d4f83ec9bf3489ef57d11897cdf8b4851c37d6887c229fda2"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/pixel_sampling.py",
+    "bytes": 3957,
+    "sha256": "a3945b455cf76865d18d7eaa11280907bb81fa2f9219b63bf597c5dc2ff1c8a5"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/bce_balance.py",
+    "bytes": 3194,
+    "sha256": "70c8b45a12ee52e9f7bd06a88e9202e9fb036682147f318ff0069f063c48baf1"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/cache.py",
+    "bytes": 8266,
+    "sha256": "03f6377686d36c7b51bdccb2c795e90e05b884e00afbe27c95d41eefebb46ea6"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/thresholds.py",
+    "bytes": 3431,
+    "sha256": "ea736b8552d637dc140a7db5a1750b2b9b06ecad23a99ae1ef9f8d63d61efb78"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/prepare.py",
+    "bytes": 19056,
+    "sha256": "35becb77ad7996b1b29e336df602019f300b76879ccffa5f0c9f051dca86e0ff"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/validate.py",
+    "bytes": 4598,
+    "sha256": "dd48594b4ea7b611d9239a93ed888ca304bdead680824b4d4f4c31652606019b"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/workflow.py",
+    "bytes": 15426,
+    "sha256": "bfde97ce8c02a5dbf0c6bfee44fea3dbfb1ca0645bc8ce3bb7bdd9c732def2a9"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/predict.py",
+    "bytes": 4778,
+    "sha256": "1e473fe8598818504b73537d73bfb5d6cd6f4d9ebbb6ef41e03a0391a4a83bf5"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/capacity.py",
+    "bytes": 6679,
+    "sha256": "3a0bb437930e241af70702b3d61ab1df57659ff3c0da9bfbfb8261e88557f5e9"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/artifacts.py",
+    "bytes": 713,
+    "sha256": "d97a8292d9b0737d842bbae8d8e29084800becb91f0233f00aafc1ef2bdfc3e8"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_seg/report.py",
+    "bytes": 6883,
+    "sha256": "e58d3ed3c90e61b81d31226fdab7d8d37cd06864c9fd75c584c75487e881bb05"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/tests/test_weighting_release.py",
+    "bytes": 1959,
+    "sha256": "85477cee1c6fd04463f0d381bf5ec2bd5ce8cf62ed54e6f74b262d351b2dcc51"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_matte/vitmatte_unet.py",
+    "bytes": 11402,
+    "sha256": "1f11730f8caacd864007adf9f0fa65324f8e0a10345f57415a44a681cfcb9c2e"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_matte/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/scripts/audit_patch_balance.py",
+    "bytes": 3088,
+    "sha256": "88b79da6275e02ace6d003ba7e054416777fb0752ccd3dd75b866a70e1391d35"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/scripts/run.sh",
+    "bytes": 330,
+    "sha256": "6987e40f978b372d2820e816d5236fbb3f1599f31f2b7cc77e14c6b073ecc0ac"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/scripts/after_v10.py",
+    "bytes": 2382,
+    "sha256": "6b34d2b07fa6917012eb25dff16850203cf6b3d3558dd10d0b9fe5177c0ff87f"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/v11.json",
+    "bytes": 2057,
+    "sha256": "900c893f86ead26fe6d09e3db891a8081c7eb05cd354b5709b92dfdae33daf1a"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/train_binary_bce.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/train.json",
+    "bytes": 1987,
+    "sha256": "be55fa6668ecf2738357537d5dabe9dbe93da47fa46b0cec865c15836bf18295"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/v8.json",
+    "bytes": 2060,
+    "sha256": "d7405ff6554161bc2279f9317ef9a84902f5c9e9aaf68834bbe74b358125a0ae"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/v6.json",
+    "bytes": 2053,
+    "sha256": "f7876f11452124cbecf8e72c3377a7b92f674cbc044dd3ae42d32d33083a8a97"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/v7.json",
+    "bytes": 2053,
+    "sha256": "d21d9088f22df51db7a859dc4544a760e16ebe10a6b8c38af0c085c8b3290b6a"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/configs/v10.json",
+    "bytes": 2050,
+    "sha256": "5d53c11314f04b52da31a504c6372175b2ac14a72a8735f3c496b6ee2b5975b0"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/datacore/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/experiments/v11/datacore/orioncrc_dataset.py",
+    "bytes": 557,
+    "sha256": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f"
+  },
+  {
+    "path": "vit_training_project/scripts/run.sh",
+    "bytes": 330,
+    "sha256": "6987e40f978b372d2820e816d5236fbb3f1599f31f2b7cc77e14c6b073ecc0ac"
+  },
+  {
+    "path": "vit_training_project/scripts/check_cpu.sh",
+    "bytes": 706,
+    "sha256": "884c473e2c4d54a4fbb833d579fcfe7c7af4bdffea7f5ef94df250556a647ef6"
+  },
+  {
+    "path": "vit_training_project/scripts/prepare_positive_dice_run.py",
+    "bytes": 5424,
+    "sha256": "fb548167568acf11c5495dc16231b83d5812d4af087942aaae92728f58ab5fd7"
+  },
+  {
+    "path": "vit_training_project/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_training_project/configs/train.json",
+    "bytes": 1684,
+    "sha256": "90bfd2b28a300672f1ecf874ee67e1a1b31a2dde4d4ad71d9724ca72017e9eb4"
+  },
+  {
+    "path": "vit_training_project/configs/train_positive_dice.json",
+    "bytes": 1684,
+    "sha256": "90bfd2b28a300672f1ecf874ee67e1a1b31a2dde4d4ad71d9724ca72017e9eb4"
+  },
+  {
+    "path": "vit_training_project/docs/v3\u4e0e\u5206\u7c7b\u57fa\u7ebf\u5dee\u8ddd\u5206\u6790_20260929.md",
+    "bytes": 5938,
+    "sha256": "8bf6f7e173eb7960fcf1b7e5855ea6fd54d31bfe595ded6928e7729519f37396"
+  },
+  {
+    "path": "vit_training_project/docs/\u5f53\u524d\u9879\u76ee\u5168\u6d41\u7a0b_20260929.md",
+    "bytes": 14582,
+    "sha256": "2b4d253a206f29356424cfd179e2151f6d8168082e243692998312a45e8e9d07"
+  },
+  {
+    "path": "vit_training_project/docs/SSD\u7f13\u5b58\u4f18\u5316\u4e0e\u9a8c\u8bc1_20260927.md",
+    "bytes": 3702,
+    "sha256": "8c8af0863ce8f17e52ed1aee9e7ef1884f638e14a72c6175326ca083d9108cff"
+  },
+  {
+    "path": "vit_training_project/docs/\u8bad\u7ec3\u65b9\u6848.md",
+    "bytes": 9775,
+    "sha256": "a15725d00c51357b450794728d5f0e11ef028d09db1f73f7e41163a8e9f585e6"
+  },
+  {
+    "path": "vit_training_project/docs/\u65b9\u6848\u5206\u6790.md",
+    "bytes": 11568,
+    "sha256": "970f70904089fe19c5343c7319c734d0f7b4472d7f5529b3ed3b31515a54581a"
+  },
+  {
+    "path": "vit_training_project/docs/loss\u5e73\u53f0\u5206\u6790_20260928.md",
+    "bytes": 7501,
+    "sha256": "0d61b163630c2eef7e745f892a42f74f84e6dac9c860adf48683e9f8a24b2960"
+  },
+  {
+    "path": "vit_training_project/docs/\u9608\u503c\u4e0e\u4e00\u952e\u8fd0\u884c\u590d\u67e5.md",
+    "bytes": 4112,
+    "sha256": "6a209835730fe1a0ca5b38b613e45ae2c6b22b8a34fe58496ffc122303d38735"
+  },
+  {
+    "path": "vit_training_project/docs/GT\u6765\u6e90\u4e0e\u7b5b\u9009\u504f\u5dee.md",
+    "bytes": 7247,
+    "sha256": "fb18a702b307561f524b54fdfe4e18d16c0075e476460b7b806ff027cf8a6fec"
+  },
+  {
+    "path": "vit_training_project/docs/MIPHEI\u53ef\u501f\u9274\u65b9\u6848.md",
+    "bytes": 5553,
+    "sha256": "0b53745378b604803c8b1e71210311ecaeaf0c1a10ff76c7f63bca044fd56b64"
+  },
+  {
+    "path": "vit_training_project/docs/fusion_blueprint.json",
+    "bytes": 1363,
+    "sha256": "b02c83500e07904d45a06b36fcac4396d3de494fdc4976ade3c5cef103437155"
+  },
+  {
+    "path": "vit_training_project/docs/\u6574\u4f53\u8bc4\u4f30\u4e0e\u9633\u6027Dice\u8bad\u7ec3_20260929.md",
+    "bytes": 9300,
+    "sha256": "4f8e9b8f1fab9244e72201eb476bb569bf03044c4c45bcc72763cb329ed8a859"
+  },
+  {
+    "path": "vit_training_project/docs/\u8bad\u7ec3\u901f\u5ea6\u5206\u6790_20260927.md",
+    "bytes": 4233,
+    "sha256": "4e06162be69fb2180f7cba476afc49a53e7174a9ae248552703d29c0b84c0854"
+  },
+  {
+    "path": "vit_training_project/docs/\u8bad\u7ec3\u65e5\u5fd7\u4e0e\u6bcf\u8f6e\u5feb\u7167.md",
+    "bytes": 3574,
+    "sha256": "008227cfbc75921b106767789980618c0d3ba5667e9a4e9cff6794b537f841de"
+  },
+  {
+    "path": "vit_training_project/docs/\u9a8c\u8bc1\u8d85\u65f6\u4fee\u590d_20260928.md",
+    "bytes": 4087,
+    "sha256": "d2665214c8182643302723253ad4b06923ef960fc006bcab8cbbf0a540fb1b0a"
+  },
+  {
+    "path": "vit_training_project/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_training_project/datacore/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_training_project/datacore/orioncrc_dataset.py",
+    "bytes": 557,
+    "sha256": "3d1357d5a2fa30960c51024205aaf468b9ab4f77ce841be0de3398de30a0448f"
+  },
+  {
+    "path": "vit_versions/README.md",
+    "bytes": 3126,
+    "sha256": "c99c6bc2130c4302aae394fb0f49d70b4de0b92df4ef011ab460e6f9902b72cf"
+  },
+  {
+    "path": "vit_versions/_shared/04_\u76f8\u5173\u540e\u7eed\u65b9\u6848_TRAIN_PLAN_PRESENCE.md",
+    "bytes": 16059,
+    "sha256": "21370cfdf0c06a3c69ddea14e73d9608a512961df2e23a1a026399fa7542c8b5"
+  },
+  {
+    "path": "vit_versions/_shared/03_PLAN_\u9879\u76ee\u65b9\u6848\u4e0e\u8fdb\u5c55\u8bb0\u5f55.md",
+    "bytes": 30387,
+    "sha256": "5b7e04376f13d905a20245907b830970447c5a1848ef57a39d4ed9a38c4ed0ac"
+  },
+  {
+    "path": "vit_versions/_shared/05_\u76f8\u5173\u540e\u7eed\u65b9\u6848_M1_S2_RUNBOOK.md",
+    "bytes": 6673,
+    "sha256": "30d5b58e1350aa436ecccdaf0e42248c2406ae50c76e549f441dc746dfb04d90"
+  },
+  {
+    "path": "vit_versions/_shared/02_\u5168\u4efb\u52a1\u6307\u6807\u4e0e\u53ef\u89c6\u5316\u7ed3\u679c_2026-09-20.md",
+    "bytes": 7297,
+    "sha256": "8ea4df13ea43cb6cfcc5ed4cf407d0cd21546af96eb26f2930ae0133bbe51170"
+  },
+  {
+    "path": "vit_versions/_shared/\u53ef\u89c6\u5316\u4e0e\u91cd\u8bc4\u811a\u672c/make_patch_comparisons.py",
+    "bytes": 3910,
+    "sha256": "eb4b211c986df33d47e0c3757a4c45c02e015d2db2c06c5e907051dd7be5d82b"
+  },
+  {
+    "path": "vit_versions/_shared/\u53ef\u89c6\u5316\u4e0e\u91cd\u8bc4\u811a\u672c/wsi_panorama.py",
+    "bytes": 15343,
+    "sha256": "46ef948eaacc50d223fea998b66fa85f48315a4aa5c43cd7b35ff4928e78b38a"
+  },
+  {
+    "path": "vit_versions/_shared/\u53ef\u89c6\u5316\u4e0e\u91cd\u8bc4\u811a\u672c/run_full_benchmark.py",
+    "bytes": 9881,
+    "sha256": "89883561e1fb6daa74f889a8ebcd77e590da84030662f454d2409f05573fa7b5"
+  },
+  {
+    "path": "vit_versions/_shared/\u53ef\u89c6\u5316\u4e0e\u91cd\u8bc4\u811a\u672c/visualize_virtual_stain.py",
+    "bytes": 9767,
+    "sha256": "a4473298255c8af776c44cd9564a5314f60f5e6bf13196cb765747564af6d00a"
+  },
+  {
+    "path": "vit_versions/vit_v1/README.md",
+    "bytes": 847,
+    "sha256": "ac373561cf59e36bb4f0084e6030322098a4099be114a90249020a09bae2561c"
+  },
+  {
+    "path": "vit_versions/vit_v1/config.json",
+    "bytes": 601,
+    "sha256": "da26d5976c5bc7c6af008d38eec6124cb96d697d77f3039e3f1b3d7c6c6eb839"
+  },
+  {
+    "path": "vit_versions/vit_v1/sample.sh",
+    "bytes": 326,
+    "sha256": "b5feda7cd457b9888369bab89dab6da142b3d0a97389c9d38ad788f7ffbc4334"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/cell_classify.py",
+    "bytes": 19742,
+    "sha256": "345d11e881868ec9246a126ace6166b7c9fcaa2e111e7bf9a0e7babbf47dc149"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/metrics.py",
+    "bytes": 8604,
+    "sha256": "0b1f7e185489f0d1b25e18e5b5556594b593893154e23ce32c7ac21b96969789"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/metrics_gpu.py",
+    "bytes": 8984,
+    "sha256": "559d36a831db3e7027261816fca19df792c8a1c881ef2e34f229d3c5752c1112"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/eval/metrics_log.py",
+    "bytes": 3777,
+    "sha256": "0639a1ffc2ed44f6c4865e709b1f101130102cbbeed4a1270e23dd6663e5e4b5"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/vitmatte_unet.py",
+    "bytes": 12233,
+    "sha256": "48e9514f93f7bfc44921b6ab309f351be3914dfb843f5473187e10a59d024586"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/compute_marker_stats.py",
+    "bytes": 2543,
+    "sha256": "47347d6902a2509529b026d00e7c848d3b6a4aee5989951122c89f89db3e2cb6"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/TRAIN_PLAN_V2.md",
+    "bytes": 6966,
+    "sha256": "a1f49e2616f4e825532671c5fdd7784c43022efc1eb73902ccb21a72cf809beb"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/TRAIN_PLAN_M1_S2_RUNBOOK.md",
+    "bytes": 6673,
+    "sha256": "30d5b58e1350aa436ecccdaf0e42248c2406ae50c76e549f441dc746dfb04d90"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/train.py",
+    "bytes": 29714,
+    "sha256": "eed017225909b2d7ad525571aecbe5f254c04e2e1fe23da15fd6bd4905492a84"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/TRAIN_PLAN_PRESENCE.md",
+    "bytes": 16059,
+    "sha256": "21370cfdf0c06a3c69ddea14e73d9608a512961df2e23a1a026399fa7542c8b5"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/vit_matte/sample.py",
+    "bytes": 6477,
+    "sha256": "dded6cc77d6760e1b9e4dd75a04305fad4ef573011e41186b6967331044222f4"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/datacore/orioncrc_dataset.py",
+    "bytes": 14568,
+    "sha256": "f7714a7ff4e6a191c084c50aac29b0ba17d90baaeb395de0e82dd4fae0744bef"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/datacore/cache.py",
+    "bytes": 1827,
+    "sha256": "2b2e344a1f53f40a07d24b150bcefbd977a4224aa98ef8620cbe498302faf7b8"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/datacore/build_mask_prior.py",
+    "bytes": 8800,
+    "sha256": "2610d32afacf9e5fbff85f1c9536a9ce65888f70d33fcad422f4ee3f4bf718fd"
+  },
+  {
+    "path": "vit_versions/vit_v1/code/datacore/validate_mask_prior.py",
+    "bytes": 10455,
+    "sha256": "9f59e43db9e9d8818790a3dc423606c5efc3c41ec415cff61a8a235c7b4e32aa"
+  },
+  {
+    "path": "vit_versions/vit_v1/docs/\u76f8\u5173\u6587\u6863\u7d22\u5f15.md",
+    "bytes": 919,
+    "sha256": "8d629317227f46d063eb67746d54b34771045db979c6f27ee3319fd36800eb82"
+  },
+  {
+    "path": "vit_versions/classification/run_pipeline.sh",
+    "bytes": 2051,
+    "sha256": "1bdb5e0e7019bf5b6356b3df459d1e01be31c528212d7dde477c255e1392d249"
+  },
+  {
+    "path": "vit_versions/classification/\u65b9\u6848\u5206\u6790.md",
+    "bytes": 11344,
+    "sha256": "bbbf7c6e93cbc4f04eefce7381e861a949cbb094cdc33c20e5f09b1a71fa3f50"
+  },
+  {
+    "path": "vit_versions/classification/verification.json",
+    "bytes": 8062,
+    "sha256": "298628c80f14df9033ba72b4181144b8ef73f7077f8c18a265791bdec887ce43"
+  },
+  {
+    "path": "vit_versions/classification/GT\u6765\u6e90\u4e0e\u7b5b\u9009\u504f\u5dee.md",
+    "bytes": 7247,
+    "sha256": "fb18a702b307561f524b54fdfe4e18d16c0075e476460b7b806ff027cf8a6fec"
+  },
+  {
+    "path": "vit_versions/classification/gpu_smoke.json",
+    "bytes": 890,
+    "sha256": "fc33cc4d677dd0d77900d762f3890f205080933caf2051527b993abfcc3b301f"
+  },
+  {
+    "path": "vit_versions/classification/MIPHEI\u53ef\u501f\u9274\u65b9\u6848.md",
+    "bytes": 5329,
+    "sha256": "b1ed62109efacdebdd3d6315841663043fef77d0952178b296484c5bfeb7e830"
+  },
+  {
+    "path": "vit_versions/classification/fusion_blueprint.json",
+    "bytes": 1363,
+    "sha256": "b02c83500e07904d45a06b36fcac4396d3de494fdc4976ade3c5cef103437155"
+  },
+  {
+    "path": "vit_versions/classification/README.md",
+    "bytes": 5450,
+    "sha256": "79a90f9cb6ee05eff24a34d14bea4173be0bf2107e6c01c47242dc70f7f64198"
+  },
+  {
+    "path": "vit_versions/classification/prepare_all.sh",
+    "bytes": 1130,
+    "sha256": "e3fa136033789a7adcff09724266d8122472fa345ad8205cd0faa209c25481a7"
+  },
+  {
+    "path": "vit_versions/classification/config.json",
+    "bytes": 1015,
+    "sha256": "75b7b4b8a6aeb0975efa2846a498ef165bb1c89dd0c5ddc8fe27740de3353e53"
+  },
+  {
+    "path": "vit_versions/classification/cleanup_manifest.json",
+    "bytes": 119190,
+    "sha256": "787353a2b28eb7730acd7044a8896d3f960710f463596754b9e16a93dcec31a7"
+  },
+  {
+    "path": "vit_versions/classification/gpu_batch4_verification.json",
+    "bytes": 714,
+    "sha256": "afb4782ac0be4dd87a8ee9b0e2c88733fdb2161db19c88183e7b69e46c94212a"
+  },
+  {
+    "path": "vit_versions/classification/data_prepared/COMPLETE.json",
+    "bytes": 91,
+    "sha256": "ef34b44512f9b56cf941d3d0585c8c12341d32de6910076589c14c07dd228613"
+  },
+  {
+    "path": "vit_versions/classification/data_prepared/statistics.json",
+    "bytes": 3740,
+    "sha256": "0f4bf3e70e0f0a38ce9709c624d13afa719e07be84f4fc255ccaf531d947d99f"
+  },
+  {
+    "path": "vit_versions/classification/qc_bias_audit_4100/summary.json",
+    "bytes": 299,
+    "sha256": "a854405692cede6484467ec9640ab5792c4cee2b211852a9521814fc8af03783"
+  },
+  {
+    "path": "vit_versions/classification/qc_bias_audit_4100/dapi_empty_signal_strength.json",
+    "bytes": 828,
+    "sha256": "ac53609f14f079a07fd81518a135fcf95c04acd7943720e68790ff95891f6a1e"
+  },
+  {
+    "path": "vit_versions/classification/qc_reference_preview/summary.json",
+    "bytes": 860,
+    "sha256": "523c5916af23c58601801039a65ebd204572b4f3dc37bcfd5eafdd7196586e1b"
+  },
+  {
+    "path": "vit_versions/classification/qc_reference_preview/mask_provenance.json",
+    "bytes": 1350,
+    "sha256": "ba056781d22127ddfc212443829598b03232ff3b0ba8af22ad645a831f9eb158"
+  },
+  {
+    "path": "vit_versions/classification/qc_reference_preview/coordinate_audit.json",
+    "bytes": 213,
+    "sha256": "ea63db9850b5cfc625837e4cf469e2510a77dd539884ecb4c994828d81a10c12"
+  },
+  {
+    "path": "vit_versions/classification/qc_reference_preview/signal_audit/summary.json",
+    "bytes": 1045,
+    "sha256": "84a4add62695ed19186da06d73953396523dfcdbf28d2f45c49a71eba59a8acd"
+  },
+  {
+    "path": "vit_versions/vit_v3/README.md",
+    "bytes": 844,
+    "sha256": "d67009737b92d2f56c7e00c2aa3f60f9b9302ab274cb56ad07f3d00508eb5c3e"
+  },
+  {
+    "path": "vit_versions/vit_v3/config.json",
+    "bytes": 811,
+    "sha256": "bc1cd74a509ef31cfffa27775826960e6878012f04959ff9a73cccc85fd0fc05"
+  },
+  {
+    "path": "vit_versions/vit_v3/sample.sh",
+    "bytes": 323,
+    "sha256": "c41576a8c0b88595856d62a63749fff869a335bd3b3adc21b6c62ee4b3177258"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/cell_classify.py",
+    "bytes": 19742,
+    "sha256": "345d11e881868ec9246a126ace6166b7c9fcaa2e111e7bf9a0e7babbf47dc149"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/metrics.py",
+    "bytes": 8604,
+    "sha256": "0b1f7e185489f0d1b25e18e5b5556594b593893154e23ce32c7ac21b96969789"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/metrics_gpu.py",
+    "bytes": 8984,
+    "sha256": "559d36a831db3e7027261816fca19df792c8a1c881ef2e34f229d3c5752c1112"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/eval/metrics_log.py",
+    "bytes": 3777,
+    "sha256": "0639a1ffc2ed44f6c4865e709b1f101130102cbbeed4a1270e23dd6663e5e4b5"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/vitmatte_unet.py",
+    "bytes": 12233,
+    "sha256": "48e9514f93f7bfc44921b6ab309f351be3914dfb843f5473187e10a59d024586"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/compute_marker_stats.py",
+    "bytes": 2543,
+    "sha256": "47347d6902a2509529b026d00e7c848d3b6a4aee5989951122c89f89db3e2cb6"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/TRAIN_PLAN_V2.md",
+    "bytes": 6966,
+    "sha256": "a1f49e2616f4e825532671c5fdd7784c43022efc1eb73902ccb21a72cf809beb"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/TRAIN_PLAN_M1_S2_RUNBOOK.md",
+    "bytes": 6673,
+    "sha256": "30d5b58e1350aa436ecccdaf0e42248c2406ae50c76e549f441dc746dfb04d90"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/train.py",
+    "bytes": 29714,
+    "sha256": "eed017225909b2d7ad525571aecbe5f254c04e2e1fe23da15fd6bd4905492a84"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/TRAIN_PLAN_PRESENCE.md",
+    "bytes": 16059,
+    "sha256": "21370cfdf0c06a3c69ddea14e73d9608a512961df2e23a1a026399fa7542c8b5"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/vit_matte/sample.py",
+    "bytes": 6477,
+    "sha256": "dded6cc77d6760e1b9e4dd75a04305fad4ef573011e41186b6967331044222f4"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/datacore/orioncrc_dataset.py",
+    "bytes": 14568,
+    "sha256": "f7714a7ff4e6a191c084c50aac29b0ba17d90baaeb395de0e82dd4fae0744bef"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/datacore/cache.py",
+    "bytes": 1827,
+    "sha256": "2b2e344a1f53f40a07d24b150bcefbd977a4224aa98ef8620cbe498302faf7b8"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/datacore/build_mask_prior.py",
+    "bytes": 8800,
+    "sha256": "2610d32afacf9e5fbff85f1c9536a9ce65888f70d33fcad422f4ee3f4bf718fd"
+  },
+  {
+    "path": "vit_versions/vit_v3/code/datacore/validate_mask_prior.py",
+    "bytes": 10455,
+    "sha256": "9f59e43db9e9d8818790a3dc423606c5efc3c41ec415cff61a8a235c7b4e32aa"
+  },
+  {
+    "path": "vit_versions/vit_v3/docs/TRAIN_PLAN_PRESENCE.md",
+    "bytes": 16059,
+    "sha256": "21370cfdf0c06a3c69ddea14e73d9608a512961df2e23a1a026399fa7542c8b5"
+  },
+  {
+    "path": "vit_versions/vit_v2/README.md",
+    "bytes": 847,
+    "sha256": "b2b0cde99a0ca6ed2172bf4b4a9a5323b60cc24de0ebb468989bb0dbacc1093c"
+  },
+  {
+    "path": "vit_versions/vit_v2/config.json",
+    "bytes": 722,
+    "sha256": "08b80c8897ff0e4c2cdf5fe563676d6c1ca65436fa8f1bf60d8c7be8efe4ee01"
+  },
+  {
+    "path": "vit_versions/vit_v2/sample.sh",
+    "bytes": 326,
+    "sha256": "4d5d4c648ff0b6afe41594d69ce002135b38266f11eabf2f24f7b5d46b40a86d"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/cell_classify.py",
+    "bytes": 19742,
+    "sha256": "345d11e881868ec9246a126ace6166b7c9fcaa2e111e7bf9a0e7babbf47dc149"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/metrics.py",
+    "bytes": 8604,
+    "sha256": "0b1f7e185489f0d1b25e18e5b5556594b593893154e23ce32c7ac21b96969789"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/metrics_gpu.py",
+    "bytes": 8984,
+    "sha256": "559d36a831db3e7027261816fca19df792c8a1c881ef2e34f229d3c5752c1112"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/eval/metrics_log.py",
+    "bytes": 3777,
+    "sha256": "0639a1ffc2ed44f6c4865e709b1f101130102cbbeed4a1270e23dd6663e5e4b5"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/vitmatte_unet.py",
+    "bytes": 12233,
+    "sha256": "48e9514f93f7bfc44921b6ab309f351be3914dfb843f5473187e10a59d024586"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/compute_marker_stats.py",
+    "bytes": 2543,
+    "sha256": "47347d6902a2509529b026d00e7c848d3b6a4aee5989951122c89f89db3e2cb6"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/TRAIN_PLAN_V2.md",
+    "bytes": 6966,
+    "sha256": "a1f49e2616f4e825532671c5fdd7784c43022efc1eb73902ccb21a72cf809beb"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/TRAIN_PLAN_M1_S2_RUNBOOK.md",
+    "bytes": 6673,
+    "sha256": "30d5b58e1350aa436ecccdaf0e42248c2406ae50c76e549f441dc746dfb04d90"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/train.py",
+    "bytes": 29714,
+    "sha256": "eed017225909b2d7ad525571aecbe5f254c04e2e1fe23da15fd6bd4905492a84"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/TRAIN_PLAN_PRESENCE.md",
+    "bytes": 16059,
+    "sha256": "21370cfdf0c06a3c69ddea14e73d9608a512961df2e23a1a026399fa7542c8b5"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/vit_matte/sample.py",
+    "bytes": 6477,
+    "sha256": "dded6cc77d6760e1b9e4dd75a04305fad4ef573011e41186b6967331044222f4"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/\u6570\u636e\u51c6\u5907/build_cache.py",
+    "bytes": 7028,
+    "sha256": "7033698aff117c0c83968fdfc08e7d9417082f66ffaa86c2278c45f90d7c00ef"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/datacore/orioncrc_dataset.py",
+    "bytes": 14568,
+    "sha256": "f7714a7ff4e6a191c084c50aac29b0ba17d90baaeb395de0e82dd4fae0744bef"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/datacore/cache.py",
+    "bytes": 1827,
+    "sha256": "2b2e344a1f53f40a07d24b150bcefbd977a4224aa98ef8620cbe498302faf7b8"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/datacore/build_mask_prior.py",
+    "bytes": 8800,
+    "sha256": "2610d32afacf9e5fbff85f1c9536a9ce65888f70d33fcad422f4ee3f4bf718fd"
+  },
+  {
+    "path": "vit_versions/vit_v2/code/datacore/validate_mask_prior.py",
+    "bytes": 10455,
+    "sha256": "9f59e43db9e9d8818790a3dc423606c5efc3c41ec415cff61a8a235c7b4e32aa"
+  },
+  {
+    "path": "vit_versions/vit_v2/docs/TRAIN_PLAN_V2.md",
+    "bytes": 6966,
+    "sha256": "a1f49e2616f4e825532671c5fdd7784c43022efc1eb73902ccb21a72cf809beb"
+  },
+  {
+    "path": "vit_versions/audit_20260925/checkpoint_metadata.json",
+    "bytes": 166470,
+    "sha256": "e1e9a8369a79d02dc8b37bd4ec6e0f0fc886e55a6a31130941b6e83dfe9b5cf0"
+  },
+  {
+    "path": "vit_versions/audit_20260925/audit_evidence.json",
+    "bytes": 12590,
+    "sha256": "972b046aea829f59995d03f4029ce22f51182132baa9719cddf7812110b9e359"
+  },
+  {
+    "path": "vit_versions/audit_20260925/\u4ee3\u7801\u68c0\u67e5\u4e0e\u4e09\u7248\u5dee\u5f02.md",
+    "bytes": 26758,
+    "sha256": "2645a5eb8900c41c0177b169741377148a48e77c6b5965fb720ca7ab16e5f984"
+  },
+  {
+    "path": "vit_matte/vitmatte_unet.py",
+    "bytes": 12233,
+    "sha256": "48e9514f93f7bfc44921b6ab309f351be3914dfb843f5473187e10a59d024586"
+  },
+  {
+    "path": "vit_matte/compute_marker_stats.py",
+    "bytes": 2543,
+    "sha256": "47347d6902a2509529b026d00e7c848d3b6a4aee5989951122c89f89db3e2cb6"
+  },
+  {
+    "path": "vit_matte/TRAIN_PLAN_V2.md",
+    "bytes": 6966,
+    "sha256": "a1f49e2616f4e825532671c5fdd7784c43022efc1eb73902ccb21a72cf809beb"
+  },
+  {
+    "path": "vit_matte/TRAIN_PLAN_M1_S2_RUNBOOK.md",
+    "bytes": 6673,
+    "sha256": "30d5b58e1350aa436ecccdaf0e42248c2406ae50c76e549f441dc746dfb04d90"
+  },
+  {
+    "path": "vit_matte/train.py",
+    "bytes": 29714,
+    "sha256": "eed017225909b2d7ad525571aecbe5f254c04e2e1fe23da15fd6bd4905492a84"
+  },
+  {
+    "path": "vit_matte/encoder.py",
+    "bytes": 6808,
+    "sha256": "e6e46f609a638345eed078b71f0370a015e1783e54040cb563610aa74a7f9ed8"
+  },
+  {
+    "path": "vit_matte/TRAIN_PLAN_PRESENCE.md",
+    "bytes": 16059,
+    "sha256": "21370cfdf0c06a3c69ddea14e73d9608a512961df2e23a1a026399fa7542c8b5"
+  },
+  {
+    "path": "vit_matte/lora.py",
+    "bytes": 3241,
+    "sha256": "a010dc52e0325a3fd956c97431a1536c844257bfeff2ebafef98181515738336"
+  },
+  {
+    "path": "vit_matte/sample.py",
+    "bytes": 6477,
+    "sha256": "dded6cc77d6760e1b9e4dd75a04305fad4ef573011e41186b6967331044222f4"
+  },
+  {
+    "path": "datacore/training_monitor.py",
+    "bytes": 3486,
+    "sha256": "aaae84d4d819b34043d288becaa8016ec89ace8e7ee480426a804861f9e98e57"
+  },
+  {
+    "path": "datacore/orioncrc_dataset.py",
+    "bytes": 14568,
+    "sha256": "f7714a7ff4e6a191c084c50aac29b0ba17d90baaeb395de0e82dd4fae0744bef"
+  },
+  {
+    "path": "datacore/cache.py",
+    "bytes": 1827,
+    "sha256": "2b2e344a1f53f40a07d24b150bcefbd977a4224aa98ef8620cbe498302faf7b8"
+  },
+  {
+    "path": "datacore/build_mask_prior.py",
+    "bytes": 8800,
+    "sha256": "2610d32afacf9e5fbff85f1c9536a9ce65888f70d33fcad422f4ee3f4bf718fd"
+  },
+  {
+    "path": "datacore/validate_mask_prior.py",
+    "bytes": 10455,
+    "sha256": "9f59e43db9e9d8818790a3dc423606c5efc3c41ec415cff61a8a235c7b4e32aa"
+  },
+  {
+    "path": "configs/virchow2_config.json",
+    "bytes": 1071,
+    "sha256": "5426dbabfff5a388a1cf44903e02789323fbfb4a0d925a127191f7f498eea32b"
+  },
+  {
+    "path": "eval/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "eval/cell_classify.py",
+    "bytes": 19742,
+    "sha256": "345d11e881868ec9246a126ace6166b7c9fcaa2e111e7bf9a0e7babbf47dc149"
+  },
+  {
+    "path": "eval/metrics.py",
+    "bytes": 8604,
+    "sha256": "0b1f7e185489f0d1b25e18e5b5556594b593893154e23ce32c7ac21b96969789"
+  },
+  {
+    "path": "eval/metrics_gpu.py",
+    "bytes": 8984,
+    "sha256": "559d36a831db3e7027261816fca19df792c8a1c881ef2e34f229d3c5752c1112"
+  },
+  {
+    "path": "eval/metrics_log.py",
+    "bytes": 3777,
+    "sha256": "0639a1ffc2ed44f6c4865e709b1f101130102cbbeed4a1270e23dd6663e5e4b5"
+  },
+  {
+    "path": "experiment_records/v4/status.json",
+    "bytes": 71,
+    "sha256": "a283eb5ba3d8e5320152b1a476c71f478e1841f49d84ff67a1ae2ad0a88e3e8c"
+  },
+  {
+    "path": "experiment_records/v4/submitted_config.json",
+    "bytes": 1600,
+    "sha256": "5c21fd18c5ef66db930424c43d247f240d7d141829982584b212befdd4706876"
+  },
+  {
+    "path": "experiment_records/v4/provenance.json",
+    "bytes": 2506,
+    "sha256": "5474d7cc6896d678ea8bedd6e7c453ce106e4631cb25dde305ef1c1983fac03a"
+  },
+  {
+    "path": "experiment_records/v4/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/v4/capacity/resolved_config.json",
+    "bytes": 1780,
+    "sha256": "b61e4697a8fc06e1b0461afbbefbb4e237fd365f8b31056d5bf59b13f548fc08"
+  },
+  {
+    "path": "experiment_records/v4/data/statistics.json",
+    "bytes": 3894,
+    "sha256": "3f6e7ab55f240a1a690f14c079f8355ed39cceabc9a5a2109f35c03d17c41580"
+  },
+  {
+    "path": "experiment_records/v4/results/test_metrics.json",
+    "bytes": 11343,
+    "sha256": "36252d3fc73cf66b266261420a6517a902600b30e37580c143806c40f7ad920f"
+  },
+  {
+    "path": "experiment_records/v4/results/test_metrics_default05.json",
+    "bytes": 11237,
+    "sha256": "6b2f060d12daf32fdf3e8536db634056b6d54bbf673d6be6a224504a7cc66e19"
+  },
+  {
+    "path": "experiment_records/v4/results/thresholds.json",
+    "bytes": 182156,
+    "sha256": "94de2ac781356829fb9f3da65fc61314bb26b11139a4ceb6f6a144702945ad57"
+  },
+  {
+    "path": "experiment_records/v4/results/model/config.json",
+    "bytes": 1780,
+    "sha256": "b61e4697a8fc06e1b0461afbbefbb4e237fd365f8b31056d5bf59b13f548fc08"
+  },
+  {
+    "path": "experiment_records/v4/results/model/classification_history.json",
+    "bytes": 7561,
+    "sha256": "6d3341f4b123a5b9bdc72964c5ee965d94a9e05b515eef63fed9a2f157a6bc6f"
+  },
+  {
+    "path": "experiment_records/v4/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/v4/results/model/train_log.csv",
+    "bytes": 3297,
+    "sha256": "3ff0487a9e31b1fe3bdcfc5ee72639ad0c5777ef334752a7193878f57ea6c9a3"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/status.json",
+    "bytes": 84,
+    "sha256": "556ca35bfd6018f45ce6abe1c774c0f07c963ee6e960b4fd97ef69208ceb4145"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/submitted_config.json",
+    "bytes": 1684,
+    "sha256": "90bfd2b28a300672f1ecf874ee67e1a1b31a2dde4d4ad71d9724ca72017e9eb4"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/provenance.json",
+    "bytes": 2600,
+    "sha256": "8ecccaa2f287dcc30b273ea2bc666f0f8303d7aec244a732978fdfd17114f353"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/capacity/resolved_config.json",
+    "bytes": 1848,
+    "sha256": "76f6db1d7c927dff3a3e3862312bbefca4598321859245eb5bd9c9ee8e900c2d"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/results/model/config.json",
+    "bytes": 1848,
+    "sha256": "76f6db1d7c927dff3a3e3862312bbefca4598321859245eb5bd9c9ee8e900c2d"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/results/model/classification_history.json",
+    "bytes": 2233,
+    "sha256": "7558a163d7f23b455d212eb7b30af097d27ec027ae81facb15c168641e15e1d6"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/positive_dice_partial/results/model/train_log.csv",
+    "bytes": 1132,
+    "sha256": "23acb94340c05508b48b3ed3b057bf0120e6a6e08b3f0378b976d68e44de583d"
+  },
+  {
+    "path": "experiment_records/v5/status.json",
+    "bytes": 71,
+    "sha256": "a7ddf9a750dc65c0eda84c4af34b4659d6a29f9ab445de3ecf426014a551ee8e"
+  },
+  {
+    "path": "experiment_records/v5/submitted_config.json",
+    "bytes": 1952,
+    "sha256": "c69f3e658671b0c1b994031c80515aab82c95b14792c7f3696c06974396fb548"
+  },
+  {
+    "path": "experiment_records/v5/provenance.json",
+    "bytes": 2799,
+    "sha256": "2a637125fef1dca7b6a04dc4bb22de9b029afc0029006253501fa437efcca5a1"
+  },
+  {
+    "path": "experiment_records/v5/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/v5/capacity/resolved_config.json",
+    "bytes": 2066,
+    "sha256": "10317358bf42c72b6c1919bd4ebde4c7165a17bba899f1685fdcc4bea0a4ba9a"
+  },
+  {
+    "path": "experiment_records/v5/data/bce_pixel_weights.json",
+    "bytes": 2403,
+    "sha256": "8bc34e16831806ab385fd1c86deb6f374eab99174b1cc753052afd37c530a4f4"
+  },
+  {
+    "path": "experiment_records/v5/data/binary_targets.json",
+    "bytes": 406,
+    "sha256": "eb947a7550c2c36de4c7708052880a698b6d8aa2c2a75a8edce7aabca31ef4df"
+  },
+  {
+    "path": "experiment_records/v5/data/training_policy.json",
+    "bytes": 342,
+    "sha256": "ba490a6beb59b540306ff69af6f1e904cf6a5d877686ba956ab79eb4e83980ba"
+  },
+  {
+    "path": "experiment_records/v5/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/v5/results/test_metrics.json",
+    "bytes": 11329,
+    "sha256": "c4d7525ae6b26db2036a2dd17c0906e7010e1f9cb0beb0f2c0dd0093da0ac02f"
+  },
+  {
+    "path": "experiment_records/v5/results/test_metrics_default05.json",
+    "bytes": 11237,
+    "sha256": "d8dfcce10455a8bdc0b1d7bbb6162f30d6a84597c0f66eee0273c3f62ecae659"
+  },
+  {
+    "path": "experiment_records/v5/results/thresholds.json",
+    "bytes": 182576,
+    "sha256": "d559aabc5cf2c217544cde95f8456f36e2c3d27b83c512a618c0aacbdfab3a7b"
+  },
+  {
+    "path": "experiment_records/v5/results/model/config.json",
+    "bytes": 2066,
+    "sha256": "10317358bf42c72b6c1919bd4ebde4c7165a17bba899f1685fdcc4bea0a4ba9a"
+  },
+  {
+    "path": "experiment_records/v5/results/model/classification_history.json",
+    "bytes": 10630,
+    "sha256": "c6bf15dd8005a30e4ce70e307c309040c6cb1b8df78e3388f2ad1539dea552e7"
+  },
+  {
+    "path": "experiment_records/v5/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/v5/results/model/train_log.csv",
+    "bytes": 4714,
+    "sha256": "37facc891ef01e08ccaaae8cf4ede150f9afcd36e7e237a26ff4cc0633a03a12"
+  },
+  {
+    "path": "experiment_records/v6/status.json",
+    "bytes": 78,
+    "sha256": "f5d2f72fbb55fae3523a6f7dcf2992d51cdde0516863f6365ed0dd3267d4a188"
+  },
+  {
+    "path": "experiment_records/v6/submitted_config.json",
+    "bytes": 2053,
+    "sha256": "f7876f11452124cbecf8e72c3377a7b92f674cbc044dd3ae42d32d33083a8a97"
+  },
+  {
+    "path": "experiment_records/v6/provenance.json",
+    "bytes": 2900,
+    "sha256": "d499bf5cd9e753f1c5521fad9daf37055d1d745c7747a8b18b7e406fc0e38d0b"
+  },
+  {
+    "path": "experiment_records/v6/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/v6/capacity/resolved_config.json",
+    "bytes": 2167,
+    "sha256": "815915f448539fd8c61388763942935ed92882a32736340fc3590731a0f1969a"
+  },
+  {
+    "path": "experiment_records/v6/data/bce_pixel_weights.json",
+    "bytes": 1499,
+    "sha256": "3ef0c98f1f58ec10d624ac56b36785d7e72b00f1b3dd6536ba3288367adc51e0"
+  },
+  {
+    "path": "experiment_records/v6/data/binary_targets.json",
+    "bytes": 778,
+    "sha256": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc"
+  },
+  {
+    "path": "experiment_records/v6/data/training_policy.json",
+    "bytes": 160,
+    "sha256": "bfd7d086fff543b276b3d1d81208b6ed65669b94a1356f16e61eeee19b2bfdf9"
+  },
+  {
+    "path": "experiment_records/v6/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/v6/results/test_metrics.json",
+    "bytes": 11362,
+    "sha256": "1eacffb6bbdc904ba053844f76a47c32cdd483841e15a3def7b3d1e41ab4a53c"
+  },
+  {
+    "path": "experiment_records/v6/results/test_metrics_default05.json",
+    "bytes": 11250,
+    "sha256": "b6392ee79c179052cf300db2d41d1c6c91f5cd1e67e2926134c6482af29039a4"
+  },
+  {
+    "path": "experiment_records/v6/results/thresholds.json",
+    "bytes": 182639,
+    "sha256": "2f78716c29b63e593655a28dbfd3e5b5cac441fc90ebd0919fe47a5a4a320ef0"
+  },
+  {
+    "path": "experiment_records/v6/results/model/config.json",
+    "bytes": 2167,
+    "sha256": "815915f448539fd8c61388763942935ed92882a32736340fc3590731a0f1969a"
+  },
+  {
+    "path": "experiment_records/v6/results/model/classification_history.json",
+    "bytes": 15769,
+    "sha256": "28591d4a386925ca68acc94046474868f4f4617b134960e4a2d27c1e8fd97ca8"
+  },
+  {
+    "path": "experiment_records/v6/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/v6/results/model/train_log.csv",
+    "bytes": 6964,
+    "sha256": "6c07a556297688d041bf03cd57d980bc662ed66aaebd6a2a2f70b65730aa70f9"
+  },
+  {
+    "path": "experiment_records/v7/status.json",
+    "bytes": 71,
+    "sha256": "c4818a0993a0f18c36a7a89ed510842dda4be488484775c984973a50987ca8ed"
+  },
+  {
+    "path": "experiment_records/v7/submitted_config.json",
+    "bytes": 2053,
+    "sha256": "d21d9088f22df51db7a859dc4544a760e16ebe10a6b8c38af0c085c8b3290b6a"
+  },
+  {
+    "path": "experiment_records/v7/provenance.json",
+    "bytes": 2900,
+    "sha256": "c9fa1a23760ce48cefb7a633125824fb513b584fb79cb4b55812992acc2f3f4d"
+  },
+  {
+    "path": "experiment_records/v7/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/v7/capacity/resolved_config.json",
+    "bytes": 2167,
+    "sha256": "92d1da87285b499994583fd934cf17ccb1ba4582808489837681a6a3c01f5f9a"
+  },
+  {
+    "path": "experiment_records/v7/data/bce_pixel_weights.json",
+    "bytes": 4435,
+    "sha256": "6ea15aa4c1ba57d2ff355f959720e5ccfa6b290d6d6ba9e020e77c8ffc114e97"
+  },
+  {
+    "path": "experiment_records/v7/data/binary_targets.json",
+    "bytes": 778,
+    "sha256": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc"
+  },
+  {
+    "path": "experiment_records/v7/data/training_policy.json",
+    "bytes": 160,
+    "sha256": "bfd7d086fff543b276b3d1d81208b6ed65669b94a1356f16e61eeee19b2bfdf9"
+  },
+  {
+    "path": "experiment_records/v7/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/v7/results/test_metrics.json",
+    "bytes": 11353,
+    "sha256": "33ce0229210899201a932a8ae833ce363190e7490e733d031760b8db603b7280"
+  },
+  {
+    "path": "experiment_records/v7/results/test_metrics_default05.json",
+    "bytes": 11243,
+    "sha256": "ee6a25b82a8251806f97b9137ebdc45a91a7eb8c5a4efaa13f157976f7f959dd"
+  },
+  {
+    "path": "experiment_records/v7/results/thresholds.json",
+    "bytes": 182564,
+    "sha256": "2cdf08f7b03ce8028a98882164f6903eabb21a8d9d55c1475e33f5ab7a8be0f2"
+  },
+  {
+    "path": "experiment_records/v7/results/model/config.json",
+    "bytes": 2167,
+    "sha256": "92d1da87285b499994583fd934cf17ccb1ba4582808489837681a6a3c01f5f9a"
+  },
+  {
+    "path": "experiment_records/v7/results/model/classification_history.json",
+    "bytes": 10108,
+    "sha256": "1c91b065dc8738689def04df76d84c0006cd100d9f3315ffaf3f8ba03a79c60f"
+  },
+  {
+    "path": "experiment_records/v7/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/v7/results/model/train_log.csv",
+    "bytes": 4513,
+    "sha256": "40e7a8f8390d5297954ef8447dd7251d2771727969423b273ca62b4b73d0e1cf"
+  },
+  {
+    "path": "experiment_records/v8/status.json",
+    "bytes": 1586,
+    "sha256": "163f0fda9e0aaaf2f412d6bbb7b6fee69c97b6a211bd8b5bdaf23ac6d68019f7"
+  },
+  {
+    "path": "experiment_records/v8/data/bce_pixel_weights.json",
+    "bytes": 1499,
+    "sha256": "3ef0c98f1f58ec10d624ac56b36785d7e72b00f1b3dd6536ba3288367adc51e0"
+  },
+  {
+    "path": "experiment_records/v8/data/binary_targets.json",
+    "bytes": 778,
+    "sha256": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc"
+  },
+  {
+    "path": "experiment_records/v8/data/training_policy.json",
+    "bytes": 165,
+    "sha256": "0051bdc5c57b30d68f332e4e8a89aaa43445be47de974302f8bf759168289da5"
+  },
+  {
+    "path": "experiment_records/v8/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/v9/status.json",
+    "bytes": 71,
+    "sha256": "9ca1f5936118c89bfb6ec6cad0574165540d3f54de62c98b05263b6b2d62cf04"
+  },
+  {
+    "path": "experiment_records/v9/submitted_config.json",
+    "bytes": 2191,
+    "sha256": "4db0c924633b00af2a0dc7591f1059f6d6abae53c9f5d73b0862d1ad4ab37160"
+  },
+  {
+    "path": "experiment_records/v9/provenance.json",
+    "bytes": 2900,
+    "sha256": "c09fb7388fe9be23772f0d6c196a2ee45c2089522495921dafa80ea901e8cfd5"
+  },
+  {
+    "path": "experiment_records/v9/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/v9/capacity/resolved_config.json",
+    "bytes": 2305,
+    "sha256": "8880c36f00832442c15439d6f21df8f464f989112ee18f58158cfd129ca19972"
+  },
+  {
+    "path": "experiment_records/v9/data/bce_pixel_weights.json",
+    "bytes": 1499,
+    "sha256": "3ef0c98f1f58ec10d624ac56b36785d7e72b00f1b3dd6536ba3288367adc51e0"
+  },
+  {
+    "path": "experiment_records/v9/data/binary_targets.json",
+    "bytes": 778,
+    "sha256": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc"
+  },
+  {
+    "path": "experiment_records/v9/data/training_policy.json",
+    "bytes": 160,
+    "sha256": "bfd7d086fff543b276b3d1d81208b6ed65669b94a1356f16e61eeee19b2bfdf9"
+  },
+  {
+    "path": "experiment_records/v9/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/v9/results/test_metrics.json",
+    "bytes": 11347,
+    "sha256": "6f60f33578e306dc5da192b898d914d69ed829c3bcac397006be4a6598507416"
+  },
+  {
+    "path": "experiment_records/v9/results/test_metrics_default05.json",
+    "bytes": 11254,
+    "sha256": "0449bcf5b84dfe29f1d6ff598867b7bc5d643aa998e020ceb9535cf0d0065573"
+  },
+  {
+    "path": "experiment_records/v9/results/thresholds.json",
+    "bytes": 182702,
+    "sha256": "3592482994eb46615593b00f731290afd0cbe6cfaab77241ad0218f5a5f47d14"
+  },
+  {
+    "path": "experiment_records/v9/results/model/config.json",
+    "bytes": 2305,
+    "sha256": "8880c36f00832442c15439d6f21df8f464f989112ee18f58158cfd129ca19972"
+  },
+  {
+    "path": "experiment_records/v9/results/model/classification_history.json",
+    "bytes": 10111,
+    "sha256": "62a5c65322774150b86057dafed90fc33abf870d5dd9d2c7b6dc680e13959a29"
+  },
+  {
+    "path": "experiment_records/v9/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/v9/results/model/train_log.csv",
+    "bytes": 4516,
+    "sha256": "e21d46b6b04b2fde0c5c7208259ff79eb0bd579c0e9ac2335242d73cdbed9762"
+  },
+  {
+    "path": "experiment_records/v10/status.json",
+    "bytes": 71,
+    "sha256": "e037ff37303f8f591872e2554765226f1f7acc9b3f71ee5a73ca956c70d75b6f"
+  },
+  {
+    "path": "experiment_records/v10/submitted_config.json",
+    "bytes": 2050,
+    "sha256": "5d53c11314f04b52da31a504c6372175b2ac14a72a8735f3c496b6ee2b5975b0"
+  },
+  {
+    "path": "experiment_records/v10/provenance.json",
+    "bytes": 2900,
+    "sha256": "8d77621b0986666ef3e321bf51d8bff693367069ef29cd124456f5f7b03bc267"
+  },
+  {
+    "path": "experiment_records/v10/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/v10/capacity/resolved_config.json",
+    "bytes": 2164,
+    "sha256": "57f5a9f221fdbc1095bd71833e9324d29f1d5226df3d713ae63afbc1a0949db7"
+  },
+  {
+    "path": "experiment_records/v10/data/bce_pixel_weights.json",
+    "bytes": 2608,
+    "sha256": "1c395b845628dc6238c4cb39c82420a5bc79c266626f6c7c200c0b90cdce1f16"
+  },
+  {
+    "path": "experiment_records/v10/data/binary_targets.json",
+    "bytes": 778,
+    "sha256": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc"
+  },
+  {
+    "path": "experiment_records/v10/data/training_policy.json",
+    "bytes": 160,
+    "sha256": "bfd7d086fff543b276b3d1d81208b6ed65669b94a1356f16e61eeee19b2bfdf9"
+  },
+  {
+    "path": "experiment_records/v10/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/v10/results/test_metrics.json",
+    "bytes": 11340,
+    "sha256": "cc009976aac24d2e41fbb793e97aae973a437e172e390ee218a0c756418fccd6"
+  },
+  {
+    "path": "experiment_records/v10/results/test_metrics_default05.json",
+    "bytes": 11245,
+    "sha256": "cc7d356b5c2b3802ad2167d536ffc81f9941a67bcf2288d8e62a8363c98c5aff"
+  },
+  {
+    "path": "experiment_records/v10/results/thresholds.json",
+    "bytes": 182549,
+    "sha256": "44cc7eb284b6a6f3b0fe8929a46b6736e68e4473a90f2660fd36cbc2aefa7e3f"
+  },
+  {
+    "path": "experiment_records/v10/results/model/config.json",
+    "bytes": 2164,
+    "sha256": "57f5a9f221fdbc1095bd71833e9324d29f1d5226df3d713ae63afbc1a0949db7"
+  },
+  {
+    "path": "experiment_records/v10/results/model/classification_history.json",
+    "bytes": 10083,
+    "sha256": "eef8a930e708d71fab4951c80b3ab21845c3e163308939a8436542ef8378fb89"
+  },
+  {
+    "path": "experiment_records/v10/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/v10/results/model/train_log.csv",
+    "bytes": 4488,
+    "sha256": "176134b38cd626f6e8bedb8d41fb9e7190403e5ab7604fc58068680e7cfd1c05"
+  },
+  {
+    "path": "experiment_records/v10/prelaunch_check.json",
+    "bytes": 1809,
+    "sha256": "4a36eb2dd66e0aae28c35dfc274fb93afc5a66e44c36966a4db6c4f9dd4248b4"
+  },
+  {
+    "path": "experiment_records/v11/status.json",
+    "bytes": 71,
+    "sha256": "1c9a0e548f9257249686ff46f6236da1201339615e03d7e3bcf7065befcbe710"
+  },
+  {
+    "path": "experiment_records/v11/submitted_config.json",
+    "bytes": 2057,
+    "sha256": "900c893f86ead26fe6d09e3db891a8081c7eb05cd354b5709b92dfdae33daf1a"
+  },
+  {
+    "path": "experiment_records/v11/provenance.json",
+    "bytes": 2900,
+    "sha256": "2163eb4e4a8da51bcf300ba73ff28fb96997ac8230e6efde09cf44a49d04302e"
+  },
+  {
+    "path": "experiment_records/v11/environment.json",
+    "bytes": 283,
+    "sha256": "e7925b3a0448e4e224d9f5e7d759b9308c252ec13ab5d55d76459d6b65323a1f"
+  },
+  {
+    "path": "experiment_records/v11/capacity/resolved_config.json",
+    "bytes": 2171,
+    "sha256": "c93d76a8807280de473ec70ecccc8b7f156aab40a74cda66d31ae56f7f8eb2b5"
+  },
+  {
+    "path": "experiment_records/v11/data/bce_pixel_weights.json",
+    "bytes": 2608,
+    "sha256": "1c395b845628dc6238c4cb39c82420a5bc79c266626f6c7c200c0b90cdce1f16"
+  },
+  {
+    "path": "experiment_records/v11/data/binary_targets.json",
+    "bytes": 778,
+    "sha256": "2ea75f0c43ee51b9d55a2739b0b27ef0940d90779d3385477591a9c3e02907fc"
+  },
+  {
+    "path": "experiment_records/v11/data/training_policy.json",
+    "bytes": 165,
+    "sha256": "0051bdc5c57b30d68f332e4e8a89aaa43445be47de974302f8bf759168289da5"
+  },
+  {
+    "path": "experiment_records/v11/data/statistics.json",
+    "bytes": 4055,
+    "sha256": "2d42c46a8761f8b69ca331ce35636803c15a01313b645bc18606680bc9f3d45b"
+  },
+  {
+    "path": "experiment_records/v11/results/test_metrics.json",
+    "bytes": 11332,
+    "sha256": "206ea2bf51491158581b01059b8abc4cf551dba1938b16843f012fd2e24ed919"
+  },
+  {
+    "path": "experiment_records/v11/results/test_metrics_default05.json",
+    "bytes": 11243,
+    "sha256": "dd51fa3b7fcc660890aa2e1f8d3bbde1388867645ff1ce9959171e83073fd560"
+  },
+  {
+    "path": "experiment_records/v11/results/thresholds.json",
+    "bytes": 182674,
+    "sha256": "22bd493c64b99742a1f589fb9ea16c7baa2f055ebb8814a54993883f41099e6c"
+  },
+  {
+    "path": "experiment_records/v11/results/model/config.json",
+    "bytes": 2171,
+    "sha256": "c93d76a8807280de473ec70ecccc8b7f156aab40a74cda66d31ae56f7f8eb2b5"
+  },
+  {
+    "path": "experiment_records/v11/results/model/classification_history.json",
+    "bytes": 10083,
+    "sha256": "455f516154ee4bde48061bfee2b93b6cd6145fbe38290db1595b94934cafdfa5"
+  },
+  {
+    "path": "experiment_records/v11/results/model/lora_audit.json",
+    "bytes": 336,
+    "sha256": "97745ec6dd93f68bc16dba50e8b20d03f7642ec31eea7420cc6b347dd57813e6"
+  },
+  {
+    "path": "experiment_records/v11/results/model/train_log.csv",
+    "bytes": 4488,
+    "sha256": "770661edd4f625efff07acedbad68775cf8233e5bc3706bd2d9abca90ab7d03d"
+  },
+  {
+    "path": "experiment_records/v11/sampling_audit.csv",
+    "bytes": 1427,
+    "sha256": "c5b3cd3f2f5a714d69f78dc9436e596f2c8c27d4d01b462b61d4ff941a06f689"
+  },
+  {
+    "path": "experiment_records/v11/results/patch_balance.csv",
+    "bytes": 2411,
+    "sha256": "d2fa5f4b93aa556e8a8ccb06dbd6aac2677c07f49ec6acfab32d272a6b65529c"
+  },
+  {
+    "path": "experiment_records/v11/prelaunch_check.json",
+    "bytes": 2178,
+    "sha256": "e478140d7bdfd237cb6c53063ffabb5d7208297ae6a5fd0f4e49d17602b074e4"
+  },
+  {
+    "path": "reports/mentor_report_20261002/release_checks.json",
+    "bytes": 297,
+    "sha256": "e7b7c8a215bb87cff140e8743acd647767b4e001221fd736b01073de7b379cfa"
+  },
+  {
+    "path": "reports/mentor_report_20261002/\u5bfc\u5e08\u62a5\u544a_\u5168\u90e8\u5b9e\u9a8c\u4e0e\u7ed3\u679c_20261002.pdf",
+    "bytes": 21884925,
+    "sha256": "df57da92edc72e49c3820dce6f7b72ca4a45056e7781d88fd78edad0505dd832"
+  },
+  {
+    "path": "reports/mentor_report_20261002/code_checks.log",
+    "bytes": 1099,
+    "sha256": "142f5b1df95e32390325546dbad4e3b7b20568f3b38b4fcefc5cd56c310675bd"
+  },
+  {
+    "path": "reports/mentor_report_20261002/source_manifest.json",
+    "bytes": 7359,
+    "sha256": "d1ae12913ad835dd7184092123426b3f6ffa8717bd23865255d185edda1ec7b4"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/CRC02_6638_recall.csv",
+    "bytes": 3181,
+    "sha256": "beaaba57cba1639c75ca565ada5148ca461e6b70724b15249e4bafbdb02e0c1d"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/sampling_audit.csv",
+    "bytes": 1427,
+    "sha256": "c5b3cd3f2f5a714d69f78dc9436e596f2c8c27d4d01b462b61d4ff941a06f689"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/\u5bfc\u5e08\u6c47\u62a5_\u5b8c\u6574\u6307\u6807.xlsx",
+    "bytes": 124396,
+    "sha256": "db24c28081b0c5d2e75aa90a1a92079b9f61b70568f1e51f52597dcb155e55fe"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/training_summary.csv",
+    "bytes": 818,
+    "sha256": "b0337b9290b3287be727e2615882a7b95437bb7b22afbe5cf134f3fa526452a2"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/full_38218_precision.csv",
+    "bytes": 1653,
+    "sha256": "a0ec93199c6dcbccb6a82d0458d992f1a3275cf274d899f503bf27b634e2553b"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/all_channel_metrics.csv",
+    "bytes": 141705,
+    "sha256": "435907ecbb60acb7a0aa0c8b5c7a5f4b084f1ead67a491bb0dd58a470878f39f"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/full_38218_f1.csv",
+    "bytes": 1648,
+    "sha256": "aca390fcbe5f3db1844f149ae9f1215fb861c18af14da6af0d8c25b981f45020"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/visualization_manifest.csv",
+    "bytes": 5976,
+    "sha256": "2588af9654be56ff300b635fc05cc3eec9ee39b461f169b739892afb9b97093c"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/full_38218_average_precision_histogram.csv",
+    "bytes": 1652,
+    "sha256": "61381a30186b8b2e9d6fa95acfa897a837b8314ff75ac0d3a5fcae835ad4904c"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/overall_metrics.csv",
+    "bytes": 4931,
+    "sha256": "e4af3aa2bd7668aff98780a239bb3872bee1c1634739a8cf19b477b629f3ea04"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/interrupted_positive_dice_channels.csv",
+    "bytes": 3709,
+    "sha256": "b05b733f57c289460f802cb67fa1eb40ee15d83b4c90cba0791d9aff9fcff3de"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/full_38218_recall.csv",
+    "bytes": 1633,
+    "sha256": "11f9d623c157232bf420379a34f190d0244041ddd052cb75cbe1cd54223f94c4"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/patch_balance.csv",
+    "bytes": 2411,
+    "sha256": "d2fa5f4b93aa556e8a8ccb06dbd6aac2677c07f49ec6acfab32d272a6b65529c"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/patch_balance_definition.json",
+    "bytes": 521,
+    "sha256": "126a106b48f5749df0d2529f69324f7520f0490691c1e65483670fbcfbfc05f2"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/full_38218_auroc_histogram.csv",
+    "bytes": 1634,
+    "sha256": "aafeddd02a0638adc6554f02116306d40501045ad0986f1b99fa0d21388da613"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/positive_weights.csv",
+    "bytes": 1335,
+    "sha256": "b0ce208f946877525730c5efa39980c8282eec699cdaba70cafcb815bf82fb22"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/patch_balance_per_epoch.csv",
+    "bytes": 7204,
+    "sha256": "46047980fa5753a675ffb34a26719f38cf3d264a565d2309ed273142cecae54b"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/CRC02_6638_average_precision_histogram.csv",
+    "bytes": 3231,
+    "sha256": "024a886082aaa79a71401721e3e46e08b43a3d58aca72f717a621b656801a929"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/CRC02_6638_auroc_histogram.csv",
+    "bytes": 3152,
+    "sha256": "c39fd748fac0fd71a1bd38513eeda38c2bebe2c31c83808c67fbbcbd8206dfc5"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/full_38218_iou.csv",
+    "bytes": 1672,
+    "sha256": "b8f498214e5520d2dfe269a4eba6f7f7140e4fb934f12864f3eebb54fb01da6b"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/CRC02_6638_f1.csv",
+    "bytes": 3225,
+    "sha256": "eecb5d81619ade87ac0181d86fc9bfeb867d8effa3b80685b760bbb8e0cbd3b4"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/CRC02_6638_iou.csv",
+    "bytes": 3253,
+    "sha256": "798037e3bf6dfd9336fd4138c07c1212721afeb7e28bb5d1a40db55b73b35741"
+  },
+  {
+    "path": "reports/mentor_report_20261002/tables/CRC02_6638_precision.csv",
+    "bytes": 3232,
+    "sha256": "555828dd04707f45c9226ac2a33944bf4a0d494661f8540bf64f4d9ac7e099e3"
+  },
+  {
+    "path": "reports/mentor_report_20261002/figures/loss_curves.png",
+    "bytes": 154452,
+    "sha256": "f3bd490e0b1c691b0ec32ef00c17dc4e21aa7a7dbab71190462cfaebd5ebf80b"
+  },
+  {
+    "path": "reports/mentor_report_20261002/figures/validation_curves.png",
+    "bytes": 138014,
+    "sha256": "80d950bf847efed74ce339d0d7330d5110fe1096babaabe713be064b658a36fd"
+  }
+]

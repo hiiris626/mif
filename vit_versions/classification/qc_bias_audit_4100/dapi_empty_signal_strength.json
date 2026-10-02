@@ -1,0 +1,35 @@
+[
+  {
+    "patch_id": 250993,
+    "patient": "CRC03",
+    "tissue_pixels": 5816,
+    "other_positive_pixels": 290,
+    "other_gt5_pixels": 205,
+    "other_gt20_pixels": 126,
+    "other_max": 62,
+    "other_positive_mean": 19.079310344827586,
+    "strongest_channel": "CD163"
+  },
+  {
+    "patch_id": 61061,
+    "patient": "CRC04",
+    "tissue_pixels": 5550,
+    "other_positive_pixels": 110,
+    "other_gt5_pixels": 84,
+    "other_gt20_pixels": 46,
+    "other_max": 70,
+    "other_positive_mean": 22.727272727272727,
+    "strongest_channel": "CD163"
+  },
+  {
+    "patch_id": 232595,
+    "patient": "CRC38",
+    "tissue_pixels": 2273,
+    "other_positive_pixels": 59,
+    "other_gt5_pixels": 24,
+    "other_gt20_pixels": 9,
+    "other_max": 33,
+    "other_positive_mean": 8.152542372881356,
+    "strongest_channel": "CD163"
+  }
+]

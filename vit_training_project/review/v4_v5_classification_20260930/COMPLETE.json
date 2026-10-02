@@ -1,0 +1,7 @@
+{
+  "patches": 24,
+  "channel_panels": 384,
+  "argmax_panels": 24,
+  "threshold_invariants_passed": true,
+  "labels_binary": true
+}

@@ -1,0 +1,12 @@
+{
+  "model": "v3",
+  "checkpoint": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_v3_256_best.pt",
+  "checkpoint_sha256": "ea1bd2abec96e2f9e3baa51d95dd5e27418e3ee4ef2fa5758b5285c708e43f99",
+  "checkpoint_epoch_zero_based": 14,
+  "threshold_path": "/home/weiyh/h2e_mif_benchmark/vit_training_project/review/unified_eval_20260929/v3/thresholds.json",
+  "threshold_sha256": "5300ca597bb4817b2149cef56e2f3cb67035ab3b6f99439ff22876cd475ffa20",
+  "test_patches": 6638,
+  "seconds": 119.33641839772463,
+  "new_binary_matches_old_labels_all_records": false,
+  "source_code_sha256": "1a56d6650e468e48c04aaa6d2ecf00f8d9324be046fac3f1799b62f484c0acff"
+}

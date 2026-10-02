@@ -1,0 +1,72 @@
+{
+  "tissue_pixels": 368390403,
+  "ignored_tissue_pixels": 108569120,
+  "any_marker_positive_pixels": 66831594,
+  "any_marker_positive_fraction": 0.6155672441666654,
+  "per_channel": {
+    "Hoechst": {
+      "positive_pixels": 27893523,
+      "fraction": 0.2569194905512728
+    },
+    "CD31": {
+      "positive_pixels": 653897,
+      "fraction": 0.006022863591415312
+    },
+    "CD45": {
+      "positive_pixels": 9400094,
+      "fraction": 0.08658165415727787
+    },
+    "CD68": {
+      "positive_pixels": 2002077,
+      "fraction": 0.018440574999594728
+    },
+    "CD4": {
+      "positive_pixels": 5455390,
+      "fraction": 0.05024808159078751
+    },
+    "FOXP3": {
+      "positive_pixels": 7343,
+      "fraction": 6.763433285634074e-05
+    },
+    "CD8a": {
+      "positive_pixels": 173093,
+      "fraction": 0.0015943115316767787
+    },
+    "CD45RO": {
+      "positive_pixels": 28999,
+      "fraction": 0.00026710173205788166
+    },
+    "CD20": {
+      "positive_pixels": 7274,
+      "fraction": 6.699879302696752e-05
+    },
+    "PDL1": {
+      "positive_pixels": 2856871,
+      "fraction": 0.02631384504175773
+    },
+    "CD3e": {
+      "positive_pixels": 309375,
+      "fraction": 0.0028495671697440304
+    },
+    "CD163": {
+      "positive_pixels": 9473238,
+      "fraction": 0.08725536321930213
+    },
+    "ECadherin": {
+      "positive_pixels": 1664974,
+      "fraction": 0.015335612925664314
+    },
+    "Ki67": {
+      "positive_pixels": 52058,
+      "fraction": 0.0004794917744566779
+    },
+    "Pan-CK": {
+      "positive_pixels": 2398705,
+      "fraction": 0.0220938053103866
+    },
+    "SMA": {
+      "positive_pixels": 38024418,
+      "fraction": 0.35023234967732997
+    }
+  }
+}

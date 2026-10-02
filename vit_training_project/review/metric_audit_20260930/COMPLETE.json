@@ -1,0 +1,10 @@
+{
+  "models": 5,
+  "common_patient": "CRC02",
+  "common_patches": 6638,
+  "new_model_full_test_patches": 38218,
+  "metric_formulas_verified": true,
+  "training_changed": false,
+  "report": "index.html",
+  "largest_reference_macro_metric_difference": 1.6054675611165692e-07
+}

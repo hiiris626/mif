@@ -1,0 +1,28 @@
+{
+  "local_mask_example": "/data/weiyh/orioncrc_miphei/ORIONCRC_dataset_tile_20x/nuclei/P37_S43_Full_A24_C59mX_E15_20220128_171510_544056-zlib.ome_10240_25600_0_512_512.tiff",
+  "local_shape": [
+    333,
+    333
+  ],
+  "local_dtype": "int32",
+  "inherited_wsi_channel_metadata": [
+    {
+      "ID": "Channel:0",
+      "Name": "cell",
+      "SamplesPerPixel": "1"
+    },
+    {
+      "ID": "Channel:1",
+      "Name": "boundary",
+      "SamplesPerPixel": "1"
+    }
+  ],
+  "dataset_archive": "https://zenodo.org/records/15340874",
+  "archive_name": "ORIONCRC_dataset_tile_20x.zip",
+  "publication": "https://arxiv.org/html/2505.10294v1#S3.SS4.SSS4",
+  "upstream_preprocessing": "https://github.com/Sanofi-Public/MIPHEI-ViT/blob/main/preprocessings/README.md",
+  "author_method": "DAPI Cellpose, fine tuned; nuclear regions dilated 2 micrometers as a cell-region proxy",
+  "interpretation": "Expanded cell proxy, not manually annotated undilated nuclear ground truth",
+  "limitations": "Local generation run/checkpoint/radius metadata not stored; method is traced to dataset publication and supported by local cell channel metadata. OME dimensions/MPP are inherited WSI values, not measured tile pixel grid.",
+  "comparison_status": "StarDist nucleus vs expanded cell mask is a semantic mismatch; preview Dice is diagnostic, not final keep/reject label"
+}

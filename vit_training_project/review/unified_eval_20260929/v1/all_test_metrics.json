@@ -1,0 +1,395 @@
+{
+  "task": "pixel_multilabel",
+  "n_valid_pixels": 259821283,
+  "n_valid_channel_pixels": 4157140528,
+  "exact_match_accuracy": 0.36945825180918684,
+  "hamming_accuracy": 0.925169890961165,
+  "micro_f1": 0.7639226164683106,
+  "macro": {
+    "precision": 0.4132707197708496,
+    "recall": 0.5380292588235494,
+    "f1": 0.44574139148434283,
+    "dice": 0.44574139148434283,
+    "iou": 0.33282414534833926,
+    "auroc_histogram": 0.8494822573781989,
+    "average_precision_histogram": 0.425314610929505
+  },
+  "per_class": {
+    "Hoechst": {
+      "precision": 0.843471216213425,
+      "recall": 0.967645714136235,
+      "f1": 0.901301615250898,
+      "dice": 0.901301615250898,
+      "iou": 0.8203357971229917,
+      "specificity": 0.6572439894030103,
+      "support": 170496670,
+      "negative_support": 89324613,
+      "auroc_histogram": 0.951872151470756,
+      "average_precision_histogram": 0.9728490753010625,
+      "threshold": 0.03125,
+      "confusion_matrix": [
+        [
+          58708065,
+          30616548
+        ],
+        [
+          5516298,
+          164980372
+        ]
+      ]
+    },
+    "CD31": {
+      "precision": 0.27127044509696624,
+      "recall": 0.29328958076089634,
+      "f1": 0.28185061453621846,
+      "dice": 0.28185061453621846,
+      "iou": 0.16404313671487783,
+      "specificity": 0.9918491097953519,
+      "support": 2660415,
+      "negative_support": 257160868,
+      "auroc_histogram": 0.8524745572229852,
+      "average_precision_histogram": 0.18723786439655699,
+      "threshold": 0.04296875,
+      "confusion_matrix": [
+        [
+          255064778,
+          2096090
+        ],
+        [
+          1880143,
+          780272
+        ]
+      ]
+    },
+    "CD45": {
+      "precision": 0.5199967009155461,
+      "recall": 0.6491404032431495,
+      "f1": 0.5774359002322909,
+      "dice": 0.5774359002322909,
+      "iou": 0.40591204313856966,
+      "specificity": 0.8910706012225954,
+      "support": 39966705,
+      "negative_support": 219854578,
+      "auroc_histogram": 0.8701431901813756,
+      "average_precision_histogram": 0.6211165016769513,
+      "threshold": 0.04296875,
+      "confusion_matrix": [
+        [
+          195905951,
+          23948627
+        ],
+        [
+          14022702,
+          25944003
+        ]
+      ]
+    },
+    "CD68": {
+      "precision": 0.20417353883162387,
+      "recall": 0.3291824322525915,
+      "f1": 0.2520280853988998,
+      "dice": 0.2520280853988998,
+      "iou": 0.14418314350114397,
+      "specificity": 0.9486729099433017,
+      "support": 9993814,
+      "negative_support": 249827469,
+      "auroc_histogram": 0.806911891082873,
+      "average_precision_histogram": 0.18204512990990018,
+      "threshold": 0.01953125,
+      "confusion_matrix": [
+        [
+          237004552,
+          12822917
+        ],
+        [
+          6704026,
+          3289788
+        ]
+      ]
+    },
+    "CD4": {
+      "precision": 0.2562276371251804,
+      "recall": 0.6026766042193991,
+      "f1": 0.3595800202546961,
+      "dice": 0.3595800202546961,
+      "iou": 0.2191999760393832,
+      "specificity": 0.8859007846567808,
+      "support": 15908142,
+      "negative_support": 243913141,
+      "auroc_histogram": 0.8234662004107572,
+      "average_precision_histogram": 0.3606433492101515,
+      "threshold": 0.0234375,
+      "confusion_matrix": [
+        [
+          216082843,
+          27830298
+        ],
+        [
+          6320677,
+          9587465
+        ]
+      ]
+    },
+    "FOXP3": {
+      "precision": 0.07110181810666134,
+      "recall": 0.3240497982636545,
+      "f1": 0.11661614863318823,
+      "dice": 0.11661614863318823,
+      "iou": 0.061918418037065256,
+      "specificity": 0.9895957823651156,
+      "support": 636970,
+      "negative_support": 259184313,
+      "auroc_histogram": 0.8360027345958446,
+      "average_precision_histogram": 0.04869827041386006,
+      "threshold": 0.015625,
+      "confusion_matrix": [
+        [
+          256487703,
+          2696610
+        ],
+        [
+          430560,
+          206410
+        ]
+      ]
+    },
+    "CD8a": {
+      "precision": 0.14361378673543435,
+      "recall": 0.3971517670186403,
+      "f1": 0.21094712403280974,
+      "dice": 0.21094712403280974,
+      "iou": 0.11790994378451133,
+      "specificity": 0.9813493182030263,
+      "support": 2030171,
+      "negative_support": 257791112,
+      "auroc_histogram": 0.8482237347499489,
+      "average_precision_histogram": 0.11814150775868555,
+      "threshold": 0.03515625,
+      "confusion_matrix": [
+        [
+          252983132,
+          4807980
+        ],
+        [
+          1223885,
+          806286
+        ]
+      ]
+    },
+    "CD45RO": {
+      "precision": 0.4300270383072931,
+      "recall": 0.5063879868290266,
+      "f1": 0.46509404562101747,
+      "dice": 0.46509404562101747,
+      "iou": 0.30301142835112194,
+      "specificity": 0.9919253479669103,
+      "support": 3088610,
+      "negative_support": 256732673,
+      "auroc_histogram": 0.9210552586289009,
+      "average_precision_histogram": 0.436501420911878,
+      "threshold": 0.0546875,
+      "confusion_matrix": [
+        [
+          254659646,
+          2073027
+        ],
+        [
+          1524575,
+          1564035
+        ]
+      ]
+    },
+    "CD20": {
+      "precision": 0.45404950923506165,
+      "recall": 0.198370103654095,
+      "f1": 0.27611017949686506,
+      "dice": 0.27611017949686506,
+      "iou": 0.16016695279068327,
+      "specificity": 0.9983720216571077,
+      "support": 1761339,
+      "negative_support": 258059944,
+      "auroc_histogram": 0.6769516098419965,
+      "average_precision_histogram": 0.18733589613802293,
+      "threshold": 0.04296875,
+      "confusion_matrix": [
+        [
+          257639828,
+          420116
+        ],
+        [
+          1411942,
+          349397
+        ]
+      ]
+    },
+    "PDL1": {
+      "precision": 0.07524125777238615,
+      "recall": 0.3042368524357659,
+      "f1": 0.12064550139886891,
+      "dice": 0.12064550139886891,
+      "iou": 0.06419518057326043,
+      "specificity": 0.9422985557829815,
+      "support": 3948450,
+      "negative_support": 255872833,
+      "auroc_histogram": 0.6368380758835483,
+      "average_precision_histogram": 0.1674436331800505,
+      "threshold": 0.01953125,
+      "confusion_matrix": [
+        [
+          241108601,
+          14764232
+        ],
+        [
+          2747186,
+          1201264
+        ]
+      ]
+    },
+    "CD3e": {
+      "precision": 0.3343801968433561,
+      "recall": 0.46579307515302887,
+      "f1": 0.38929563285549384,
+      "dice": 0.38929563285549384,
+      "iou": 0.24169279030741447,
+      "specificity": 0.971748348315131,
+      "support": 7682538,
+      "negative_support": 252138745,
+      "auroc_histogram": 0.8240320530367296,
+      "average_precision_histogram": 0.3506883524430483,
+      "threshold": 0.046875,
+      "confusion_matrix": [
+        [
+          245015409,
+          7123336
+        ],
+        [
+          4104065,
+          3578473
+        ]
+      ]
+    },
+    "CD163": {
+      "precision": 0.16672534436770078,
+      "recall": 0.41226103049207125,
+      "f1": 0.23742998199161747,
+      "dice": 0.23742998199161747,
+      "iou": 0.13470669509055969,
+      "specificity": 0.9259105616385822,
+      "support": 9018410,
+      "negative_support": 250802873,
+      "auroc_histogram": 0.8191201145242377,
+      "average_precision_histogram": 0.15876485825429887,
+      "threshold": 0.01953125,
+      "confusion_matrix": [
+        [
+          232221029,
+          18581844
+        ],
+        [
+          5300471,
+          3717939
+        ]
+      ]
+    },
+    "ECadherin": {
+      "precision": 0.9066547355995277,
+      "recall": 0.912692696879948,
+      "f1": 0.9096636969944379,
+      "dice": 0.9096636969944379,
+      "iou": 0.8342964409117702,
+      "specificity": 0.9253861251551543,
+      "support": 114996932,
+      "negative_support": 144824351,
+      "auroc_histogram": 0.9660812629254063,
+      "average_precision_histogram": 0.9498167586948498,
+      "threshold": 0.0234375,
+      "confusion_matrix": [
+        [
+          134018445,
+          10805906
+        ],
+        [
+          10040072,
+          104956860
+        ]
+      ]
+    },
+    "Ki67": {
+      "precision": 0.3044443373848628,
+      "recall": 0.6261107583141252,
+      "f1": 0.4096820829320082,
+      "dice": 0.4096820829320082,
+      "iou": 0.25761017877942505,
+      "specificity": 0.8971344020342428,
+      "support": 17430547,
+      "negative_support": 242390736,
+      "auroc_histogram": 0.8863871379232746,
+      "average_precision_histogram": 0.3423917993398235,
+      "threshold": 0.03515625,
+      "confusion_matrix": [
+        [
+          217457068,
+          24933668
+        ],
+        [
+          6517094,
+          10913453
+        ]
+      ]
+    },
+    "Pan-CK": {
+      "precision": 0.9453456003954057,
+      "recall": 0.8985952490413531,
+      "f1": 0.921377782239529,
+      "dice": 0.921377782239529,
+      "iou": 0.8542173219392547,
+      "specificity": 0.938913981791584,
+      "support": 140408589,
+      "negative_support": 119412694,
+      "auroc_histogram": 0.9639172156862428,
+      "average_precision_histogram": 0.9705452581019496,
+      "threshold": 0.03515625,
+      "confusion_matrix": [
+        [
+          112118248,
+          7294446
+        ],
+        [
+          14238098,
+          126170491
+        ]
+      ]
+    },
+    "SMA": {
+      "precision": 0.6856083534031625,
+      "recall": 0.7208840884828095,
+      "f1": 0.7028038518806465,
+      "dice": 0.7028038518806465,
+      "iou": 0.5417868784913955,
+      "specificity": 0.8946552759723637,
+      "support": 62789688,
+      "negative_support": 197031595,
+      "auroc_histogram": 0.9082389298863058,
+      "average_precision_histogram": 0.7508140991409908,
+      "threshold": 0.01953125,
+      "confusion_matrix": [
+        [
+          176275356,
+          20756239
+        ],
+        [
+          17525601,
+          45264087
+        ]
+      ]
+    }
+  },
+  "roc_ap_bins": 256,
+  "background_included": false,
+  "ignored_label": 255,
+  "argmax_used": false,
+  "model": "v1",
+  "score_kind": "normalized_intensity_not_probability",
+  "calibration_source": "own_heldout_validation",
+  "checkpoint": "/data/weiyh/weights/vit_matte/virchow2_vitmatte_512_iter140000.pt"
+}

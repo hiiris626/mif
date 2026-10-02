@@ -1,0 +1,60 @@
+{
+  "baseline": {
+    "ignored_pixels": 38881,
+    "channels": {
+      "CD4": {
+        "threshold": 0.33984375,
+        "gt_positive": 64,
+        "predicted_positive_in_ignored_at05": 28338,
+        "predicted_positive_in_ignored_at_val_threshold": 28524
+      },
+      "CD163": {
+        "threshold": 0.30078125,
+        "gt_positive": 4,
+        "predicted_positive_in_ignored_at05": 0,
+        "predicted_positive_in_ignored_at_val_threshold": 0
+      },
+      "SMA": {
+        "threshold": 0.32421875,
+        "gt_positive": 16289,
+        "predicted_positive_in_ignored_at05": 7008,
+        "predicted_positive_in_ignored_at_val_threshold": 7083
+      },
+      "CD68": {
+        "threshold": 0.22265625,
+        "gt_positive": 8,
+        "predicted_positive_in_ignored_at05": 94,
+        "predicted_positive_in_ignored_at_val_threshold": 115
+      }
+    }
+  },
+  "binary_bce": {
+    "ignored_pixels": 38881,
+    "channels": {
+      "CD4": {
+        "threshold": 0.61328125,
+        "gt_positive": 64,
+        "predicted_positive_in_ignored_at05": 10700,
+        "predicted_positive_in_ignored_at_val_threshold": 7834
+      },
+      "CD163": {
+        "threshold": 0.71484375,
+        "gt_positive": 4,
+        "predicted_positive_in_ignored_at05": 250,
+        "predicted_positive_in_ignored_at_val_threshold": 9
+      },
+      "SMA": {
+        "threshold": 0.68359375,
+        "gt_positive": 16289,
+        "predicted_positive_in_ignored_at05": 8293,
+        "predicted_positive_in_ignored_at_val_threshold": 7668
+      },
+      "CD68": {
+        "threshold": 0.68359375,
+        "gt_positive": 8,
+        "predicted_positive_in_ignored_at05": 309,
+        "predicted_positive_in_ignored_at_val_threshold": 248
+      }
+    }
+  }
+}

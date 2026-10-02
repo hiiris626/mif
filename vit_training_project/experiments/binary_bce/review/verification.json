@@ -1,0 +1,23 @@
+{
+  "dataset_complete": true,
+  "binary_labels": [
+    0,
+    1
+  ],
+  "separate_validity": true,
+  "unit_tests": 27,
+  "cpu_ddp": true,
+  "cpu_production_loop": true,
+  "real_data_probe": true,
+  "objective": "BCEWithLogitsLoss + Dice",
+  "dice_scope": "all_valid",
+  "new_gpu_training_started": false,
+  "sampling_policy": "shuffle_patches",
+  "unique_training_patches": 223400,
+  "steps_per_epoch_at_batch64_four_ranks": 873,
+  "bce_positive_weight": "N_negative / N_positive",
+  "bce_negative_weight": 1,
+  "weight_fit_split": "train",
+  "equal_total_class_weight": true,
+  "review_only_entry_passed": true
+}

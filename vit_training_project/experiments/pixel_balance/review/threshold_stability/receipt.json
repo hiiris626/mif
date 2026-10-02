@@ -1,0 +1,26 @@
+{
+  "scope": "validation-only pilot; not final calibration; not nested model-selection CV",
+  "patients": [
+    "CRC13",
+    "CRC15",
+    "CRC16",
+    "CRC18",
+    "CRC34",
+    "CRC39"
+  ],
+  "patches": 384,
+  "patches_per_patient": 64,
+  "bins": 1024,
+  "checkpoint": "/home/weiyh/h2e_mif_benchmark/vit_training_project/runs/ddp_baseline/results/model/best.pt",
+  "checkpoint_sha256": "163b394bf4a4c1496a9e15ef60e8564f536110781f7e561d3bbe9346bbe43de3",
+  "source_val_sha256": "3255856c9f41535cf9f1eb025e60cb1492052c26137c24bf81a1b2aa852c68a3",
+  "threshold_range": [
+    0.05,
+    0.95
+  ],
+  "precision": "FP32 parameters, BF16 autocast on cpu; CPU/GPU kernels may differ slightly",
+  "peak_reserved_gib": 0,
+  "seconds": 497.368889791891,
+  "current_training_unchanged": true,
+  "threshold_files_used_by_training_unchanged": true
+}

@@ -1,0 +1,73 @@
+{
+  "all_confusion_formulas_checked": true,
+  "all_histogram_counts_checked": true,
+  "common_population_and_labels_equal": true,
+  "expanded_scope_preserves_tp_fn_and_adds_exact_audited_fp": true,
+  "reference_reproduction": [
+    {
+      "model": "v1",
+      "reference": "/home/weiyh/h2e_mif_benchmark/vit_training_project/review/unified_eval_20260929/v1/common_test_metrics.json",
+      "pixel_and_label_counts_match": true,
+      "metric_deltas": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "auroc_histogram": 0.0,
+        "average_precision_histogram": 0.0
+      }
+    },
+    {
+      "model": "v2",
+      "reference": "/home/weiyh/h2e_mif_benchmark/vit_training_project/review/unified_eval_20260929/v2/common_test_metrics.json",
+      "pixel_and_label_counts_match": true,
+      "metric_deltas": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "auroc_histogram": 0.0,
+        "average_precision_histogram": 0.0
+      }
+    },
+    {
+      "model": "v3",
+      "reference": "/home/weiyh/h2e_mif_benchmark/vit_training_project/review/unified_eval_20260929/v3/common_test_metrics.json",
+      "pixel_and_label_counts_match": true,
+      "metric_deltas": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "auroc_histogram": 0.0,
+        "average_precision_histogram": 0.0
+      }
+    },
+    {
+      "model": "baseline",
+      "reference": "/home/weiyh/h2e_mif_benchmark/vit_training_project/review/unified_eval_20260929/baseline/common_test_metrics.json",
+      "pixel_and_label_counts_match": true,
+      "metric_deltas": {
+        "precision": 1.831520962669586e-08,
+        "recall": 3.2923637482973334e-08,
+        "f1": 3.569665557590085e-08,
+        "iou": 2.9006895607697203e-08,
+        "auroc_histogram": 2.094693307697071e-09,
+        "average_precision_histogram": 1.0817092999104716e-08
+      }
+    },
+    {
+      "model": "binary_bce",
+      "reference": "/home/weiyh/h2e_mif_benchmark/vit_training_project/experiments/binary_bce/runs/prepared/results/test_metrics.json",
+      "pixel_and_label_counts_match": true,
+      "metric_deltas": {
+        "precision": -7.498752807588716e-08,
+        "recall": -1.6054675611165692e-07,
+        "f1": -1.385318147972825e-07,
+        "iou": -1.1892796292212182e-07,
+        "auroc_histogram": -2.7895840637448543e-08,
+        "average_precision_histogram": -9.0869876290256e-08
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "order": [
+    "original_v6_resume_epoch_6",
+    "v9_new_loss_from_scratch"
+  ],
+  "disabled": [
+    "v7",
+    "v8"
+  ],
+  "v6_loss": "original BCE + all_valid foreground Dice",
+  "v9_loss": "BCE + (foreground Dice if GT positive, mean_probability if GT empty)",
+  "v9_empty_weight": 1,
+  "original_v6_code_hashes_match": true
+}

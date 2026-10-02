@@ -1,0 +1,80 @@
+{
+  "models_inferred": [
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v9",
+    "positive_dice_partial"
+  ],
+  "formal_completed_models": [
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v9"
+  ],
+  "common_patient": "CRC02",
+  "common_patches": 6638,
+  "test_manifest_identical": true,
+  "per_channel_support_identical": true,
+  "primary_scope": "available channel AND H&E tissue; all GT-zero tissue is negative",
+  "primary_threshold": "fixed 0.5",
+  "threshold_free_metrics": [
+    "AUROC",
+    "average precision"
+  ],
+  "own_validation_thresholds_secondary": true,
+  "incomplete_experiment_excluded": "positive_dice_partial",
+  "best_macro_ap": "v6",
+  "best_fixed05_macro_f1": "v6",
+  "best_own_validation_macro_f1": "v3",
+  "training_changed": false,
+  "reference_reproduction_max_abs_delta": 1.1401198390936784e-06,
+  "reference_reproduction_deltas": {
+    "v1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "iou": 0.0,
+      "auroc_histogram": 0.0,
+      "average_precision_histogram": 0.0
+    },
+    "v2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "iou": 0.0,
+      "auroc_histogram": 0.0,
+      "average_precision_histogram": 0.0
+    },
+    "v3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "iou": 0.0,
+      "auroc_histogram": 0.0,
+      "average_precision_histogram": 0.0
+    },
+    "v4": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "iou": 0.0,
+      "auroc_histogram": 0.0,
+      "average_precision_histogram": 0.0
+    },
+    "v5": {
+      "precision": 3.411083469573306e-07,
+      "recall": 1.1401198390936784e-06,
+      "f1": 5.232574776803389e-07,
+      "iou": 3.7350489079379656e-07,
+      "auroc_histogram": 2.0486873786307314e-07,
+      "average_precision_histogram": 2.1039512604348332e-07
+    }
+  }
+}

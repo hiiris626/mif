@@ -1,0 +1,23 @@
+{
+  "all_passed": true,
+  "time": "2026-09-30T12:38:35.416498+08:00",
+  "unit_tests": 35,
+  "four_process_cpu_workflows": [
+    "v6",
+    "v7",
+    "v8"
+  ],
+  "real_patch": 168299,
+  "gpu_training_verified": false,
+  "files_sha256": {
+    "review/unit_tests.log": "d290c6009626929c25df024f8df8a23ef4da50654e9082afe5052d26836d1021",
+    "review/v6_production_cpu.log": "d47a42c6ae8b3c3df1460d7320428fcfa8e749380de42d34e1c46acc8ee43b39",
+    "review/v7_production_cpu.log": "e1af116c5b2160250ffb05a18de4db750edfc69fe5ba21e2a29fc0495d6c4646",
+    "review/v8_production_cpu.log": "fbae184bca94f162f5a98d0fcad170b9d75d7ce0d6538c7a1f74f40729c7d8cf",
+    "review/real_data_verification.json": "9114e5535087baaf828feebcadb68524d10cb8f8cfc53571cf088b4a728e0a2a",
+    "configs/v8.json": "d7405ff6554161bc2279f9317ef9a84902f5c9e9aaf68834bbe74b358125a0ae",
+    "configs/v6.json": "f7876f11452124cbecf8e72c3377a7b92f674cbc044dd3ae42d32d33083a8a97",
+    "configs/v7.json": "d21d9088f22df51db7a859dc4544a760e16ebe10a6b8c38af0c085c8b3290b6a"
+  },
+  "note": "CPU flow tests substitute a small model; GPU capacity and real training are checked by workflow at launch."
+}
